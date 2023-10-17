@@ -1,0 +1,1 @@
+icacls "D:\test" /grant corporate\alexsantos:(OI)(CI)F

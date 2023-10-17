@@ -1,0 +1,2 @@
+--Lista os arquivos que foram deletados enquanto estava em uso
+lsof | grep -i deleted

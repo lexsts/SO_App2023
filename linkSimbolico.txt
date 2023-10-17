@@ -1,0 +1,6 @@
+--PARM2: nome do link 
+--PARM3: caminho do link 
+mklink /d \SQLTRD005CP_P_DADOS \SQLTRD005CB_P_DADOS\SQLTRD005CP_P_DADOS
+
+
+mklink C:\bob.log NUL:

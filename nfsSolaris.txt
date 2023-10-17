@@ -1,0 +1,8 @@
+-Somente leitura
+mount -F nfs saoeqdbp69n1:/data04/oracle/product/11.2.0.2/backup/SINACOR/export/EXPDP /nfs_69n1
+
+-Leitura/Escrita:
+mount -F nfs -o rw saoeqdbp69n1:/data04/oracle/product/11.2.0.2/backup/SINACOR/export/EXPDP /nfs_69n1
+
+-Sinacor/Solaris
+mount -o hard,rw,noac,rsize=32768,wsize=32768,suid,proto=tcp,vers=3 saoeqdbp69n1:/data04/oracle/product/11.2.0.2/backup/SINACOR/export/EXPDP /nfs_69n1

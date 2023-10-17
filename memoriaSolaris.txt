@@ -1,0 +1,50 @@
+Swap - total
+/opt/DBpstate/bin/swapinfo
+
+
+Para visão em nível de processo
+:
+$ ps -opid,vsz,rss,osz,args
+  PID  VSZ  RSS   SZ COMMAND
+ 1831 1776 1008  222 ps -opid,vsz,rss,osz,args
+ 1782 3464 2504  433 -bash
+
+Onde
+vsz/VSZ: tamanho total do processo virtual (em kb)
+rss/RSS: resident set size (em kb, pode não ser um valor exato)
+osz/SZ: tamanho total na memória (em páginas)
+
+Para calcular tamanho de byte das páginas
+
+$ sz_pages=$(ps -o osz -p $pid | grep -v SZ )
+$ sz_bytes=$(( $sz_pages * $(pagesize) ))
+$ sz_mbytes=$(( $sz_bytes / ( 1024 * 1024 ) ))
+$ echo "$pid OSZ=$sz_mbytes MB"
+
+
+$ vmstat 5 5 
+ kthr      memory            page            disk          faults      cpu
+ r b w   swap  free  re  mf pi po fr de sr rm s3 -- --   in   sy   cs us sy id
+ 0 0 0 535832 219880  1   2  0  0  0  0  0 -0  0  0  0  402   19   97  0  1 99
+ 0 0 0 514376 203648  1   4  0  0  0  0  0  0  0  0  0  402   19   96  0  1 99
+^C
+
+
+Estatística de processos
+
+prstat(1M)
+   PID USERNAME  SIZE   RSS STATE  PRI NICE      TIME  CPU PROCESS/NLWP       
+  1852 martin   4840K 3600K cpu0    59    0   0:00:00 0.3% prstat/1
+  1780 martin   9384K 2920K sleep   59    0   0:00:00 0.0% sshd/1
+  ...
+
+
+Informacao de SWAP - "Lista longa" e modo "sumário"
+
+$ swap -l
+swapfile             dev  swaplo blocks   free
+/dev/zvol/dsk/rpool/swap 256,1      16 1048560 1048560
+
+$ swap -s 
+total: 42352k bytes allocated + 20192k reserved = 62544k used, 607672k available
+$

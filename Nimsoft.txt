@@ -1,0 +1,12 @@
+user: seu email
+
+
+Nimsoft
+
+http://nycitdbunim1:8084/
+
+https://webtopoat-us.gslb.db.com:8443/
+
+
+servidor cadastrado
+saoshdbd0183.br.db.com

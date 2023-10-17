@@ -1,0 +1,25 @@
+#Corrige nome gerado automaticamente
+for i in `sort sequencia.txt | uniq | grep -v ARC | cut -d"_" -f6`
+do
+if [ `sort sequencia.txt | uniq | grep $i | wc -l` -eq 2 ]; then
+for p in `sort sequencia.txt | uniq | grep $i`
+do
+printf $p, >> copia.txt
+done
+fi
+echo " " >> copia.txt
+done
+for i in `more copia.txt | grep -v ^$`
+do
+echo $i | awk -F"," '{print "cp " $1 " " $2;}' >> auto.sh
+done
+rm copia.txt
+
+
+#Gera apicação de archive manual
+diretorio=$(pwd);
+>lista_cmd.txt;
+for i in `ls -ltr | grep ^- | awk '{print $9}'`
+do
+echo "ALTER DATABASE REGISTER OR REPLACE PHYSICAL LOGFILE '${diretorio}/$i';" >> lista_cmd.txt
+done

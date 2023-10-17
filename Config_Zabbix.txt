@@ -1,0 +1,42 @@
+-Criar o usuário e conceder os acesso:
+CREATE USER "DBAMON" IDENTIFIED BY "pass#2012"
+DEFAULT TABLESPACE users
+TEMPORARY TABLESPACE temp;
+GRANT "CONNECT" TO "DBAMON";
+GRANT select_catalog_role to DBAMON;
+
+-Configurar usuário e senha de acesso no arquivo
+d:\monitor\win\cont.sql
+
+-Acrescentar a linha abaixo no arquivo de configuração d:\monitor\zabbix_agentd.conf
+UserParameter=oracle[*],d:\monitor\zabora.bat \$1 \$2
+
+-Executar o comando abaixo:
+zabbix_agentd -c d:\monitor\zabbix_agentd.conf -t oracle[version]
+/usr/local/sbin/zabbix_agentd -c /etc/zabbix/zabbix_agentd.conf -t log_used[SAOSHDBD0047,1433,tempdb]
+
+-Reiniciar o serviço do Zabbix.
+
+
+
+
+
+  
+
+# Instalar agente 
+d:\monitor\zabbix_agentd.exe -i -c d:\monitor\zabbix_agentd.conf 
+
+# Desistalar agente 
+d:\monitor\zabbix_agentd.exe -d -c d:\monitor\zabbix_agentd.conf
+
+zabbix_agentd.exe -h
+
+
+
+SAOSHASP0236
+SAOSHASP0357
+SAOSHASP0362
+SAOSHASP0367
+SAOSHASP0372
+
+saoinfsp0037

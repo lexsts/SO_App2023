@@ -1,0 +1,7 @@
+--Alex
+"CN=WSPPBB313,OU=DI-CSUI,OU=Estacoes,OU=BRA-SP,OU=BMFBovespa,DC=corporate,DC=int"
+
+--Fabio
+"CN=WSPPBB36217,OU=DO-CGMI,OU=Estacoes,OU=BRA-SP,OU=BMFBovespa,DC=corporate,DC=int"
+
+

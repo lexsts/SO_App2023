@@ -1,0 +1,15 @@
+processo de geração de executável:
+
+Download:
+http://prdownloads.sourceforge.net/py2exe/py2exe-0.6.9.win32-py2.7.exe?download
+
+
+Criar um arquivo chamado setup.py com o conteúdo:
+from distutils.core import setup
+import py2exe
+setup(console=['cobranca.py'])
+
+
+
+Linha de comando para gerar o executável:
+"C:\program files\python\python.exe" setup.py py2exe

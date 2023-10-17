@@ -1,0 +1,1 @@
+netstat -na 1 |findstr “SYN”

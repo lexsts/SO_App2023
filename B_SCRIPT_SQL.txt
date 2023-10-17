@@ -1,0 +1,59 @@
+SET  TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+
+
+-- INFORMAÇÕES PARA EXECUÇÃO DO SCRIPT
+
+-- Executar CMD (PROMPT) via run as com usuário de DOMINIO que possui permissão no banco de dados.
+-- Copiar o arquivo SCRIPT_SQL.txt para o diretório c:\temp\ da máquina do analista que executará a consulta.
+-- Serão gerados arquivos delimitados por "," no diretório C:\temp\ da maquina do analista.
+-- Considerar a saída do Script utilizando como separador (,) para extrair a informação abrir o SQLCMD e descrever, como o exemplo abaixo: 
+
+   "C:\Users\nomeusuarios>sqlcmd -Sinstancia\instância,porta  -i C:\temp\SCRIPT_SQL.txt -s "," -W"
+
+set nocount on
+-- (a) SQL Server Configuration, output to SYS_Configuration.txt
+:OUT C:\TEMP\SYS_Configuration.txt 
+GO
+SELECT * FROM SYS.CONFIGURATIONS
+GO
+
+-- (b) Authenticated Users / roles, output to SYS_SERVER_PRINCIPALS.txt
+:OUT C:\TEMP\SYS_Server_principals.txt
+GO
+SELECT * FROM SYS.SERVER_PRINCIPALS
+GO
+
+-- (c) SQL Logins, output to SYS_SQL_LOGINS.txt
+:OUT C:\TEMP\SYS_SQL_Logins.txt 
+GO
+SELECT * FROM SYS.SQL_LOGINS
+GO
+
+-- (d)Server Role Members (links with principals above), output to SYS_SERVER_ROLE_MEMBERS.txt
+:OUT C:\TEMP\SYS_Server_role_members.txt 
+GO
+SELECT a.role_principal_id, b.name as role_principal_name, a.member_principal_id, c.name as member_principal_name
+FROM (sys.server_role_members a INNER JOIN sys.server_principals b ON
+a.role_principal_id = b.principal_id)
+INNER JOIN sys.server_principals c ON
+a.member_principal_id = c.principal_id;
+GO
+
+-- All other databases -------------------------------------
+-- (e) Database principals, output to DATABASE_PRINCIPALS.txt
+:OUT C:\TEMP\DATABASE_PRINCIPALS.txt 
+GO
+EXEC sp_MSforeachdb 'USE [?] SELECT ''?'' as database_name, * FROM SYS.DATABASE_PRINCIPALS'
+GO
+
+-- (f) Database Role Members (links with principals above), output to MASTER_DATABASE_ROLE_MEMBERS.txt
+:OUT C:\TEMP\DATABASE_ROLE_MEMBERS.txt 
+GO
+EXEC sp_MSforeachdb 'USE [?] SELECT ''?'' as database_name, a.role_principal_id, b.name as role_principal_name,
+a.member_principal_id, c.name
+FROM (sys.database_role_members a INNER JOIN sys.database_principals b ON
+a.role_principal_id = b.principal_id)
+INNER JOIN sys.database_principals c ON
+a.member_principal_id = c.principal_id'
+
+go

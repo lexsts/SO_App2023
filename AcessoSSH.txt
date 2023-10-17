@@ -1,0 +1,92 @@
+#Acesso com usuário sanalex e senha de dominio
+sathp1.us.db.com
+sathp2.us.db.com
+
+#Acesso com usuário sanalex e senha do token
+pbrun ssh -l oracle saoshdbp201n1.br.db.com
+pbrun ssh -l oracle saoshdbp201n2.br.db.com
+pbrun ssh -l oracle saoshdbp200n1.br.db.com
+pbrun ssh -l oracle saoshdbp200n2.br.db.com
+pbrun ssh -l oracle saoeqdbp69n1.br.db.com
+pbrun ssh -l oracle saoeqdbp69n2.br.db.com
+pbrun ssh -l oracle saoshdbb0226.br.db.com
+pbrun ssh -l oracle saoshdbb0225.br.db.com
+pbrun ssh -l oracle saoeqdbb0070.br.db.com
+pbrun ssh -l oracle saotsmp1.br.db.com 
+
+pbrun ssh -l oracle saoshdbd0173.br.db.com
+pbrun ssh -l oracle saoshdbd0174.br.db.com
+pbrun ssh -l oracle saoshdbu0175.br.db.com
+pbrun ssh -l oracle saoshdbu0176.br.db.com
+pbrun ssh -l oracle saoeqdbu0099.br.db.com
+pbrun ssh -l oracle saoeqdbd0382.br.db.com
+
+
+#Número de incidente/problema/service request 
+IN29306865
+
+pbrun ssh -l root saoeqdbp69n1.br.db.com
+
+
+/*
+SAOSHDBD0174 - #7070Zeus
+SAOSHDBU0176 - prdpwd01$
+Venus@2014
+Plutao01#
+*/
+
+export DISPLAY=10.163.182.151:0.0
+
+#Descompactação
+unzip p13390677_112040_Solaris86-64_1of6.zip;
+unzip p13390677_112040_Solaris86-64_2of6.zip;
+unzip p13390677_112040_Solaris86-64_3of6.zip;
+unzip p13390677_112040_Solaris86-64_4of6.zip;
+unzip p13390677_112040_Solaris86-64_5of6.zip;
+unzip p13390677_112040_Solaris86-64_6of6.zip;
+echo "OK";
+
+#Oratab
+SINACORQ:/u01/app/oracle/product/11.2.0.3:Y
+SINACORD:/u01/app/oracle/product/11.2.0.3:Y
+
+
+#Parametros removidos por estarem descontinuados:
+BACKGROUND_DUMP_DEST
+COMMIT_WRITE
+log_archive_start
+user_dump_dest
+RESOURCE_MANAGER_CPU_ALLOCATION
+STANDBY_ARCHIVE_DEST
+
+
+export ORACLE_UNQNAME=SINACOR2
+emctl stop dbconsole
+emctl config emkey -repos -sysman_pwd Oracle#01
+emctl secure dbconsole -sysman_pwd Oracle#01
+
+#Apaga EM
+export ORACLE_HOSTNAME=saoeqdbu0099.br.db.com
+export ORACLE_UNQNAME=SINACOR2
+export ORACLE_SID=SINACOR2
+emca -deconfig dbcontrol db -repos drop
+
+
+#Re-link library
+ln -s /opt/tivoli/tsm/client/oracle/bin64/libobk.so $ORACLE_HOME/lib/libobk.so
+
+
+
+ALTER SYSTEM SET DG_BROKER_START=FALSE;
+
+
+
+rman target sys auxiliary sys/Oracle#01@SINADR1
+run {
+allocate channel c1 device type disk;
+allocate auxiliary channel c2 device type disk;
+duplicate target database for standby from active database dorecover nofilenamecheck;
+}
+
+
+/data01/oracle/product/11g_client32/root.sh

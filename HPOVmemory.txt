@@ -1,0 +1,8 @@
+OBS: P/ LINUX executar os comandos a partir do diretório /opt/OV/bin 
+Verificação do Status Agente: OPCAGT -STATUS 
+STOP do Agente: OPCAGT -STOP 
+START do Agente: OPCAGT -START 
+STOP do Agente de monitoração de serviço: OPCAGT -STOP OPCMONA 
+START do Agente de monitoração de serviço: OPCAGT -START OPCMONA 
+STOT do Agente de monitoração de log: OPCAGT -STOP OPCLE 
+START do Agente de monitoração de log: OPCAGT -START OPCLE 

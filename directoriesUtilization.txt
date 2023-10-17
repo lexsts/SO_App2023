@@ -1,0 +1,23 @@
+ du -sk * | sort -n 
+ 
+ --ipanema/solaris
+ zfs list -o space
+
+for i in $( file /* | grep directory | cut -d: -f 1 ); do du -sh $i | sort -n ; done
+
+
+
+CONTADOR=0
+while [  $CONTADOR -lt 40 ]; do
+      echo "$CONTADOR";
+	  for i in `ls -ltr | head -50000 | awk '{print $9}'`; do
+	  rm -rf /opt/grid/product/12.2.0/grid_1/rdbms/audit/$i;
+	  done;
+      let CONTADOR=CONTADOR+1; 
+done
+
+
+ while true; do  do  done; date; done
+ 
+ 
+ ALTER SYSTEM SET UNDO_RETENTION = 1800;

@@ -1,0 +1,10 @@
+C:\Program Files\bea\jdk160_05
+
+Erwin chamado: 1045735
+
+
+--Connect
+https://10.3.254.22/connect
+
+--Chamado Erwin
+1059060

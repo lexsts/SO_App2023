@@ -1,0 +1,9 @@
+Descrição: Owner sistema Calypso
+Criado por: alexsantos
+Data: 29/01/2015
+REQ: REQ000000782352
+GMUD: N/A
+Sistema: 
+Analista demandante: Arthur Henique Randis
+Sigla da área demandante: DI-GPOD
+Gerente da área demandante: Clay Susini Aquino Junior

@@ -1,0 +1,2 @@
+export CONTROLM=/opt/ControlM/6.4.01/ctm
+/opt/ControlM/6.4.01/ctm/exe/ctmfw -input /opt/DBctmag/ctm/exe_Linux/fw_rull.dat

@@ -1,0 +1,1 @@
+tail -f |grep DBCustody DBMSJAP3_01.log

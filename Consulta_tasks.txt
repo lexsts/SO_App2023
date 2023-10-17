@@ -1,0 +1,9 @@
+--GERA ARQUIVO CSV COM INFORMAÇÕES DAS TASKS
+schtasks /query /fo csv /nh >>p0102.csv
+ou
+schtasks /query /fo csv /nh >>p0102.csv
+
+--MOSTRA O STATUS DAS TASK EM FORMATO DE LISTA
+schtasks /query /fo LIST /v
+
+

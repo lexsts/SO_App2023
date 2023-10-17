@@ -1,0 +1,86 @@
+Access  Availability  BlockSize  Caption  Compressed  ConfigManagerErrorCode  ConfigManagerUserConfig  CreationClassName  Description       DeviceID  DriveType  ErrorCleared  ErrorDescription  ErrorMethodology  FileSystem  FreeSpace     InstallDate  LastErrorCode  MaximumComponentLength  MediaType  Name  NumberOfBlocks  PNPDeviceID  PowerManagementCapabilities  PowerManagementSupported  ProviderName  Purpose  QuotasDisabled  QuotasIncomplete  QuotasRebuilding  Size          Status  StatusInfo  SupportsDiskQuotas  SupportsFileBasedCompression  SystemCreationClassName  SystemName   VolumeDirty  VolumeName       VolumeSerialNumber
+
+
+WMIC /node:"BMFSV9579SQLH" LOGICALDISK Where DriveType="3" GET DeviceID,Name,VolumeName,Size,FreeSpace,Status
+WMIC /node:"SQLBOVA" LOGICALDISK Where DriveType="3" GET DeviceID,Name,VolumeName,Size,FreeSpace,Status
+
+WMIC /node:"SQLBOVA" LOGICALDISK GET DeviceID,Name,VolumeName,Size,FreeSpace,Status
+WMIC /node:"BMFSV9579SQLH" LOGICALDISK GET DeviceID,Name,VolumeName,Size,FreeSpace,Status
+
+wmic diskdrive get name, size, model
+WMIC /node:"BMFSV9579SQLH" diskdrive GET DeviceID,Name,Size,FreeSpace,Status
+
+WMIC /node:"BMFSV9579SQLH" PATH WIN32_VOLUME WHERE "(DRIVETYPE!=NULL AND DRIVETYPE!=5)" GET /FORMAT:RAWXML
+
+
+WMIC /node:"BMFSV9579SQLH" PATH WIN32_VOLUME WHERE "(DRIVETYPE!=NULL AND DRIVETYPE!=5)" GET DeviceID,Name,Size,FreeSpace,Status
+                           
+wmic /node:"SQLBOVA" logicaldisk where DriveType="3" get caption, VolumeName, VolumeSerialNumber, Size, FileSystem, FreeSpace
+
+FOR /F "usebackq tokens=3" %s IN (`DIR C:\ /-C /-O /W`) DO (
+    SET FREE_SPACE=%s
+)
+ECHO FREE_SPACE is %FREE_SPACE%
+
+
+wmic /node:"%COMPUTERNAME%" LogicalDisk Where DriveType="3" Get DeviceID,FreeSpace|find /I "c:"
+
+
+
+powershell gwmi Win32_LogicalDisk -ComputerName SQLBOVA -Filter "DriveType=3" ^| select Name, FileSystem,FreeSpace,BlockSize,Size ^| % {$_.BlockSize=(($_.FreeSpace)/($_.Size))*100;$_.FreeSpace=($_.FreeSpace/1GB);$_.Size=($_.Size/1GB);$_} ^| ft -property @{n='Name';e={$_.Name}},FileSystem,@{n='Free,Gb';e={'{0:N2}' -f $_.FreeSpace}}, @{n='Free,%';e={'{0:N2}' -f $_.BlockSize}},@{n='Size,Gb';e={'{0:N3}' -f $_.Size}} -AutoSize
+
+powershell gwmi Win32_Volume -ComputerName SQLBOVA -Filter "DriveType=3" ^| select Name, FileSystem,FreeSpace,BlockSize,Size ^| % {$_.BlockSize=(($_.FreeSpace)/($_.Size))*100;$_.FreeSpace=($_.FreeSpace/1GB);$_.Size=($_.Size/1GB);$_} ^| ft -property @{n='Name';e={$_.Name}},FileSystem,@{n='Free,Gb';e={'{0:N2}' -f $_.FreeSpace}}, @{n='Free,%';e={'{0:N2}' -f $_.BlockSize}},@{n='Size,Gb';e={'{0:N3}' -f $_.Size}} -AutoSize
+
+
+
+powershell gwmi Win32_Volume -ComputerName SQLPOS0602P -Filter "DriveType=3" ^| select Name,FileSystem,Capacity,FreeSpace ^| % {$_.Capacity=($_.Capacity/1GB);$_.FreeSpace=($_.FreeSpace/1GB);$_} ^| ft -property @{n='Name';e={$_.Name}},@{n='FileSystem';e={$_.FileSystem}}, @{n='Capacity GB';e={'{0:N2}' -f $_.Capacity}}, @{n='Free GB';e={'{0:N2}' -f $_.FreeSpace}} -AutoSize
+
+
+
+
+
+
+
+
+
+
+
+
+--Ordened by Percentage ( -computer (Get-Content C:\Temp\Discos\serversList.txt) )
+powershell Get-WMIObject Win32_Volume -filter "DriveType=3" -computer SRVWIN04 ^| Select SystemName,Caption,Label,@{Name=”DiskSize(GB)”;Expression={[decimal](“{0:N1}” -f($_.capacity/1gb))}},@{Name=”freespace(GB)”;Expression={[decimal](“{0:N1}” -f($_.freespace/1gb))}},@{Name=”PercentFree(%)”;Expression={“{0:P2}” -f(($_.freespace/1gb)/($_.capacity/1gb))}} ^| sort-object -Property PercentFree ^| ft -autosize
+
+--Ordened by Name ( -computer (Get-Content c:\computers.txt) )
+powershell Get-WMIObject Win32_Volume -filter "DriveType=3" -computer SQLPOS0602P ^| Select SystemName,Caption,Label,@{Name=”DiskSize(GB)”;Expression={[decimal](“{0:N1}” -f($_.capacity/1gb))}},@{Name=”freespace(GB)”;Expression={[decimal](“{0:N1}” -f($_.freespace/1gb))}},@{Name=”PercentFree(%)”;Expression={“{0:P2}” -f(($_.freespace/1gb)/($_.capacity/1gb))}} ^| sort-object -Property Caption ^| ft -autosize
+
+--INSERT
+sqlcmd -S GERCOR0603P\GESTAODB,1433 -d ADM_INFO -Q "select LEFT(ltrim(rtrim(serverwithport)),CHARINDEX('\', ltrim(rtrim(serverwithport))) - 1) from adm_info.info.tb_servidor WHERE serverwithport NOT IN ('172.16.16.18','SQLMONA,1433','BMFSV9544CTPP,1433')" -E -o c:\temp\discos\serversList.txt
+SET QUOTED_IDENTIFIER OFF
+
+powershell Get-WMIObject Win32_Volume -filter "DriveType=3" -computer GERCOR01CP ^| Select SystemName,Caption,Label,@{Name=”DiskSize(GB)”;Expression={[decimal](“{0:N0}” -f($_.capacity/1gb))}},@{Name=”freespace(GB)”;Expression={[decimal](“{0:N0}” -f($_.freespace/1gb))}},@{Name=”PercentFree(%)”;Expression={“{0:P0}” -f(($_.freespace/1gb)/($_.capacity/1gb))}} ^| sort-object -Property Caption ^| export-csv "outputfile.csv" -notypeinformation
+echo SET QUOTED_IDENTIFIER OFF > InsertCMD.sql
+powershell Get-Content outputfile.csv ^| Select -Skip 1 ^| %{ $strings=$_.Split(','); Write-host "INSERT INTO TABLE_NAME VALUES `( $_;"; Write-host "`)`;";} >> InsertCMD.sql
+
+
+-replace('S','R') 
+export-csv "outputfile.csv" -notypeinformation
+
+
+--Insert
+
+powershell Get-WMIObject Win32_Volume -filter "DriveType=3" -computer SRVWIN04 ^| Select SystemName,Caption,@{Name=”DiskSize(GB)”;Expression={[decimal](“{0:N1}” -f($_.capacity/1gb))}},@{Name=”freespace(GB)”;Expression={[decimal](“{0:N1}” -f($_.freespace/1gb))}} ^| sort-object -Property Caption ^| ForEach-Object { $_.ToString().split(" ")[3] }
+
+powershell get-content ./AllDisksServers.txt ^| %{"$($_.Split() " " "{0} {1} {2}" -f [2,1])"}
+powershell get-content ./AllDisksServers.txt ^| %{"$($_.Split()[2,3,0,5,1,4,6,7 ])"}
+
+powershell get-content ./AllDisksServers.txt ^| foreach { $_.ToString().split(" ")[3] }
+powershell get-content ./AllDisksServers.txt ^| %{ if ($_.Split()[2];}
+
+
+
+powershell get-content "AllDisksServers.txt" ^| %{"$_ -split " " "{0} {1} {2}" -f $data[2],$data[0],$data[1]"}
+powershell "ls 'C:\Users\ADMINISTRATOR.SRVWIN\*' | ForEach-Object {$_.LastWriteTime = Get-Date}"
+
+
+
+
+

@@ -1,0 +1,27 @@
+##20/07 01:52am pico de CPU
+
+su - mongo
+mongod -f /etc/mongod.conf
+systemctl start mongodb-mms-automation-agent
+netstat -ano |grep 27017
+
+
+##Arquivos de log
+cd /apps/mongodb/log
+chown mongo:mongo  mongodb.log*
+cd /apps/mongodb/AGMNG01P
+chown mongo:mongo mongod.pid
+cd /apps/mongodb/AGMNG01P/data
+chown mongo:mongo WiredTiger.turtle WiredTigerLAS.wt
+cd /apps/mongodb/AGMNG01P/data/journal
+chown mongo:mongo WiredTigerLog.0000003392
+
+
+##check connections
+MongoDB Enterprise AGMNG01P:PRIMARY> db.serverStatus().connections
+{
+        "current" : 676,
+        "available" : 50524,
+        "totalCreated" : 29569,
+        "active" : 4
+}

@@ -1,0 +1,22 @@
+--------------------------------------------------------
+--Verifica
+flyway -configFile=C:\dev\repos\ad\Listados\DW_CAMBIO\flyway.conf\PROD\flyway.conf info
+
+--baseline
+flyway -configFile=C:\dev\repos\ad\Listados\DW_CAMBIO\flyway.conf\PROD\flyway.conf baseline
+
+--Instalar versão
+flyway -configFile=C:\dev\repos\ad\Listados\DW_CAMBIO\flyway.conf\PROD\flyway.conf migrate -target=1.0.0
+
+--Após editar arquivo, submeter um REPAIR
+flyway -configFile=C:\dev\repos\ad\Listados\DW_CAMBIO\flyway.conf\PROD\flyway.conf repair
+
+
+--Submeter o arquivo editado
+git add --all
+git commit -m "Rollout MERCADO para o Novo Fluxo RSAD"
+git push
+
+
+--Clone
+git clone http://alexsantos@bitbucket.intraservice.corp:7990/scm/ads/ad.git

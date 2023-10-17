@@ -1,0 +1,3 @@
+awservices stop 
+
+awservices start

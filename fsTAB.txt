@@ -1,0 +1,2 @@
+//saofsuat/fsUAT/equities/in /domains/interfaces/equities/in cifs credentials=/mnt/samba/.eqappuat,uid=weblogic,gid=users 0 0
+//saofsuat/fsUAT/equities/output /domains/interfaces/equities/output cifs credentials=/mnt/samba/.eqappuat,uid=weblogic,gid=users 0 0

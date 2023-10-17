@@ -1,0 +1,23 @@
+--MB
+ps aux  | awk '{print $6/1024 " MB\t\t" $11}'  | sort -n
+
+--KB
+ps -e -orss=,args= | sort -b -k1,1n | pr -TW$COLUMNS
+
+--Total:
+ps aux | awk '{sum=sum+$6}; END {print sum/1024 " MB"}'
+
+
+
+SOLARIS
+--CONSUMO GERAL
+echo "::memstat" | mdb -k
+
+--CONSUMO POR USUARIO
+prstat -t
+
+
+--ORACLE
+select sum(value)/1024/1024/1024 GB from v$sga;
+
+select name, value/1024/1024/1024 GB from v$pgastat where name like 'total PGA a%'; 

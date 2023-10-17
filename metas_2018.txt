@@ -1,0 +1,103 @@
+1-Aplicar os patchs de segurança mais recentes para cada versão de Oracle do ambiente de produção.
+Fizemos o levantamento das versões e último patch aplicado de todas as instâncias em ambiente de produção. Com essa informação, nós geramos um relatório com o cruzamento de "Instâncias X Aplicações" e propusemos um cronograma com atualização gradativa e programada dos ambientes de Desenvolvimento, Homologação e Produção.
+Infelizmente, por questões de tempo e prioridade, a equipe de Banco de Dados de não-produção não conseguiu progredir com o cronograma e ficamos impossibilitados de submeter as mudanças com as atualizações nos servidores de produção.
+
+
+2-Phase-out da monitoração da execução dos backups, implementação de novos backups e solicitações de restore através da ferramenta ProtectPoint for SQL, para os times de operaçõpes e backup.
+Com a ajuda da equipe de Storage, nós tivemos acesso a documentação da EMC referente à configuração da infraestrutura necessária ao uso do ProtectPoint. Baseado nessas informações, geramos uma documentação concisa e objetiva detalhando a configuração do ProtectPoint e incluimos os comandos necessários para realizar cada uma das tarefas a seguir:
+-backup full e transacional;
+-validação dos backups;
+-restore full e transacional.
+-verificação do andamento das atividades (com a porcentagem do progresso);
+
+
+3-Uniformização de processos, ferramentais e pessoas nas equipes de BD Listados, Balcão e Financiamentos
+
+
+4-Realizar a gestão do Ambiente (Suporte e Sustentação) especificamente para otimizar uso de Storage.
+Identificamos na base BMCC10_BMC tabelas com dados da década passada e iniciamos uma análise do ambiente para realizar expurgo. Com a colaboração da analista Tania Gaeta, fomos informados de que essa base de dados retem, entre outras coisas, informações de mensagens trocadas na Câmara de Câmbio e que podem ser, eventualmente, solicitadas pelo BACEN o histórico de até 10 anos (exigência do órgão). 
+De posse dessa informação, nós desenvolvemos os scripts necessários para realizar o particionamento das maiores tabelas e fornecemos as procedures que automatizam a compactação das mesmas. No momento, as sugestões estão na esteira de implementação sob a responsabilidade do analista Mauricio Walther Souza Guzzi.
+
+
+
+
+
+
+
+
+
+Identificamos uma disparidade com relação ao Service Pack de 14 instâncias SQLServer (a Microsoft apresentava versões mais recentes) e submetemos 6 mudanças para atualizar esses ambientes.
+As atividades foram realizadas de forma programada e sem surpresas inesperadas, inclusive, todos os ambientes mapeados foram atualizados sem gerar incidentes e dentro do tempo esperado.
+Abaixo segue a lista de mudanças executadas :
+-CRQ000000262994;
+-CRQ000000266138;
+-CRQ000000266141;
+-CRQ000000268411;
+-CRQ000000269045;
+-CRQ000000269029 (será executada na próxima janela de mudanças).
+
+
+
+
+
+
+Iniciamos as conversas sobre monitoração das bases Oracle e SQLServer junto à equipe DI-GFRT-MONITORACAO por volta de 13/03/18.
+A partir daí, alinhamos um cronograma de atividades que foram executadas nos meses seguintes, na seguinte ordem:
+-mapeamento das métricas SQLServer e definição dos itens que seriam habilitados;
+-mapeamento das métricas Oracle e definição dos itens que seriam habilitados;
+-definição dos ambientes que seriam monitorados inicialmente (pré-teste);
+-concessão de acesso à console de monitoração à todos os analistas de banco de dados;
+-treinamento básico sobre os recursos atuais da ferramenta com relação à infraestrutura.
+
+As próximas atividades são essenciais para que o objetivo final seja alcançado e esperamos conclui-los até Fevereiro de 2019:
+-receber a solicitação de criação dos usuários (SQLServer e Oracle) por parte da equipe DI-GFRT-MONITORACAO;
+-fornecer suporte, caso seja necessário, à equipe do HPOMi para que a monitoração esteja funcional;
+-avaliar o dashboard de monitoração de banco de dados e suas funcionalidades (nas instâncias que solicitamos inicialmente - pré-teste);
+-após essa avaliação, decidirmos se será implementado em todas as instâncias de produção.
+
+
+
+
+
+
+Fomos envolvidos na erradicação SQLServer 2005 da instância SQLBOVA e SQLHSTCORPA na qual realizamos as seguintes atividades:
+-participação das reunições para definir a estratégia de migração dos ambientes de UAT e CERT (SQLBOVA);
+-validação do phase-out dos novos ambientes que irão atender as migrações das instâncias SQLBOVA e SQLHSTCORPA (SQLPOS016CP\SQLBOVA, SQLBOVEP\SQLBOVEP, SQLHSTCORPEP\SQLHSTCORPEP );
+-levantamento de informações para a migração da instância SQLHSTCORPA;
+-acompanhamento e validação das requisições de regra de firewall entre a instância SQLBOVA e SQLHSTCORPA;
+-desenvolvimento do script de replicação das bases CE, EA, CI, CO para substituir o atual processo de Replicação de Tabelas que não será suportado após a migração;
+-abertura de requisições para GGIA e PCP para incluir esse script na malha do HCA sob o nome de SQLBKPBOVHST;
+-submissão e execução da pré-migração da base HCA com o objetivo de validar as integrações e replicações na nova instância SQLHSTCORPEP (CRQ000000269351).
+
+
+
+
+Realizamos a atualização das rotinas de manutenção de todas as instâncias SQLServer, seguindo a recomendação da Microsoft.
+Os ambientes foram gradativamente atualizados e, os novos jobs, foram monitoradas para garantir o sucesso nas execuções.
+As boas práticas estão sendo aplicadas da seguinte maneira:
+-reorganização dos índices com fragmentação acima de 5% e abaixo de 30% (dentro do limite de 30GB);
+-rebuild dos índices que apresentarem fragmentação superior a 30% (dentro do limite de 30GB);
+-atualização de estatísticas.
+
+
+
+Fizemos o cruzamento de informações entre: crecimento histórico de todas as instâncias SQLServer e espaço livre em disco para cada ambiente.
+Baseado nesses dados, conseguimos identificar os ambientes que ficariam sem espaço no segundo semestre de 2018 e antecipar ações de recapacitação/expurgo .
+As atividades e ambientes tratados nessa meta, foram:
+-SQLCORPIP\SQLCORPIP: realizado expurgo de 200GB em alinhamento com o analista Alan Lupianhez (através de email verde);
+-SQLTRD005CP\PUMAP: realizado expurgo de 170GB em alinhamento com o analista Eboli (através da mudança CRQ000000263015);
+-SQLCAMBIOP\SQLCAMBIOP: realizado expurgo de 50GB em alinhamento com o analista Jailson Moraes (através da mudança CRQ000000267349);
+-SQLCAMBIOP\SQLCAMBIOP: realizado expurgo de 20GB em alinhamento com a analista Tania Gaeta (através da criação de jobs de expurgo - execução diária);
+-SQLWEBSAP\SQLWEBSAP: realizado expurgo de 100GB em alinhamento com o analista Leonardo Santa Clara (através do sistema que utiliza as bases dessa instância);
+-SQLCORCP\SQLCORCP: realizado expurgo de 50GB em alinhamento com o analista Ubiratan (através do sistema que utiliza as bases dessa instância);
+
+
+Não foi incluido na avaliação:
+Com o objetivo de zelar pelos ambientes e manter uma boa performance das bases, foi realizado uma análise pro-ativa de diversas procedures. 
+Os pontos de melhoria identificados foram encaminhados para os analistas responsáveis:
+-SQLSINFCP\SQLSINFCP: identificamos pontos de melhoria em 12 procedures na base SI_DW (analista contactado: Erica Tohoma);
+-SQLTRD005CP\PUMAP: identificamos pontos de melhoria em 10 procedures na base B3RegistrationService (analista contactado: Daniel Atanes);
+-SQLTRD005CP\PUMAP: identificamos pontos de melhoria em 11 procedures na base PUMALineEPDER00 (analista contactado: Mauricio Vidotto);
+-SQLLQDCCP\SQLLQDCCP: identificamos pontos de melhoria em 13 procedures na base LIQUIDACAO_FISICA (analista contactado: Paulo Pengo);
+-SQLBCO001CP\BANCOBMF: identificamos pontos de melhoria em 8 procedures na base AB_CONTACORRENTE (analista contactado: Roberto Ramirez).
+

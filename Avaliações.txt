@@ -1,0 +1,39 @@
+Sato é um colaborador muito comprometido com as atribuições da sua função e realiza o acompanhamento dos jobs da malha com extrema responsabilidade. Ele domina a sua área de conhecimento, o que faz com que ele tenha facilidade em participar ativamente das soluções de incidentes e problemas que ocorrem no ambiente de produção. Eu sinceramente nunca vi o Sato abandonar um problema sem antes tê-lo conduzido da melhor forma possível, com a senioridade esperada (mesmo nos casos em que não houve solução imediata), ele garante que seja passado todos os detalhes para o próximo analista que dará continuidade à análise.
+
+Apenas para deixar claro, como eu e o Sato não fazemos parte da mesma equipe, a minha visão de oportunidades de melhoria fica restrita aos momentos em que precisamos atuar em conjunto. Nesses momentos, acredito que há espaço para o Sato buscar mais conhecimento e/ou aprimorar conceitos nas ferramentas que utilizamos na B3 relacionadas à infraestrutura de storage e banco de dados.
+
+É uma satisfação poder trabalhar com uma pessoa equilibrada como o Sato.
+
+
+
+
+Gilson é um colaborador focado nas suas atribuições e que trata os incidentes que ocorrem em produção com a devida seriedade. Ele procura sempre demonstrar agilidade e rapidez ao acionar e envolver os analistas de diferentes áreas no atendimento de seus respectivos incidentes.
+
+Apenas para deixar claro, como eu e o Gilson não fazemos parte da mesma equipe, a minha visão de oportunidades de melhoria fica restrita aos momentos em que precisamos atuar em conjunto. Em um desses momentos, o Gilson me confidenciou que gostaria de se aperfeiçoar em infraestrutura de redes e, quem sabe, poder mudar de equipe no futuro.
+
+É uma satisfação poder trabalhar com uma pessoa objetiva como o Gilson.
+
+
+
+
+Eduardo é um colaborador motivado e com disposição para ir além das suas atribuições porque ele, além de direcionar os incidentes para os seus respectivos analistas, também se envolve com o problema (procura entende-lo), faz questão de ajudar na solução de alguma forma e monitora o andamento das atuações (fazendo cobranças sobre o status da resolução de tempos em tempos).
+
+Apenas para deixar claro, como eu e o Eduardo não fazemos parte da mesma equipe, a minha visão de oportunidades de melhoria fica restrita aos momentos em que precisamos atuar em conjunto. Acredito que o Eduardo poderia trabalhar em qualquer equipe de TI porque ele tem a força de vontade necessária para isso. Fica aqui a minha sugestão para o gestor, de incentiva-lo a buscar conhecimento em uma parte especifica da infraestrutura (storage, banco de dados ou S.O.) para que ele possa ocupar outra posição nas demais equipes.
+
+É uma satisfação poder trabalhar com uma pessoa motivada como o Eduardo.
+
+
+
+Cristian é um colaborador experiente e que domina as atribuições da sua função. Ele tem excelente conhecimento da área de desenvolvimento e programação e mostra facilidade em realizar análise dos problemas e encontrar a solução dos mesmos. É uma pessoa de fácil relacionamento interpessoal, colaborativo e que suporta situações críticas de alta cobrança.
+
+Apenas para deixar claro, como eu e o Cristian não fazemos parte da mesma equipe, a minha visão de oportunidades de melhoria fica restrita aos momentos em que precisamos atuar em conjunto. Acredito que o Cristian poderia ir desenvolvendo qualidades e competências relacionadas à gestão porque ele já tem uma postura adequada a esse cargo.
+
+É uma satisfação poder trabalhar com uma pessoa competente como o Cristian.
+
+
+
+Rafael é um colaborador muito dedicado e atento à console de monitoração. Ele é responsável e procura sempre manter os incidentes bem endereçados, conversando com os analistas envolvidos no problema e cobrando uma posição sobre a solução. Ele é uma pessoa sensata que busca entender a criticidade dos incidentes e sabe dosar as cobranças naqueles incidentes em que realmente se precisa dar maior atenção.
+
+Apenas para deixar claro, como eu e o Rafael não fazemos parte da mesma equipe, a minha visão de oportunidades de melhoria fica restrita aos momentos em que precisamos atuar em conjunto. Acredito que o Rafael poderia explorar e aprimorar seus conhecimentos em outras áreas, como por exemplo, na infraestrutura de Storage, Banco de dados ou S.O.
+
+É uma satisfação poder trabalhar com uma pessoa dedicada como o Rafael.

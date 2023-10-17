@@ -1,0 +1,156 @@
+5/24/2018 10:19:46 PM : Ínicio da instalação dos pacotes.
+
+5/24/2018 10:19:46 PM : Iniciando busca de instâncias em : SQLPOS00603P
+5/24/2018 10:19:46 PM : Instância encontrada : SQLSINFCP\SQLSINFCP
+5/24/2018 10:19:46 PM : Fim da busca de instâncias. 
+
+5/24/2018 10:19:46 PM : Iniciando preparação dos arquivos Batch. 
+5/24/2018 10:19:46 PM : Arquivo batch gerado em C:\temp\mis-2.42.3-distribution.dir\depot\binarios\SSIS\bin\Deployment\Backup\MIS_SSIS_ROLLBACK.bat
+
+5/24/2018 10:19:46 PM : Inicio da publicação dos scripts Control-M em F:\SSIS\MIS\Scripts\.
+5/24/2018 10:19:46 PM : Fim da publicação dos scripts Control-M.
+
+5/24/2018 10:19:46 PM : Inicio da Instalação dos pacotes na instância : SQLSINFCP\SQLSINFCP
+5/24/2018 10:19:49 PM : Efetuando Backup do pacote SSIS_MIS_CARGA_BTB - Build Version - 496
+5/24/2018 10:19:49 PM : Pacote salvo com sucesso em C:\temp\mis-2.42.3-distribution.dir\depot\binarios\SSIS\bin\Deployment\Backup\SSIS_MIS_CARGA_BTB.dtsx
+5/24/2018 10:19:49 PM : Removendo o pacote - SSIS_MIS_CARGA_BTB - Build Version - 496
+5/24/2018 10:19:49 PM : Pacote removido com sucesso.
+5/24/2018 10:19:49 PM : Instalando o pacote - SSIS_MIS_CARGA_BTB - Build Version - 496
+5/24/2018 10:19:49 PM : Caminho do DTSConfig alterado em SSIS_MIS_CARGA_BTB para F:\SSIS\MIS\Config\
+5/24/2018 10:19:50 PM : Pacote SSIS_MIS_CARGA_BTB instalado com sucesso.
+
+
+5/24/2018 10:19:51 PM : Efetuando Backup do pacote SSIS_MIS_CARGA_CALENDARIO - Build Version - 416
+5/24/2018 10:19:51 PM : Pacote salvo com sucesso em C:\temp\mis-2.42.3-distribution.dir\depot\binarios\SSIS\bin\Deployment\Backup\SSIS_MIS_CARGA_CALENDARIO.dtsx
+5/24/2018 10:19:51 PM : Removendo o pacote - SSIS_MIS_CARGA_CALENDARIO - Build Version - 416
+5/24/2018 10:19:51 PM : Pacote removido com sucesso.
+5/24/2018 10:19:51 PM : Instalando o pacote - SSIS_MIS_CARGA_CALENDARIO - Build Version - 416
+5/24/2018 10:19:51 PM : Caminho do DTSConfig alterado em SSIS_MIS_CARGA_CALENDARIO para F:\SSIS\MIS\Config\
+5/24/2018 10:19:51 PM : Pacote SSIS_MIS_CARGA_CALENDARIO instalado com sucesso.
+
+
+5/24/2018 10:19:53 PM : Efetuando Backup do pacote SSIS_MIS_CARGA_CONTAS_VINCULOS - Build Version - 133
+5/24/2018 10:19:53 PM : Pacote salvo com sucesso em C:\temp\mis-2.42.3-distribution.dir\depot\binarios\SSIS\bin\Deployment\Backup\SSIS_MIS_CARGA_CONTAS_VINCULOS.dtsx
+5/24/2018 10:19:53 PM : Removendo o pacote - SSIS_MIS_CARGA_CONTAS_VINCULOS - Build Version - 133
+5/24/2018 10:19:53 PM : Pacote removido com sucesso.
+5/24/2018 10:19:53 PM : Instalando o pacote - SSIS_MIS_CARGA_CONTAS_VINCULOS - Build Version - 133
+5/24/2018 10:19:53 PM : Caminho do DTSConfig alterado em SSIS_MIS_CARGA_CONTAS_VINCULOS para F:\SSIS\MIS\Config\
+5/24/2018 10:19:53 PM : Pacote SSIS_MIS_CARGA_CONTAS_VINCULOS instalado com sucesso.
+
+
+5/24/2018 10:20:05 PM : Efetuando Backup do pacote SSIS_MIS_CARGA_CORE - Build Version - 545
+5/24/2018 10:20:05 PM : Pacote salvo com sucesso em C:\temp\mis-2.42.3-distribution.dir\depot\binarios\SSIS\bin\Deployment\Backup\SSIS_MIS_CARGA_CORE.dtsx
+5/24/2018 10:20:05 PM : Removendo o pacote - SSIS_MIS_CARGA_CORE - Build Version - 545
+5/24/2018 10:20:05 PM : Pacote removido com sucesso.
+5/24/2018 10:20:05 PM : Instalando o pacote - SSIS_MIS_CARGA_CORE - Build Version - 535
+5/24/2018 10:20:05 PM : Caminho do DTSConfig alterado em SSIS_MIS_CARGA_CORE para F:\SSIS\MIS\Config\
+5/24/2018 10:20:06 PM : Pacote SSIS_MIS_CARGA_CORE instalado com sucesso.
+
+
+5/24/2018 10:20:08 PM : Efetuando Backup do pacote SSIS_MIS_CARGA_GPS_CURVA_TEORICA - Build Version - 390
+5/24/2018 10:20:08 PM : Pacote salvo com sucesso em C:\temp\mis-2.42.3-distribution.dir\depot\binarios\SSIS\bin\Deployment\Backup\SSIS_MIS_CARGA_GPS_CURVA_TEORICA.dtsx
+5/24/2018 10:20:08 PM : Removendo o pacote - SSIS_MIS_CARGA_GPS_CURVA_TEORICA - Build Version - 390
+5/24/2018 10:20:08 PM : Pacote removido com sucesso.
+5/24/2018 10:20:08 PM : Instalando o pacote - SSIS_MIS_CARGA_GPS_CURVA_TEORICA - Build Version - 390
+5/24/2018 10:20:08 PM : Caminho do DTSConfig alterado em SSIS_MIS_CARGA_GPS_CURVA_TEORICA para F:\SSIS\MIS\Config\
+5/24/2018 10:20:08 PM : Pacote SSIS_MIS_CARGA_GPS_CURVA_TEORICA instalado com sucesso.
+
+
+5/24/2018 10:20:09 PM : Efetuando Backup do pacote SSIS_MIS_CARGA_GPS_INDICADORES_ECONOMICOS - Build Version - 144
+5/24/2018 10:20:09 PM : Pacote salvo com sucesso em C:\temp\mis-2.42.3-distribution.dir\depot\binarios\SSIS\bin\Deployment\Backup\SSIS_MIS_CARGA_GPS_INDICADORES_ECONOMICOS.dtsx
+5/24/2018 10:20:09 PM : Removendo o pacote - SSIS_MIS_CARGA_GPS_INDICADORES_ECONOMICOS - Build Version - 144
+5/24/2018 10:20:09 PM : Pacote removido com sucesso.
+5/24/2018 10:20:09 PM : Instalando o pacote - SSIS_MIS_CARGA_GPS_INDICADORES_ECONOMICOS - Build Version - 144
+5/24/2018 10:20:09 PM : Caminho do DTSConfig alterado em SSIS_MIS_CARGA_GPS_INDICADORES_ECONOMICOS para F:\SSIS\MIS\Config\
+5/24/2018 10:20:09 PM : Pacote SSIS_MIS_CARGA_GPS_INDICADORES_ECONOMICOS instalado com sucesso.
+
+
+5/24/2018 10:20:11 PM : Efetuando Backup do pacote SSIS_MIS_CARGA_GPS_Opcao_Derivativo - Build Version - 170
+5/24/2018 10:20:11 PM : Pacote salvo com sucesso em C:\temp\mis-2.42.3-distribution.dir\depot\binarios\SSIS\bin\Deployment\Backup\SSIS_MIS_CARGA_GPS_Opcao_Derivativo.dtsx
+5/24/2018 10:20:11 PM : Removendo o pacote - SSIS_MIS_CARGA_GPS_Opcao_Derivativo - Build Version - 170
+5/24/2018 10:20:11 PM : Pacote removido com sucesso.
+5/24/2018 10:20:11 PM : Instalando o pacote - SSIS_MIS_CARGA_GPS_Opcao_Derivativo - Build Version - 170
+5/24/2018 10:20:11 PM : Caminho do DTSConfig alterado em SSIS_MIS_CARGA_GPS_Opcao_Derivativo para F:\SSIS\MIS\Config\
+5/24/2018 10:20:11 PM : Pacote SSIS_MIS_CARGA_GPS_Opcao_Derivativo instalado com sucesso.
+
+
+5/24/2018 10:20:12 PM : Efetuando Backup do pacote SSIS_MIS_CARGA_GPS_Preco_Ajuste - Build Version - 186
+5/24/2018 10:20:12 PM : Pacote salvo com sucesso em C:\temp\mis-2.42.3-distribution.dir\depot\binarios\SSIS\bin\Deployment\Backup\SSIS_MIS_CARGA_GPS_Preco_Ajuste.dtsx
+5/24/2018 10:20:12 PM : Removendo o pacote - SSIS_MIS_CARGA_GPS_Preco_Ajuste - Build Version - 186
+5/24/2018 10:20:12 PM : Pacote removido com sucesso.
+5/24/2018 10:20:12 PM : Instalando o pacote - SSIS_MIS_CARGA_GPS_Preco_Ajuste - Build Version - 186
+5/24/2018 10:20:12 PM : Caminho do DTSConfig alterado em SSIS_MIS_CARGA_GPS_Preco_Ajuste para F:\SSIS\MIS\Config\
+5/24/2018 10:20:12 PM : Pacote SSIS_MIS_CARGA_GPS_Preco_Ajuste instalado com sucesso.
+
+
+5/24/2018 10:20:13 PM : Efetuando Backup do pacote SSIS_MIS_CARGA_GPS_RENDA_FIXA - Build Version - 446
+5/24/2018 10:20:13 PM : Pacote salvo com sucesso em C:\temp\mis-2.42.3-distribution.dir\depot\binarios\SSIS\bin\Deployment\Backup\SSIS_MIS_CARGA_GPS_RENDA_FIXA.dtsx
+5/24/2018 10:20:13 PM : Removendo o pacote - SSIS_MIS_CARGA_GPS_RENDA_FIXA - Build Version - 446
+5/24/2018 10:20:13 PM : Pacote removido com sucesso.
+5/24/2018 10:20:13 PM : Instalando o pacote - SSIS_MIS_CARGA_GPS_RENDA_FIXA - Build Version - 446
+5/24/2018 10:20:13 PM : Caminho do DTSConfig alterado em SSIS_MIS_CARGA_GPS_RENDA_FIXA para F:\SSIS\MIS\Config\
+5/24/2018 10:20:13 PM : Pacote SSIS_MIS_CARGA_GPS_RENDA_FIXA instalado com sucesso.
+
+
+5/24/2018 10:20:15 PM : Efetuando Backup do pacote SSIS_MIS_CARGA_GPS_Superficie_Volatilidade - Build Version - 169
+5/24/2018 10:20:15 PM : Pacote salvo com sucesso em C:\temp\mis-2.42.3-distribution.dir\depot\binarios\SSIS\bin\Deployment\Backup\SSIS_MIS_CARGA_GPS_Superficie_Volatilidade.dtsx
+5/24/2018 10:20:15 PM : Removendo o pacote - SSIS_MIS_CARGA_GPS_Superficie_Volatilidade - Build Version - 169
+5/24/2018 10:20:15 PM : Pacote removido com sucesso.
+5/24/2018 10:20:15 PM : Instalando o pacote - SSIS_MIS_CARGA_GPS_Superficie_Volatilidade - Build Version - 169
+5/24/2018 10:20:15 PM : Caminho do DTSConfig alterado em SSIS_MIS_CARGA_GPS_Superficie_Volatilidade para F:\SSIS\MIS\Config\
+5/24/2018 10:20:15 PM : Pacote SSIS_MIS_CARGA_GPS_Superficie_Volatilidade instalado com sucesso.
+
+
+5/24/2018 10:20:16 PM : Efetuando Backup do pacote SSIS_MIS_CARGA_GPS_TITULOS_PUBLICOS - Build Version - 142
+5/24/2018 10:20:16 PM : Pacote salvo com sucesso em C:\temp\mis-2.42.3-distribution.dir\depot\binarios\SSIS\bin\Deployment\Backup\SSIS_MIS_CARGA_GPS_TITULOS_PUBLICOS.dtsx
+5/24/2018 10:20:16 PM : Removendo o pacote - SSIS_MIS_CARGA_GPS_TITULOS_PUBLICOS - Build Version - 142
+5/24/2018 10:20:16 PM : Pacote removido com sucesso.
+5/24/2018 10:20:16 PM : Instalando o pacote - SSIS_MIS_CARGA_GPS_TITULOS_PUBLICOS - Build Version - 142
+5/24/2018 10:20:16 PM : Caminho do DTSConfig alterado em SSIS_MIS_CARGA_GPS_TITULOS_PUBLICOS para F:\SSIS\MIS\Config\
+5/24/2018 10:20:16 PM : Pacote SSIS_MIS_CARGA_GPS_TITULOS_PUBLICOS instalado com sucesso.
+
+
+5/24/2018 10:20:19 PM : Efetuando Backup do pacote SSIS_MIS_CARGA_INSTRUMENTO - Build Version - 401
+5/24/2018 10:20:19 PM : Pacote salvo com sucesso em C:\temp\mis-2.42.3-distribution.dir\depot\binarios\SSIS\bin\Deployment\Backup\SSIS_MIS_CARGA_INSTRUMENTO.dtsx
+5/24/2018 10:20:19 PM : Removendo o pacote - SSIS_MIS_CARGA_INSTRUMENTO - Build Version - 401
+5/24/2018 10:20:19 PM : Pacote removido com sucesso.
+5/24/2018 10:20:19 PM : Instalando o pacote - SSIS_MIS_CARGA_INSTRUMENTO - Build Version - 401
+5/24/2018 10:20:19 PM : Caminho do DTSConfig alterado em SSIS_MIS_CARGA_INSTRUMENTO para F:\SSIS\MIS\Config\
+5/24/2018 10:20:19 PM : Pacote SSIS_MIS_CARGA_INSTRUMENTO instalado com sucesso.
+
+
+5/24/2018 10:20:31 PM : Efetuando Backup do pacote SSIS_MIS_CARGA_OTC_POSITION_CALYPSO - Build Version - 317
+5/24/2018 10:20:31 PM : Pacote salvo com sucesso em C:\temp\mis-2.42.3-distribution.dir\depot\binarios\SSIS\bin\Deployment\Backup\SSIS_MIS_CARGA_OTC_POSITION_CALYPSO.dtsx
+5/24/2018 10:20:31 PM : Removendo o pacote - SSIS_MIS_CARGA_OTC_POSITION_CALYPSO - Build Version - 317
+5/24/2018 10:20:31 PM : Pacote removido com sucesso.
+5/24/2018 10:20:31 PM : Instalando o pacote - SSIS_MIS_CARGA_OTC_POSITION_CALYPSO - Build Version - 317
+5/24/2018 10:20:31 PM : Caminho do DTSConfig alterado em SSIS_MIS_CARGA_OTC_POSITION_CALYPSO para F:\SSIS\MIS\Config\
+5/24/2018 10:20:31 PM : Pacote SSIS_MIS_CARGA_OTC_POSITION_CALYPSO instalado com sucesso.
+
+
+5/24/2018 10:20:33 PM : Efetuando Backup do pacote SSIS_MIS_CARGA_PRE_BOLETA - Build Version - 221
+5/24/2018 10:20:33 PM : Pacote salvo com sucesso em C:\temp\mis-2.42.3-distribution.dir\depot\binarios\SSIS\bin\Deployment\Backup\SSIS_MIS_CARGA_PRE_BOLETA.dtsx
+5/24/2018 10:20:33 PM : Removendo o pacote - SSIS_MIS_CARGA_PRE_BOLETA - Build Version - 221
+5/24/2018 10:20:33 PM : Pacote removido com sucesso.
+5/24/2018 10:20:33 PM : Instalando o pacote - SSIS_MIS_CARGA_PRE_BOLETA - Build Version - 221
+5/24/2018 10:20:33 PM : Caminho do DTSConfig alterado em SSIS_MIS_CARGA_PRE_BOLETA para F:\SSIS\MIS\Config\
+5/24/2018 10:20:33 PM : Pacote SSIS_MIS_CARGA_PRE_BOLETA instalado com sucesso.
+
+
+5/24/2018 10:20:34 PM : Efetuando Backup do pacote SSIS_MIS_CARGA_TERMO_OURO - Build Version - 109
+5/24/2018 10:20:34 PM : Pacote salvo com sucesso em C:\temp\mis-2.42.3-distribution.dir\depot\binarios\SSIS\bin\Deployment\Backup\SSIS_MIS_CARGA_TERMO_OURO.dtsx
+5/24/2018 10:20:34 PM : Removendo o pacote - SSIS_MIS_CARGA_TERMO_OURO - Build Version - 109
+5/24/2018 10:20:34 PM : Pacote removido com sucesso.
+5/24/2018 10:20:34 PM : Instalando o pacote - SSIS_MIS_CARGA_TERMO_OURO - Build Version - 109
+5/24/2018 10:20:34 PM : Caminho do DTSConfig alterado em SSIS_MIS_CARGA_TERMO_OURO para F:\SSIS\MIS\Config\
+5/24/2018 10:20:35 PM : Pacote SSIS_MIS_CARGA_TERMO_OURO instalado com sucesso.
+
+
+5/24/2018 10:20:35 PM : Fim da Instalação dos pacotes. 15 pacote(s) instalados(s).
+
+5/24/2018 10:20:35 PM : Aplicação finalizada com sucesso.
+
+
+Por favor envie o log da instalação para: *DI-GSAR-MIS
+
+

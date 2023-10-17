@@ -1,0 +1,59 @@
+Running CMD.EXE as Local System
+
+RATE THIS
+ Adi Oltean 27 Nov 2004 8:53 PM 4
+Many times in the past I had to run an interactive command-line shell under the Local SYSTEM account. That is, a CMD window on your desktop running under the system account. This technique is extremely useful in many cases, for example to debug ERROR_ACCESS_DENIED type errors that are coming from a system service.
+ 
+Let’s take a simple example to illustrate where running CMD as system would be useful. Let’s say that you write an ASP or ASP.NET application, configured to run under local system, without client impersonation. This application gets some weird E_ACCESSDENIED errors when invoking some COM objects (say that you are developing an ASP.NET layer on top of Visual Source Safe, for example).
+ 
+One option to “debug” this is to attach a debugger to the ASP.NET working process, and attempt to figure out what goes wrong. But how would you debug COM calls, or even a failed CoCreateInstance? The “source code” for the COM infrastructure is not available. And even if you would be able to get access to this complex source code, there is a very high chance that you won’t understand what happens under the cover. 
+ 
+So, instead, here is a simpler solution: just start a CMD.EXE instance, running as local system (using one of the methods described below). Then, in this instance, try to execute an equivalent VB Script (or C++) code that does almost the same thing. You would probably get the same E_ACCESSDENIED but this time you are now able to fine-tune the COM security parameters, like specifying special settings through DCOMCNFG.EXE.
+ 
+Anyway, let’s go back to the original issue – how to get “CMD.EXE” to run as the system account. Interactively. My first shot was to the RUNAS.EXE command. We already know that RUNAS allows you to run a process under a given user account. Unfortunately, RUNAS won’t work in our case, since a process running under an interactive logon session won’t be able to spawn a Local SYSTEM process. For security reasons, only a system process (that is already running as Local SYSTEM) like the SCM (services.exe) or RPCSS is allowed to spawn another system process.
+ 
+After asking around, someone told me a quick-and-dirty solution that uses the AT.EXE command. AT can be used to spawn jobs at a certain point in time. What people don’t immediately realize is that these jobs run under the Local SYSTEM account. In fact, what happens under the cover is that AT creates a special Task in the Task Scheduler database. To complete the trick, AT allows tasks to run in “interactive” mode, i.e. the ability to interact with the desktop console (if active). In the end, to run a CMD through the AT.EXE command you must do two things:
+1) Get the local time (through the TIME shell command, for example)
+2) Add one minute to this time
+3) Run the AT command with this new time.
+4) Wait one minute for the command window to appear.
+ 
+E:\Documents and Settings\Adi>time
+The current time is: 16:29:00.96
+Enter the new time:
+ 
+E:\Documents and Settings\Adi>at 16:30 /interactive cmd.exe
+Added a new job with job ID = 1
+ 
+Well, this method looked pretty ugly to me. First of all is not scriptable. Second, it requires me to wait for one minute for the command window to appear. At last, the job remains there and needs to be cleaned up.
+ 
+After this first shot, I started looking for simpler methods to show this command window. A nice start point was the SC.EXE command. If you are not already familiar with it, note just the fact that this is the standard utility for Windows Service related tasks: creating, deleting, enumerating services and their configuration details, etc.
+ 
+My first attempt was to create an interactive service that just runs CMD.EXE. This didn’t work. I found out that when SCM starts a service, it waits a little for this new process to setup a communication channel (through the RegisterServiceCtrlHandler API). This channel is needed by SCM to send commands to the service.
+ 
+E:\Documents and Settings\Adi>sc create testsvc binpath= "cmd" type= own type= interact
+[SC] CreateService SUCCESS
+ 
+E:\Documents and Settings\Adi>sc start testsvc
+[SC] StartService FAILED 1053:
+ 
+The service did not respond to the start or control request in a timely fashion.
+ 
+But anyway, I succeeded to run CMD.EXE for a very brief period of time as Local System. After a couple of tweaks, I discovered the solution. You need to “convince” the original CMD.EXE process to spawn a separate CMD.EXE command window. Then, even if the original process dies, the other CMD.EXE instance will stay alive. Spawning a new CMD.EXE is very easy through the START shell command. In fact, just running START (with no parameters) from a CMD shell will start another window.
+ 
+Let’s delete the original service and try again.
+ 
+E:\Documents and Settings\Adi>sc delete testsvc
+[SC] DeleteService SUCCESS
+ 
+E:\Documents and Settings\Adi>sc create testsvc binpath= "cmd /K start" type= own type= interact
+[SC] CreateService SUCCESS
+ 
+E:\Documents and Settings\Adi>sc start testsvc
+[SC] StartService FAILED 1053:
+ 
+The service did not respond to the start or control request in a timely fashion.
+ 
+Note that this time, the SC START immediately creates a new CMD window, even if the original CMD window failed to start with error 1053 (this is expected since CMD.EXE doesn’t have any service related code in it).
+ 
+In the end, I would like to mention one more thing. You can use this new service to start as many CMD windows as you want, and you will get a new CMD window as soon as you do a “sc start testsvc” again.

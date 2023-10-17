@@ -1,0 +1,135 @@
+@ANO 2017:
+#Acima de 99,9%. Atinge: Entre 99,8% e 99,9%.Atinge Parcial: Abaixo de 99,8%. Limite mínimo: Abaixo de 97%
+*Executei cerca de 1560 tarefas de mudanças no decorrer do ano, prezando sempre a correta execução das atividades (para não gerar problemas e incidentes) e a agilidade durante a implementação (para disponibilizar os ambientes envolvidos o mais rápido possível). Atendi prontamente 119 incidentes relacionados a área de Negociação e 163 de Pós-Negociação buscando manter o acionamento dentro do SLA.
+
+#Excede: Desativar pelo menos 50% dos servidores de NPROD e 30% dos servidores de Produção até 31/12/2017Atinge: Desativar pelo menos 25% dos servidores de NPROD e 15% dos servidores de Produção até 31/12/2017Atinge Parcial: Desativar menos de 25% dos servidores de NPROD e 30% dos servidores de Produção até 31/12/2017 
+*Essa meta foi excedida porque o parque de servidores do ambiente de não-Produção foi reduzido em mais de 50% e, do ambiente de Produção, foi reduzido em mais de 30%.
+A participação da nossa equipe em sustentar (durante a fase de desenvolvimento) e suportar o IPNV2 (na virada para produção), contribuiu para que essas duas metas fossem atingidas porque após a entrega desse grande projeto de integração muitos ambientes foram liberados para desativação. Iremos fechar o ano com cerca de 283 servidores de não-Produção e 570 servidores dedicados ao ambiente de Produção.
+ 
+
+#Cumprir o [indicador de andamento das entregas] com mais de 10% de folga sobre o [índice alvo/ data alvo]. Atinge: Cumprir o [indicador de andamento das entregas] dentro do esperado (entre 10% de folga até 5% de déficit vs. o [índice alvo / data alvo]).Atinge Parcial: Cumprir o [indicador de andamento das entregas] com mais de 5% de déficit vs. o [índice alvo/ data alvo]. 
+*Não estive diretamente envolvido no cumprimento dessa meta mas cuidei das demais demandas do dia-a-dia enquanto algumas pessoas estavam ocupadas no desenvolvimento das atividades e levantamento de informações para atender à entregas do projeto Plural.
+
+
+
+#Atingir o RTO no primeiro teste oficial de cada um dos PTRDs planejados de cada segmentoAtinge: Atingir o RTO em pelo menos um dos PTRDs de cada segmento, mesmo que seja necessário um Re-teste. Atinge Parcial : Conseguir fazer a virada em pelo menos um dos PTRDs de cada segmento, mesmo sem atingir o RTO..   Não Atinge : Não conseguir nem fazer a virada em pelo menos um dos PTRDs de cada segmento
+*Atingimos 
+
+
+#Excede:Iniciativas executadas antes do prazo e/ou aumento de escopo e sem impactos para a ProduçãoAtinge: Iniciativas executadas no prazo e sem impacto para a ProduçãoAtinge Parcial: Fora do prazo e /ou com escopo menor.
+Participei da instalação e configuração do SQLServer para atender algumas das migrações relacionadas a erradicação do Windows 2003. 
+Realizei a migração das instâncias SQLRSGRBP e SQLLQDCBP com sucesso (após a solução de alguns problemas encontrados durante essa atividade).
+Mudanças relacionados ao projeto de erradicação e que tiveram a minha participação:
+CRQ000000239576  (SQLBOVB e SQLIMBAP - Instalação com sucesso)
+CRQ000000239419  (DerivativosP - Rollback executado durante a migração)
+CRQ000000233423  (SQLRSGRBP e SQLLQDCBP  - Migração realizada com sucesso)
+CRQ000000231879  (DerivativosP - Instalação realizada com sucesso)
+CRQ000000232285  (SQLRSGRBP e SQLLQDCBP - Instalação realizada com sucesso)
+
+
+#Excede: Implantar o Blackbird em 11/2017 sem nenhum incidente crítico. Atinge: Implantar o Blackbird em 2017. Atinge Parcial: Implantar o Blackbird em 2018. 
+Participei de algumas atividades relacionadas ao projeto Blackbird durante a fase de projeto, basicamente sustentando a equipe de desenvolvimento em testes funcionais e durante tarefas de restore dos dados de produção para o ambiente de produção paralela.
+
+
+
+
+2º SEMESTRE 2016
+
+META: [Sustentação] Manter a disponibilidade dos sistemas de Negociação
+
+Atendi prontamente 33 incidentes relacionados a área de Negociação e sempre busquei mostrar agilidade durante acionamentos críticos. 
+Tenho mantido como rotina diária a verificação e correção dos jobs de manutenção que falharam durante a madrugada.
+Venho realizando análises de performance e atuando na identificação/resolução de problemas para manter os ambientes estáveis e operacionais.
+
+META: [Sustentação] Manter a disponibilidade dos sistemas de Pós-Negociação
+Atendi prontamente 29 incidentes relacionados a área de Pos-Negociação e sempre busquei mostrar agilidade durante acionamentos críticos. 
+Venho realizando análises de performance e atuando na identificação/resolução de problemas para manter os ambientes estáveis e operacionais.
+
+
+
+META: Suporte da infraestrutura do projeto Blackbird (ATP).
+-----------------------------------------------------------------------
+Não recebemos demanda do projeto Blackbird nesse semestre. A equipe de projetos nos informou que, no momento, o pessoal de não-produção está atuando nas demandas.
+
+
+
+META: Realizar a gestão e o acompanhamento das mudanças da semana relacionadas a banco de dados.
+-----------------------------------------------------------------------
+Com relação a gestão de mudanças, implementamos um relatório que foi agregado à passagem de turno e que é enviado diariamente. Basicamente, o report mostra as mudanças que foram executadas no dia, trazendo um breve resumo do objetivo das alterações. Com esse recurso, aumentamos a nossa organização com relação a implementação de mudanças e facilitamos a identificação das últimas alterações submetidas em produção por parte de qualquer um dos integrante de nossa equipe.
+
+
+
+META: Apontar e Implementar iniciativas de segurança  e melhoria de perfoamance alinhados ao negócios, destacando a existência de vulnerabilidades no ambiente, aplicação de patches, ajustes de parametros de performance, etc.
+-----------------------------------------------------------------------
+-Configuração do parâmetro de HugePages nos servidores Oracle
+Após recebermos alguns alertas de memória nos servidores Oracle, percebemos que uma grande parte dos ambientes de produção estava com o parâmetro de HugePages (no S.O.) configurado incorretamente. Esse é um recurso do sistema operacional que possibilita a alocação de páginas de memória maiores do que o padrão (4KB) e, consequentemente, melhora a performance do servidor. Analisando os ambientes, identificamos que o dimensionamento desse parâmetro (quando configurado de forma errada) encontrava-se:
+-subdimensionada: impedindo que a instância alocasse sua parcela de memória na hugepage (causando uso de swap e lentidão);
+-superdimensionada: reservando memória que não seria usada e, gerando alertas de consumo de memória desnecessários.
+
+Para corrigir essa situação, seguindo as boas práticas definidas pelo fornecedor (https://docs.oracle.com/cd/E11882_01/server.112/e10839/appi_vlm.htm#UNXAR393) e garantindo a correta performance dos ambientes, nós planejamos e submetemos 15 mudanças durante o semestre (contemplando 53 servidores). Relação de mudanças: CRQ000000197927, CRQ000000197737, CRQ000000200983, CRQ000000201656, CRQ000000202955, CRQ000000203673, CRQ000000204808, CRQ000000204845, CRQ000000204947, CRQ000000204949, CRQ000000205880, CRQ000000207488, CRQ000000208052, CRQ000000208058, CRQ000000208175.
+
+
+-Disponibilização do relatório de patches não aplicados para SQLServer
+Devido à falta de recursos que nos permitesse visualizar (de forma prática) o nível de atualização de cada um dos nossos ambientes SQLServer, nós implementamos um relatório no reporting services (disponibilizado em http://repcorap/ReportManager/Pages/Report.aspx?ItemPath=%2fMONITORIA%2fRelatorio+de+Patches+Dispon%c3%adveis+-+MSSQL) 
+que mostra (em cada uma das instâncias) qual foi o último patche aplicado e a relação de patches que ainda faltam ser instalados. O relatório também apresenta detalhes dos patches disponíveis até o momento, como por exemplo: a data do lançamento, o tipo de atualização a que se refere o patche e o ciclo de vida do suporte.
+
+Basicamente, o relatório é alimentado pelo cruzamento dos dados de duas tabelas:
+-TB_INSTANCE_VERSION_MSSQL: carregada através da execução do job “Report CheckPatchVersionDB – SQLServer” (localizado na instância GERCOR0603P\GESTAODB) que faz a coleta das informações necessárias em cada uma das instâncias;
+-TB_INSTANCE_PATCHES_MSSQL: contem informações de patches disponíveis para cada uma das versões SQLServer. Foram extraídas a partir do link oficial da Microsoft (em https://support.microsoft.com/en-us/kb/321185).
+
+
+
+META: Reestruturar o processo de RSAD
+Revesamos a nossa presenção (eu, Angela e Fábio) nas reuniões que definiram a estrutura do novo processo de RSAD. Comparando com o fluxo atual, em que o processo é feito de forma manual (extração das alterações submetidas a partir do modelo lógico e execução na base de dados), o novo fluxo contempla a utilização da ferramenta Flyway que, além de automatizar as execuções das alterações em ambiente produtivo também será responsável por manter o controle de versionamento dos ambientes. 
+Durante as reuniões buscamos deixar claro a nossa visão (como implementadores em produção) e a nossa preocupação, nesse novo fluxo, com o fato de ganharmos do lado da automação e perdermos na questão de controle do que está sendo executado. Nesse quesito, foi definido que a equipe de não-produção iria empregar maior atenção aos scripts que fossem desenvolvidos, tentando prever os cenários adversos que poderiam ocorrer em produção devido a diferença de volume de dados entre os ambientes.
+Durante a POC o novo processo se mostrou sólido e estável. Em substituição ao ClearQuest, o Jira será usado para realizar a gestão das tarefas nas etapas que contemplem alterações nos ambientes de não-produção. Após percorrer toda a esteira, uma mudança será aberta para que a versão testada seja aplicada em produção. Nessa etapa, nossa atuação será baixar o arquivo ".CONF" (que será disponibilizado na mudança) e executar os comandos que irão atualizar o nosso repositório local e, sem seguida, aplicar as alterações até a versão definida na mudança.
+
+
+META: Apontar e definir melhorias no processo de implementação de mudanças de bancos de dados.
+Criamos um arquivo em lote para realizar a publicação de diversas procedures de forma automática (em substituição ao antigo DMS, cujo código fonte em Java foi perdido devido a saída do funcionário que o desenvolveu). O arquivo batch permite que qualquer pessoa possa fazer alteração no seu código fonte já que a programação utiliza comandos do S.O.. A sua execução pode ser feita a partir de qualquer diretório desde que os arquivos de publicação das procedures estejam no mesmo caminho. Ao ser executado, ele realiza as seguintes tarefas:
+-extrai o nome das procedures a partir dos scripts presentes no diretório;
+-utiliza esses nomes para realizar o backup das procedures originais;
+-efetua o backup dos privilégios que as procedures possuem antes de serem alteradas;
+-realiza a publicação das novas versões das procedures;
+-reatribui os privilégios salvos;
+-gera evidência das publicações efetuadas.
+
+Observação: recentemente incluimos uma nova funcionalidade ao script para garantir que os comandos submetidos sejam lastreados pelo Guardium.
+
+
+PBI000000047282 - [TRS] Falha na rotina de expurgo (PIIMPTRSEXPG)
+Participei da análise do problema de lentidão no processo de expurgo da TRS. Durante essa tarefa nós replicamos as tabelas principais do sistema TRS em um ambiente de teste onde realizamos diversos testes até chegarmos na melhor solução para o cenário dessa aplicação. Conforme compartilhei com o Vidotto, a tarefa de expurgo terá uma melhora de 96% no tempo de execução caso seja alterada a estrutura das tabelas para utilizar partições diárias. Além disso, como o sistema utiliza dados dos últimos dois dias para realizar as maiores transações durante o horário de expediente, existe uma expectativa de que o sistema apresente uma melhora de forma geral já que, no momento, as tabelas não são particionadas e as transações precisam ler dados de 30 dias para realizar as operações do sistema.
+
+INC000001475205 - Timeout na execução do job COPLIMP02
+Fomos acionados pela equipe de Post-Trading (Marcelo Fornazieri) para verificar o motivo da lentidão no job COPLIMP02, que havia ficado em execução por mais de 1 hora. 
+Constatamos que a procedure SPOP_DL_DADOS_VENC estava passando o maior tempo de execução na transação de DELETE, realizada na tabela TOPPOSI. Resumidamente: o lentidão ocorria porque para cada registro apagado na tabela TOPPOSI, era realizado uma varredura completa na tabela TOPOPRC_EXER. Após criarmos um índice para corrigir esse problema, a transação executou em menos de 1minuto (99% de melhora na performance).
+
+
+
+
+Timeout nas instâncias BMFIN0030\CAMBIOP, BMFIN0045\ATIVOSP, BMFIN0047\INFRAP:
+Fomos acionados pela equipe de Post-Trading (Felipe Camara) em 07/07/16 para verificar uma mensagem de timeout recebida pela aplicação (na instância CAMBIOP). Ao iniciarmos a análise, identificamos uma mensagem de erro registrada no Errorlog das três instâncias presentes nesse servidor (Process 55:0:0 (0xb970) Worker 0x000000001E78C1C0 appears to be non-yielding on Scheduler 33), próximo do horário em que o problema de conexão havia ocorrido. Como a mensagem não permitia a confirmação de uma relação entre os problemas, acionamos a Microsoft (116070814390018) para um diagnóstico mais detalhado da mensagem. Após essa verificação, houve suspeita de que o Antivírus poderia ser o causador dos problemas porque o mesmo apresentava uma outra mensagem de Error ao ficar por mais de 90segundos realizando um varredura. Baseado nessa informação, acionamos a GGIA e solicitamos que as melhores práticas com relação à configuração do Antivírus fossem aplicadas nesse ambiente. Após essa intervenção, os problemas não voltaram a ocorrer.
+
+Lentidão na View VOPPOSI_ATU (Base EA):
+Recebemos um pedido do Claudio Murtele (20/08/16) para que fosse realizado uma análise da view VOPPOSI_ATU, visto que a mesma apresentava discrepância no tempo de execução entre o ambiente de Produção e Homologação. Conforme levantameno realizado, percebemos que a diferença no tempo de execução entre os ambientes era resultado da falta de volume de dados no ambiente de homologação, porém nos propusemos a verificar possibilidades de melhoria para diminuir o tempo de execução da view em produção (naquele momento, demorava cerca de 1 minuto para concluir). Realizamos alguns testes no ambiente de laboratório e, depois de algumas modificações na estrutura dos objetos (sugerimos a criação de uma View Indexada, criação de 2 índices e a alteração da view principal para restringir os dados por data), o tempo de execução da view ficou abaixo de 1 segundo.
+
+Abend nos jobs HOPCVMA40 e HOPCVMA36 (PBI000000048270):
+Em 18/11/16 fomos envolvidos no problema recorrente de abend nos jobs HOPCVMA40 e HOPCVMA36. Para cada um dos casos, realizamos o seguinte diagóstico:
+-job HOPCVMA40: realiza a chamada da procedure SPHOP_CO_ARQ_CVM_BPCD_V2, cujo processamento oscila entre dois Planos de Execução. Esse job é impactado em seu tempo de execução quando ele baseia a execução da procedure em estatísticas desatualizadas (que não refletem a posição atual das tabelas) e tenta reutilizar um plano de execução não apropriado para este cenário e/ou baseia a sua execução em estatísticas atualizadas, porém reutiliza um plano de execução (armazenado em cache) não adequado às quantidades de registros tratados nas cláusulas JOIN;
+-job HOPCVMA36: faz chamada da procedure SPHOP_CO_ARQ_CVM_BFTR_BMF_V2, verificamos que o problema ocorre só na situação em que o SQLServer baseia a execução da procedure em estatísticas desatualizadas (que não refletem a posição atual das tabelas).
+Compartilhando essas informações com a equipe de desenvolvimento, decidimos incluir nos próprios jobs um step para realizar a atualização das estatísticas apenas nas tabelas envolvidas nesses processos e, adicionalmente, incluir a clausula WITH(RECOMPILE) na procedure SPHOP_CO_ARQ_CVM_BPCD_V2.
+
+RAA - Falha na execução do Job ssis_riscoativos_db2_carga (PBI000000050775):
+Fiz uma pesquisa referente ao erro recebido e, aparentemente, trata-se de uma limitação do driver utilizado na conexão ODBC.
+Eu tentei abrir o pacote para confirmar essa informação, mas o conteúdo do mesmo é restrito e está protegido por senha.
+De acordo com alguns fóruns, esse erro costuma ocorrer quando utiliza-se o “Microsoft OLEDB Provider for DB2” para submeter 
+transações na base DB2. Para corrigir esse problema, seria necessário utilizar o driver próprio da IBM.
+
+
+
+
+Job HCAEXTR31:
+Participamos da análise do incidente gerado no processamento do job HCAEXTR31, devido ao mesmo não concluir em 4 horas de execução (seu tempo médio é de 2 minutos). Após 
+realizarmos a atualização das estatísticas na base HCA, o job passou a executar no seu tempo normal porque a procedure voltou a utilizar o plano de execução mais performático. 
+Mesmo assim, enviamos um laudo para os responsáveis sugerindo a criação de um índice para reduzir o consumo de I/O e processamento no trecho da procedure em que hoje é utilizado
+o operador Index Scan.

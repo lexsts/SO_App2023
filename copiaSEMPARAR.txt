@@ -1,0 +1,1 @@
+Esentutl /y "E:\oxford collocations dictionary.pdf" /d "C:\temp\oxford collocations dictionary.pdf"

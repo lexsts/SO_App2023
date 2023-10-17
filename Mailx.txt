@@ -1,0 +1,31 @@
+echo "teste body" | mailx -s "assunto teste" alex.santos@db.com
+
+
+
+
+PARA CONFIGURAR O RELAY DO SENDMAIL
+
+ROOT@saoeqdbp69n1:/tmp # vi /etc/mail/sendmail.cf
+
+Altera de:
+# "Smart" relay host (may be null)
+DS
+
+Para:
+# "Smart" relay host (may be null)
+DShsmtphub.uk.mail.db.com
+
+ROOT@saoeqdbp69n1:/tmp # /etc/init.d/sendmail stop
+ROOT@saoeqdbp69n1:/tmp # /etc/init.d/sendmail start
+
+PARA ENVIAR UM E-MAIL
+
+ROOT@saoeqdbp69n1:/tmp # mailx -s "assunto teste" rafael.mori@db.com < teste.log
+
+ou
+
+ROOT@saoeqdbp69n1:/tmp # echo "teste body" | mailx -s "assunto teste" rafael.mori@db.com
+
+ou e-mail com anexo
+
+( cat "corpo da mensagem" ; uuencode teste.txt teste.txt ) | mailx -s "subject teste" rafael.mori@db.com

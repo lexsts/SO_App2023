@@ -1,0 +1,2 @@
+for /F %%A in ("C:\TEMP\SO_APP\ORACLE.TXT") do 
+ECHO $$A

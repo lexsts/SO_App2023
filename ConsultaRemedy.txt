@@ -1,0 +1,1 @@
+'Scheduled Start Date+' >= "12/1/2017 12:00:00 AM" AND 'Scheduled Start Date+' <= "12/2/2017 06:00:00 AM" AND 'Change Request Status' != "Draft" AND 'Change Request Status' != "Cancelled" AND 'Change Request Status' >= "Scheduled"

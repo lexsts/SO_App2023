@@ -1,0 +1,2 @@
+Apagar archives em E:DATA\ARCHIVE.
+Manter apenas os ultimos 5 dias

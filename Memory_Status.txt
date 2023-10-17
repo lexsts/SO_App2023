@@ -1,0 +1,1462 @@
+Process/System Counts                         Value
+---------------------------------------- ----------
+Available Physical Memory                111930413056				104GB
+Available Virtual Memory                 140367070208000			130727GB
+Available Paging File                    116661317632				108GB
+Working Set                               841019392					802MB
+Percent of Committed Memory in WS                95
+Page Faults                                60298488					57MB
+System physical memory high                       1
+System physical memory low                        0
+Process physical memory low                       1
+Process virtual memory low                        0
+2017-07-28 10:14:16.630;spid73;
+Memory Manager                                   KB
+---------------------------------------- ----------
+VM Reserved                               359513312					342GB
+VM Committed                                3220796					3G
+Locked Pages Allocated                     30332608					28GB
+Large Pages Allocated                        800768
+Emergency Memory                               1024
+Emergency Memory In Use                          16
+Target Committed                           33554456
+Current Committed                          33553408
+Pages Allocated                            25287792
+Pages Reserved                             25690288
+Pages Free                                  3528224
+Pages In Use                               33096152
+Page Alloc Potential                       -1219440
+NUMA Growth Phase                                 2
+Last OOM Factor                                   1
+Last OS Error                                     0
+2017-07-28 10:14:16.630;spid73;
+Memory node Id = 0                               KB
+---------------------------------------- ----------
+VM Reserved                               359270688
+VM Committed                                3118188
+Locked Pages Allocated                      5269376
+Pages Allocated                             3874600
+Pages Free                                   929048
+Target Committed                            8388608
+Current Committed                           8387568
+Foreign Committed                             12500
+Away Committed                                    0
+Taken Away Committed                              0
+2017-07-28 10:14:16.630;spid73;
+Memory node Id = 1                               KB
+---------------------------------------- ----------
+VM Reserved                                   34304
+VM Committed                                  34324
+Locked Pages Allocated                      8354280
+Pages Allocated                             6771880
+Pages Free                                  1232496
+Target Committed                            8388608
+Current Committed                           8388608
+Foreign Committed                             50252
+Away Committed                                    0
+Taken Away Committed                              0
+2017-07-28 10:14:16.630;spid73;
+Memory node Id = 2                               KB
+---------------------------------------- ----------
+VM Reserved                                  150672
+VM Committed                                  35476
+Locked Pages Allocated                      8353132
+Pages Allocated                             7049016
+Pages Free                                   964944
+Target Committed                            8388608
+Current Committed                           8388608
+Foreign Committed                             49064
+Away Committed                                    0
+Taken Away Committed                              0
+2017-07-28 10:14:16.630;spid73;
+Memory node Id = 3                               KB
+---------------------------------------- ----------
+VM Reserved                                   57520
+VM Committed                                  32788
+Locked Pages Allocated                      8355820
+Pages Allocated                             7592296
+Pages Free                                   401736
+Target Committed                            8388608
+Current Committed                           8388608
+Foreign Committed                             36804
+Away Committed                                    0
+Taken Away Committed                              0
+2017-07-28 10:14:16.630;spid73;
+Memory node Id = 64                              KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                     20
+Locked Pages Allocated                            0
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLGENERAL (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                               23128
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLGENERAL (node 1)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                   8
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLGENERAL (node 2)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                2336
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLGENERAL (node 3)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 256
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLGENERAL (Total)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                               25728
+2017-07-28 10:14:16.640;spid73;
+
+MEMORYCLERK_SQLBUFFERPOOL (node 0)               KB
+---------------------------------------- ----------
+VM Reserved                               103981516
+VM Committed                                 524288
+Locked Pages Allocated                      1056160
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                             2503432
+2017-07-28 10:14:16.640;spid73;
+
+MEMORYCLERK_SQLBUFFERPOOL (node 1)               KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                             5732416
+2017-07-28 10:14:16.640;spid73;
+
+MEMORYCLERK_SQLBUFFERPOOL (node 2)               KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                             6542928
+2017-07-28 10:14:16.640;spid73;
+
+MEMORYCLERK_SQLBUFFERPOOL (node 3)               KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                             7840216
+2017-07-28 10:14:16.640;spid73;
+
+MEMORYCLERK_SQLBUFFERPOOL (Total)                KB
+---------------------------------------- ----------
+VM Reserved                               103981516
+VM Committed                                 524288
+Locked Pages Allocated                      1056160
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                            22618992
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLQUERYEXEC (node 0)                KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                1488
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLQUERYEXEC (node 3)                KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                              131424
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLQUERYEXEC (Total)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                              132912
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLOPTIMIZER (node 0)                KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                6488
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLUTILITIES (node 0)                KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 280
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLSTORENG (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                   81600
+VM Committed                                      0
+Locked Pages Allocated                        81600
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                              126616
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLSTORENG (node 1)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                3784
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLSTORENG (node 2)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                               44528
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLSTORENG (node 3)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                4336
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLSTORENG (Total)                   KB
+---------------------------------------- ----------
+VM Reserved                                   81600
+VM Committed                                      0
+Locked Pages Allocated                        81600
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                              179264
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLCONNECTIONPOOL (node 0)           KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 872
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLCONNECTIONPOOL (node 1)           KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 240
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLCONNECTIONPOOL (node 2)           KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 744
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLCONNECTIONPOOL (node 3)           KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 264
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLCONNECTIONPOOL (Total)            KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                2120
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLCLR (node 0)                      KB
+---------------------------------------- ----------
+VM Reserved                                18904000
+VM Committed                                1667076
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                              147464
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLSERVICEBROKER (node 0)            KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 976
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLSERVICEBROKER (node 2)            KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  16
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLSERVICEBROKER (Total)             KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 992
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLHTTP (node 1)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                   8
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SNI (node 0)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  48
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SNI (node 1)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  48
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SNI (node 2)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  32
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SNI (node 3)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  48
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SNI (node 64)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  16
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SNI (Total)                          KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 192
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_FULLTEXT (node 2)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 296
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLXP (node 0)                       KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  16
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_BHF (node 0)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 104
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_BHF (node 1)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  48
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_BHF (node 2)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  16
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_BHF (node 3)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 888
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_BHF (Total)                          KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                1056
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLQERESERVATIONS (node 3)           KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                            25690288
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_XE_BUFFER (node 0)                   KB
+---------------------------------------- ----------
+VM Reserved                                    1536
+VM Committed                                   1536
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                   0
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_XE_BUFFER (node 1)                   KB
+---------------------------------------- ----------
+VM Reserved                                    1536
+VM Committed                                   1536
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                   0
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_XE_BUFFER (node 2)                   KB
+---------------------------------------- ----------
+VM Reserved                                    1536
+VM Committed                                   1536
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                   0
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_XE_BUFFER (Total)                    KB
+---------------------------------------- ----------
+VM Reserved                                    4608
+VM Committed                                   4608
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                   0
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_XTP (node 0)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  16
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_HOST (node 1)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  80
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SOSNODE (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                               79424
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SOSNODE (node 1)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                               60816
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SOSNODE (node 2)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                               79048
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SOSNODE (node 3)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                               62920
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SOSNODE (node 64)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                2600
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SOSNODE (Total)                      KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                              284808
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SOSOS (node 0)                       KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 200
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SOSMEMMANAGER (node 0)               KB
+---------------------------------------- ----------
+VM Reserved                                 1126868
+VM Committed                                 745812
+Locked Pages Allocated                       378832
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                   0
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_FULLTEXT_SHMEM (node 2)              KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                    1152
+SM Committed                                   1152
+Pages Allocated                                   0
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLSERVICEBROKERTRANSPORT (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 208
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_FILETABLE (node 2)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  16
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_XE (node 0)                          KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                3624
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SPATIAL (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  64
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_SQLLOGPOOL (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                4424
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_LWC (node 2)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 384
+2017-07-28 10:14:16.640;spid73;
+MEMORYCLERK_FSCHUNKER (node 2)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  48
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_OBJCP (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                              456792
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_SQLCP (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                              204544
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_PHDR (node 0)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                               39488
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_XPROC (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  48
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_TEMPTABLES (node 0)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 176
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_NOTIF (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  16
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_VIEWDEFINITIONS (node 0)              KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  16
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_XMLDBTYPE (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  24
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_XMLDBELEMENT (node 0)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                   8
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_XMLDBATTRIBUTE (node 0)               KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                   8
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_STACKFRAMES (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                   8
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_STACKFRAMES (node 1)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                   8
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_STACKFRAMES (node 2)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                   8
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_STACKFRAMES (node 3)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                   8
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_STACKFRAMES (node 64)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                   8
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_STACKFRAMES (Total)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  40
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_BROKERTBLACS (node 0)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  72
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_BROKERTBLACS (node 1)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  16
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_BROKERTBLACS (node 2)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  40
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_BROKERTBLACS (node 3)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  32
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_BROKERTBLACS (Total)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 160
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_BROKERKEK (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                   8
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_BROKERDSH (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                   8
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_BROKERUSERCERTLOOKUP (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                   8
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_BROKERRSB (node 0)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                   8
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_BROKERREADONLY (node 0)               KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  32
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_BROKERTO (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                   8
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_EVENTS (node 0)                       KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  16
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_CLRPROC (node 1)                      KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 168
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_CLRUDTINFO (node 1)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                   8
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_SEHOBTCOLUMNATTRIBUTE (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                5144
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_SYSTEMROWSET (node 2)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                               35384
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_SYSTEMROWSET (node 3)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                9520
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_SYSTEMROWSET (Total)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                               44904
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_CONVPRI (node 2)                      KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 240
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_CONVPRI (node 3)                      KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  32
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_CONVPRI (Total)                       KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 272
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_FULLTEXTSTOPLIST (node 2)             KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  32
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_SEARCHPROPERTYLIST (node 2)           KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  16
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_COLUMNSTOREOBJECTPOOL (node 0)         KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 384
+2017-07-28 10:14:16.640;spid73;
+CACHESTORE_XML_SELECTIVE_DG (node 0)             KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                   8
+2017-07-28 10:14:16.640;spid73;
+USERSTORE_SCHEMAMGR (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                              181760
+2017-07-28 10:14:16.640;spid73;
+USERSTORE_DBMETADATA (node 2)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                               12200
+2017-07-28 10:14:16.640;spid73;
+USERSTORE_DBMETADATA (node 3)                    KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 944
+2017-07-28 10:14:16.640;spid73;
+USERSTORE_DBMETADATA (Total)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                               13144
+2017-07-28 10:14:16.640;spid73;
+USERSTORE_TOKENPERM (node 0)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                               11056
+2017-07-28 10:14:16.640;spid73;
+USERSTORE_TOKENPERM (node 1)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                1880
+2017-07-28 10:14:16.640;spid73;
+USERSTORE_TOKENPERM (node 2)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 328
+2017-07-28 10:14:16.640;spid73;
+USERSTORE_TOKENPERM (node 3)                     KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 296
+2017-07-28 10:14:16.640;spid73;
+USERSTORE_TOKENPERM (Total)                      KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                               13560
+2017-07-28 10:14:16.640;spid73;
+USERSTORE_OBJPERM (node 2)                       KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                               13320
+2017-07-28 10:14:16.640;spid73;
+USERSTORE_OBJPERM (node 3)                       KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                1696
+2017-07-28 10:14:16.640;spid73;
+USERSTORE_OBJPERM (Total)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                               15016
+2017-07-28 10:14:16.640;spid73;
+USERSTORE_SXC (node 0)                           KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  88
+2017-07-28 10:14:16.640;spid73;
+USERSTORE_SXC (node 1)                           KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  72
+2017-07-28 10:14:16.640;spid73;
+USERSTORE_SXC (node 2)                           KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  32
+2017-07-28 10:14:16.640;spid73;
+USERSTORE_SXC (node 3)                           KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 136
+2017-07-28 10:14:16.640;spid73;
+USERSTORE_SXC (node 64)                          KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                   8
+2017-07-28 10:14:16.640;spid73;
+USERSTORE_SXC (Total)                            KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 336
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_LBSS (node 0)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 416
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_LBSS (node 1)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 464
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_LBSS (node 2)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 448
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_LBSS (node 3)                        KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 480
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_LBSS (Total)                         KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                1808
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_SNI_PACKET (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 688
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_SNI_PACKET (node 1)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 592
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_SNI_PACKET (node 2)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 560
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_SNI_PACKET (node 3)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 520
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_SNI_PACKET (node 64)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  56
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_SNI_PACKET (Total)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                2416
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_SERVICE_BROKER (node 0)              KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 368
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_SERVICE_BROKER (node 2)              KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 128
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_SERVICE_BROKER (Total)               KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                 496
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_LOCK_MANAGER (node 0)                KB
+---------------------------------------- ----------
+VM Reserved                                  133120
+VM Committed                                 133120
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                              202016
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_LOCK_MANAGER (node 1)                KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                               22552
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_LOCK_MANAGER (node 2)                KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                              548024
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_LOCK_MANAGER (node 3)                KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                              220776
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_LOCK_MANAGER (node 64)               KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  24
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_LOCK_MANAGER (Total)                 KB
+---------------------------------------- ----------
+VM Reserved                                  133120
+VM Committed                                 133120
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                              993392
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_SECAUDIT_EVENT_BUFFER (node 2)         KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  16
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_XACT_CACHE (node 0)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                5304
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_XACT_CACHE (node 1)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                6336
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_XACT_CACHE (node 2)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                5440
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_XACT_CACHE (node 3)                  KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                7592
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_XACT_CACHE (node 64)                 KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                                  16
+2017-07-28 10:14:16.650;spid73;
+OBJECTSTORE_XACT_CACHE (Total)                   KB
+---------------------------------------- ----------
+VM Reserved                                       0
+VM Committed                                      0
+Locked Pages Allocated                            0
+SM Reserved                                       0
+SM Committed                                      0
+Pages Allocated                               24688

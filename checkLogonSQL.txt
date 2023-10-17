@@ -1,0 +1,6 @@
+
+$lastMonth=(get-date).AddDays(-30);
+ForEach($logonName in (Get-EventLog -LogName SECURITY -computername WSPPBB313 -after $lastMonth | where {$_.eventID -eq 4624} | FORMAT-LIST -PROPERTY Message | FINDSTR /c:"Nome da conta:" | ForEach-Object{$_.split(":")[1]} | %{$_ -replace '\s+',''})){Write-Host "INSERT INTO ADM_INFO.INFO.TB_SERVERLogon (SERVERNAME,LOGINNAME) VALUES ('WSPPBB313','" -NoNewLine;Write-Host $logonName -NoNewLine;Write-Host "');"}
+
+GERCOR0603P\GESTAODB
+Get-EventLog -LogName SECURITY -computername GERCOR0603P -after $lastMonth | where {$_.eventID -eq 4624} | FORMAT-LIST -PROPERTY Message | FINDSTR /c:"Nome da conta:" | ForEach-Object{$_.split(":")[1]} | %{$_ -replace '\s+',''}

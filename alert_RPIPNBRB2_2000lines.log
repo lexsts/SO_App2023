@@ -1,0 +1,2000 @@
+Checkpoint not complete
+  Current log# 4 seq# 86779 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86779 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 09:59:03 2019
+Thread 2 advanced to log sequence 86780 (LGWR switch)
+  Current log# 5 seq# 86780 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86780 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 09:59:06 2019
+Archived Log entry 196738 added for thread 2 sequence 86779 ID 0xc85936ba dest 1:
+Tue Feb 12 09:59:09 2019
+Thread 2 advanced to log sequence 86781 (LGWR switch)
+  Current log# 6 seq# 86781 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86781 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 09:59:11 2019
+Archived Log entry 196739 added for thread 2 sequence 86780 ID 0xc85936ba dest 1:
+Tue Feb 12 09:59:15 2019
+Thread 2 cannot allocate new log, sequence 86782
+Checkpoint not complete
+  Current log# 6 seq# 86781 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86781 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 09:59:18 2019
+Thread 2 advanced to log sequence 86782 (LGWR switch)
+  Current log# 4 seq# 86782 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86782 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 09:59:21 2019
+Archived Log entry 196740 added for thread 2 sequence 86781 ID 0xc85936ba dest 1:
+Tue Feb 12 09:59:25 2019
+Thread 2 advanced to log sequence 86783 (LGWR switch)
+  Current log# 5 seq# 86783 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86783 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 09:59:30 2019
+Archived Log entry 196742 added for thread 2 sequence 86782 ID 0xc85936ba dest 1:
+Tue Feb 12 09:59:31 2019
+Thread 2 cannot allocate new log, sequence 86784
+Checkpoint not complete
+  Current log# 5 seq# 86783 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86783 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 09:59:34 2019
+Thread 2 advanced to log sequence 86784 (LGWR switch)
+  Current log# 6 seq# 86784 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86784 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 09:59:36 2019
+Archived Log entry 196743 added for thread 2 sequence 86783 ID 0xc85936ba dest 1:
+Tue Feb 12 09:59:40 2019
+Thread 2 advanced to log sequence 86785 (LGWR switch)
+  Current log# 4 seq# 86785 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86785 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 09:59:45 2019
+Archived Log entry 196744 added for thread 2 sequence 86784 ID 0xc85936ba dest 1:
+Tue Feb 12 09:59:47 2019
+Thread 2 advanced to log sequence 86786 (LGWR switch)
+  Current log# 5 seq# 86786 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86786 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 09:59:51 2019
+Archived Log entry 196746 added for thread 2 sequence 86785 ID 0xc85936ba dest 1:
+Tue Feb 12 09:59:56 2019
+Thread 2 advanced to log sequence 86787 (LGWR switch)
+  Current log# 6 seq# 86787 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86787 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 09:59:59 2019
+Archived Log entry 196747 added for thread 2 sequence 86786 ID 0xc85936ba dest 1:
+Tue Feb 12 10:00:53 2019
+ALTER SYSTEM ARCHIVE LOG
+Tue Feb 12 10:00:53 2019
+Thread 2 cannot allocate new log, sequence 86788
+Checkpoint not complete
+  Current log# 6 seq# 86787 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86787 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 10:00:55 2019
+Thread 2 advanced to log sequence 86788 (LGWR switch)
+  Current log# 4 seq# 86788 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86788 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 10:00:56 2019
+Archived Log entry 196748 added for thread 2 sequence 86787 ID 0xc85936ba dest 1:
+Tue Feb 12 10:07:54 2019
+Auto-tuning: Shutting down background process GTX2
+Tue Feb 12 10:12:23 2019
+Thread 2 advanced to log sequence 86789 (LGWR switch)
+  Current log# 5 seq# 86789 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86789 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 10:12:24 2019
+Archived Log entry 196751 added for thread 2 sequence 86788 ID 0xc85936ba dest 1:
+Tue Feb 12 10:17:55 2019
+Auto-tuning: Shutting down background process GTX1
+Tue Feb 12 10:26:05 2019
+Thread 2 advanced to log sequence 86790 (LGWR switch)
+  Current log# 6 seq# 86790 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86790 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 10:26:06 2019
+Archived Log entry 196756 added for thread 2 sequence 86789 ID 0xc85936ba dest 1:
+Tue Feb 12 10:38:17 2019
+Thread 2 advanced to log sequence 86791 (LGWR switch)
+  Current log# 4 seq# 86791 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86791 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 10:38:18 2019
+Archived Log entry 196760 added for thread 2 sequence 86790 ID 0xc85936ba dest 1:
+Tue Feb 12 10:50:20 2019
+Thread 2 advanced to log sequence 86792 (LGWR switch)
+  Current log# 5 seq# 86792 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86792 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 10:50:21 2019
+Archived Log entry 196764 added for thread 2 sequence 86791 ID 0xc85936ba dest 1:
+Tue Feb 12 11:01:03 2019
+ALTER SYSTEM ARCHIVE LOG
+Tue Feb 12 11:01:04 2019
+Thread 2 advanced to log sequence 86793 (LGWR switch)
+  Current log# 6 seq# 86793 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86793 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 11:01:05 2019
+Archived Log entry 196767 added for thread 2 sequence 86792 ID 0xc85936ba dest 1:
+Tue Feb 12 11:12:24 2019
+Thread 2 advanced to log sequence 86794 (LGWR switch)
+  Current log# 4 seq# 86794 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86794 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 11:12:25 2019
+Archived Log entry 196771 added for thread 2 sequence 86793 ID 0xc85936ba dest 1:
+Tue Feb 12 11:26:51 2019
+Thread 2 advanced to log sequence 86795 (LGWR switch)
+  Current log# 5 seq# 86795 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86795 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 11:26:53 2019
+Archived Log entry 196774 added for thread 2 sequence 86794 ID 0xc85936ba dest 1:
+Tue Feb 12 11:36:35 2019
+Thread 2 advanced to log sequence 86796 (LGWR switch)
+  Current log# 6 seq# 86796 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86796 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 11:36:36 2019
+Archived Log entry 196778 added for thread 2 sequence 86795 ID 0xc85936ba dest 1:
+Tue Feb 12 11:52:16 2019
+Thread 2 advanced to log sequence 86797 (LGWR switch)
+  Current log# 4 seq# 86797 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86797 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 11:52:18 2019
+Archived Log entry 196781 added for thread 2 sequence 86796 ID 0xc85936ba dest 1:
+Tue Feb 12 12:01:09 2019
+ALTER SYSTEM ARCHIVE LOG
+Tue Feb 12 12:01:12 2019
+Thread 2 advanced to log sequence 86798 (LGWR switch)
+  Current log# 5 seq# 86798 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86798 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 12:01:13 2019
+Archived Log entry 196784 added for thread 2 sequence 86797 ID 0xc85936ba dest 1:
+Tue Feb 12 12:10:54 2019
+Auto-tuning: Starting background process GTX1
+Starting background process GTX1
+Tue Feb 12 12:10:54 2019
+GTX1 started with pid=631, OS id=28087 
+Tue Feb 12 12:15:33 2019
+Thread 2 advanced to log sequence 86799 (LGWR switch)
+  Current log# 6 seq# 86799 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86799 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 12:15:34 2019
+Archived Log entry 196787 added for thread 2 sequence 86798 ID 0xc85936ba dest 1:
+Tue Feb 12 12:21:04 2019
+Auto-tuning: Shutting down background process GTX1
+Tue Feb 12 12:29:53 2019
+Thread 2 advanced to log sequence 86800 (LGWR switch)
+  Current log# 4 seq# 86800 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86800 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 12:29:55 2019
+Archived Log entry 196790 added for thread 2 sequence 86799 ID 0xc85936ba dest 1:
+Tue Feb 12 12:30:04 2019
+Auto-tuning: Starting background process GTX1
+Starting background process GTX1
+Tue Feb 12 12:30:04 2019
+GTX1 started with pid=715, OS id=10840 
+Tue Feb 12 12:41:31 2019
+Thread 2 advanced to log sequence 86801 (LGWR switch)
+  Current log# 5 seq# 86801 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86801 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 12:41:32 2019
+Archived Log entry 196794 added for thread 2 sequence 86800 ID 0xc85936ba dest 1:
+Tue Feb 12 12:42:16 2019
+Auto-tuning: Shutting down background process GTX1
+Tue Feb 12 12:55:27 2019
+Thread 2 advanced to log sequence 86802 (LGWR switch)
+  Current log# 6 seq# 86802 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86802 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 12:55:28 2019
+Archived Log entry 196798 added for thread 2 sequence 86801 ID 0xc85936ba dest 1:
+Tue Feb 12 13:00:28 2019
+ALTER SYSTEM ARCHIVE LOG
+Tue Feb 12 13:00:28 2019
+Thread 2 advanced to log sequence 86803 (LGWR switch)
+  Current log# 4 seq# 86803 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86803 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 13:00:28 2019
+Archived Log entry 196799 added for thread 2 sequence 86802 ID 0xc85936ba dest 1:
+Tue Feb 12 13:11:39 2019
+Thread 2 advanced to log sequence 86804 (LGWR switch)
+  Current log# 5 seq# 86804 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86804 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 13:11:40 2019
+Archived Log entry 196803 added for thread 2 sequence 86803 ID 0xc85936ba dest 1:
+Tue Feb 12 13:23:40 2019
+Auto-tuning: Starting background process GTX1
+Starting background process GTX1
+Tue Feb 12 13:23:40 2019
+GTX1 started with pid=2363, OS id=6598 
+Tue Feb 12 13:23:45 2019
+Auto-tuning: Starting background process GTX2
+Starting background process GTX2
+Tue Feb 12 13:23:45 2019
+GTX2 started with pid=2365, OS id=6734 
+Tue Feb 12 13:23:50 2019
+Auto-tuning: Starting background process GTX3
+Starting background process GTX3
+Tue Feb 12 13:23:50 2019
+GTX3 started with pid=748, OS id=6787 
+Auto-tuning: Starting background process GTX4
+Starting background process GTX4
+Tue Feb 12 13:23:55 2019
+GTX4 started with pid=738, OS id=6908 
+Tue Feb 12 13:24:00 2019
+Auto-tuning: Starting background process GTX5
+Starting background process GTX5
+Tue Feb 12 13:24:00 2019
+GTX5 started with pid=480, OS id=6993 
+Tue Feb 12 13:24:05 2019
+Auto-tuning: Starting background process GTX6
+Starting background process GTX6
+Tue Feb 12 13:24:05 2019
+GTX6 started with pid=1669, OS id=7427 
+Tue Feb 12 13:24:10 2019
+Auto-tuning: Starting background process GTX7
+Starting background process GTX7
+Tue Feb 12 13:24:10 2019
+GTX7 started with pid=673, OS id=7700 
+Tue Feb 12 13:24:14 2019
+Thread 2 advanced to log sequence 86805 (LGWR switch)
+  Current log# 6 seq# 86805 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86805 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 13:24:15 2019
+Auto-tuning: Starting background process GTX8
+Starting background process GTX8
+Tue Feb 12 13:24:15 2019
+GTX8 started with pid=2410, OS id=8484 
+Tue Feb 12 13:24:16 2019
+Archived Log entry 196806 added for thread 2 sequence 86804 ID 0xc85936ba dest 1:
+Tue Feb 12 13:24:20 2019
+Auto-tuning: Starting background process GTX9
+Starting background process GTX9
+Tue Feb 12 13:24:20 2019
+GTX9 started with pid=747, OS id=8578 
+Tue Feb 12 13:24:25 2019
+Auto-tuning: Starting background process GTXa
+Starting background process GTXa
+Tue Feb 12 13:24:25 2019
+GTXa started with pid=306, OS id=8717 
+Tue Feb 12 13:24:30 2019
+Auto-tuning: Starting background process GTXb
+Starting background process GTXb
+Tue Feb 12 13:24:30 2019
+GTXb started with pid=635, OS id=8789 
+Tue Feb 12 13:24:35 2019
+Auto-tuning: Starting background process GTXc
+Starting background process GTXc
+Tue Feb 12 13:24:35 2019
+GTXc started with pid=1330, OS id=9079 
+Tue Feb 12 13:24:40 2019
+Auto-tuning: Starting background process GTXd
+Starting background process GTXd
+Tue Feb 12 13:24:40 2019
+GTXd started with pid=637, OS id=9181 
+Tue Feb 12 13:24:45 2019
+Auto-tuning: Starting background process GTXe
+Starting background process GTXe
+Tue Feb 12 13:24:45 2019
+GTXe started with pid=810, OS id=9260 
+Tue Feb 12 13:24:50 2019
+Auto-tuning: Starting background process GTXf
+Starting background process GTXf
+Tue Feb 12 13:24:50 2019
+GTXf started with pid=729, OS id=9334 
+Tue Feb 12 13:24:55 2019
+Auto-tuning: Starting background process GTXg
+Starting background process GTXg
+Tue Feb 12 13:24:55 2019
+GTXg started with pid=384, OS id=9671 
+Tue Feb 12 13:25:20 2019
+Thread 2 advanced to log sequence 86806 (LGWR switch)
+  Current log# 4 seq# 86806 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86806 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 13:25:22 2019
+Archived Log entry 196807 added for thread 2 sequence 86805 ID 0xc85936ba dest 1:
+Tue Feb 12 13:26:33 2019
+Thread 2 cannot allocate new log, sequence 86807
+Checkpoint not complete
+  Current log# 4 seq# 86806 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86806 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 13:26:36 2019
+Thread 2 advanced to log sequence 86807 (LGWR switch)
+  Current log# 5 seq# 86807 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86807 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 13:26:37 2019
+Archived Log entry 196808 added for thread 2 sequence 86806 ID 0xc85936ba dest 1:
+Tue Feb 12 13:28:21 2019
+Thread 2 cannot allocate new log, sequence 86808
+Checkpoint not complete
+  Current log# 5 seq# 86807 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86807 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 13:28:24 2019
+Thread 2 advanced to log sequence 86808 (LGWR switch)
+  Current log# 6 seq# 86808 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86808 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 13:28:26 2019
+Archived Log entry 196810 added for thread 2 sequence 86807 ID 0xc85936ba dest 1:
+Tue Feb 12 13:28:57 2019
+Thread 2 cannot allocate new log, sequence 86809
+Checkpoint not complete
+  Current log# 6 seq# 86808 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86808 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 13:29:00 2019
+Thread 2 advanced to log sequence 86809 (LGWR switch)
+  Current log# 4 seq# 86809 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86809 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 13:29:02 2019
+Archived Log entry 196811 added for thread 2 sequence 86808 ID 0xc85936ba dest 1:
+Tue Feb 12 13:29:20 2019
+Auto-tuning: Starting background process GTXh
+Starting background process GTXh
+Tue Feb 12 13:29:20 2019
+GTXh started with pid=1904, OS id=23017 
+Tue Feb 12 13:29:40 2019
+Auto-tuning: Starting background process GTXi
+Starting background process GTXi
+Tue Feb 12 13:29:40 2019
+GTXi started with pid=1957, OS id=23730 
+Tue Feb 12 13:29:45 2019
+Auto-tuning: Starting background process GTXj
+Starting background process GTXj
+Tue Feb 12 13:29:45 2019
+GTXj started with pid=1332, OS id=23808 
+Tue Feb 12 13:30:25 2019
+Thread 2 cannot allocate new log, sequence 86810
+Checkpoint not complete
+  Current log# 4 seq# 86809 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86809 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 13:30:32 2019
+Thread 2 advanced to log sequence 86810 (LGWR switch)
+  Current log# 5 seq# 86810 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86810 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 13:30:33 2019
+Archived Log entry 196812 added for thread 2 sequence 86809 ID 0xc85936ba dest 1:
+Tue Feb 12 13:31:11 2019
+Thread 2 cannot allocate new log, sequence 86811
+Checkpoint not complete
+  Current log# 5 seq# 86810 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86810 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 13:31:14 2019
+Thread 2 advanced to log sequence 86811 (LGWR switch)
+  Current log# 6 seq# 86811 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86811 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 13:31:16 2019
+Archived Log entry 196814 added for thread 2 sequence 86810 ID 0xc85936ba dest 1:
+Tue Feb 12 13:31:35 2019
+Thread 2 cannot allocate new log, sequence 86812
+Checkpoint not complete
+  Current log# 6 seq# 86811 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86811 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 13:31:39 2019
+Thread 2 advanced to log sequence 86812 (LGWR switch)
+  Current log# 4 seq# 86812 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86812 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 13:31:42 2019
+Archived Log entry 196815 added for thread 2 sequence 86811 ID 0xc85936ba dest 1:
+Tue Feb 12 13:32:46 2019
+Thread 2 advanced to log sequence 86813 (LGWR switch)
+  Current log# 5 seq# 86813 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86813 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 13:32:48 2019
+Archived Log entry 196816 added for thread 2 sequence 86812 ID 0xc85936ba dest 1:
+Tue Feb 12 13:34:29 2019
+Thread 2 advanced to log sequence 86814 (LGWR switch)
+  Current log# 6 seq# 86814 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86814 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 13:34:32 2019
+Archived Log entry 196818 added for thread 2 sequence 86813 ID 0xc85936ba dest 1:
+Tue Feb 12 13:39:27 2019
+Thread 2 advanced to log sequence 86815 (LGWR switch)
+  Current log# 4 seq# 86815 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86815 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 13:39:29 2019
+Archived Log entry 196820 added for thread 2 sequence 86814 ID 0xc85936ba dest 1:
+Tue Feb 12 13:41:07 2019
+Thread 2 advanced to log sequence 86816 (LGWR switch)
+  Current log# 5 seq# 86816 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86816 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 13:41:08 2019
+Archived Log entry 196821 added for thread 2 sequence 86815 ID 0xc85936ba dest 1:
+Tue Feb 12 13:42:28 2019
+Thread 2 cannot allocate new log, sequence 86817
+Checkpoint not complete
+  Current log# 5 seq# 86816 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86816 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 13:42:34 2019
+Thread 2 advanced to log sequence 86817 (LGWR switch)
+  Current log# 6 seq# 86817 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86817 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 13:42:36 2019
+Archived Log entry 196822 added for thread 2 sequence 86816 ID 0xc85936ba dest 1:
+Tue Feb 12 13:43:59 2019
+Thread 2 cannot allocate new log, sequence 86818
+Checkpoint not complete
+  Current log# 6 seq# 86817 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86817 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 13:44:05 2019
+Thread 2 advanced to log sequence 86818 (LGWR switch)
+  Current log# 4 seq# 86818 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86818 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 13:44:07 2019
+Archived Log entry 196824 added for thread 2 sequence 86817 ID 0xc85936ba dest 1:
+Tue Feb 12 13:45:35 2019
+Thread 2 cannot allocate new log, sequence 86819
+Checkpoint not complete
+  Current log# 4 seq# 86818 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86818 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 13:45:38 2019
+Thread 2 advanced to log sequence 86819 (LGWR switch)
+  Current log# 5 seq# 86819 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86819 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 13:45:40 2019
+Archived Log entry 196825 added for thread 2 sequence 86818 ID 0xc85936ba dest 1:
+Tue Feb 12 13:46:03 2019
+Thread 2 cannot allocate new log, sequence 86820
+Checkpoint not complete
+  Current log# 5 seq# 86819 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86819 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 13:46:06 2019
+Thread 2 advanced to log sequence 86820 (LGWR switch)
+  Current log# 6 seq# 86820 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86820 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 13:46:07 2019
+Archived Log entry 196826 added for thread 2 sequence 86819 ID 0xc85936ba dest 1:
+Tue Feb 12 13:46:33 2019
+Thread 2 cannot allocate new log, sequence 86821
+Checkpoint not complete
+  Current log# 6 seq# 86820 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86820 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 13:46:36 2019
+Thread 2 advanced to log sequence 86821 (LGWR switch)
+  Current log# 4 seq# 86821 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86821 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 13:46:39 2019
+Archived Log entry 196828 added for thread 2 sequence 86820 ID 0xc85936ba dest 1:
+Tue Feb 12 13:47:21 2019
+Thread 2 cannot allocate new log, sequence 86822
+Checkpoint not complete
+  Current log# 4 seq# 86821 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86821 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 13:47:25 2019
+Thread 2 advanced to log sequence 86822 (LGWR switch)
+  Current log# 5 seq# 86822 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86822 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 13:47:26 2019
+Archived Log entry 196829 added for thread 2 sequence 86821 ID 0xc85936ba dest 1:
+Tue Feb 12 13:48:00 2019
+Auto-tuning: Shutting down background process GTXj
+Tue Feb 12 13:48:01 2019
+Thread 2 cannot allocate new log, sequence 86823
+Checkpoint not complete
+  Current log# 5 seq# 86822 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86822 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 13:48:06 2019
+Thread 2 advanced to log sequence 86823 (LGWR switch)
+  Current log# 6 seq# 86823 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86823 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 13:48:09 2019
+Archived Log entry 196830 added for thread 2 sequence 86822 ID 0xc85936ba dest 1:
+Tue Feb 12 13:48:30 2019
+Thread 2 advanced to log sequence 86824 (LGWR switch)
+  Current log# 4 seq# 86824 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86824 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 13:48:31 2019
+Archived Log entry 196832 added for thread 2 sequence 86823 ID 0xc85936ba dest 1:
+Tue Feb 12 13:48:48 2019
+Thread 2 cannot allocate new log, sequence 86825
+Checkpoint not complete
+  Current log# 4 seq# 86824 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86824 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 13:48:51 2019
+Thread 2 advanced to log sequence 86825 (LGWR switch)
+  Current log# 5 seq# 86825 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86825 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 13:48:53 2019
+Archived Log entry 196833 added for thread 2 sequence 86824 ID 0xc85936ba dest 1:
+Tue Feb 12 13:49:16 2019
+Thread 2 cannot allocate new log, sequence 86826
+Checkpoint not complete
+  Current log# 5 seq# 86825 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86825 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 13:49:19 2019
+Thread 2 advanced to log sequence 86826 (LGWR switch)
+  Current log# 6 seq# 86826 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86826 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 13:49:22 2019
+Archived Log entry 196834 added for thread 2 sequence 86825 ID 0xc85936ba dest 1:
+Tue Feb 12 13:49:44 2019
+Thread 2 cannot allocate new log, sequence 86827
+Checkpoint not complete
+  Current log# 6 seq# 86826 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86826 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 13:49:47 2019
+Thread 2 advanced to log sequence 86827 (LGWR switch)
+  Current log# 4 seq# 86827 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86827 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 13:49:49 2019
+Archived Log entry 196836 added for thread 2 sequence 86826 ID 0xc85936ba dest 1:
+Tue Feb 12 13:50:06 2019
+Thread 2 cannot allocate new log, sequence 86828
+Checkpoint not complete
+  Current log# 4 seq# 86827 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86827 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 13:50:10 2019
+Thread 2 advanced to log sequence 86828 (LGWR switch)
+  Current log# 5 seq# 86828 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86828 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 13:50:13 2019
+Archived Log entry 196837 added for thread 2 sequence 86827 ID 0xc85936ba dest 1:
+Tue Feb 12 13:58:02 2019
+Auto-tuning: Shutting down background process GTXi
+Tue Feb 12 14:00:17 2019
+Thread 2 advanced to log sequence 86829 (LGWR switch)
+  Current log# 6 seq# 86829 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86829 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 14:00:19 2019
+Archived Log entry 196840 added for thread 2 sequence 86828 ID 0xc85936ba dest 1:
+Tue Feb 12 14:00:52 2019
+ALTER SYSTEM ARCHIVE LOG
+Tue Feb 12 14:00:52 2019
+Thread 2 advanced to log sequence 86830 (LGWR switch)
+  Current log# 4 seq# 86830 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86830 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 14:00:53 2019
+Archived Log entry 196841 added for thread 2 sequence 86829 ID 0xc85936ba dest 1:
+Tue Feb 12 14:13:16 2019
+Thread 2 advanced to log sequence 86831 (LGWR switch)
+  Current log# 5 seq# 86831 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86831 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 14:13:18 2019
+Archived Log entry 196845 added for thread 2 sequence 86830 ID 0xc85936ba dest 1:
+Tue Feb 12 14:14:12 2019
+Auto-tuning: Shutting down background process GTXh
+Tue Feb 12 14:24:26 2019
+Auto-tuning: Shutting down background process GTXg
+Tue Feb 12 14:28:34 2019
+Thread 2 advanced to log sequence 86832 (LGWR switch)
+  Current log# 6 seq# 86832 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86832 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 14:28:36 2019
+Archived Log entry 196849 added for thread 2 sequence 86831 ID 0xc85936ba dest 1:
+Tue Feb 12 14:34:31 2019
+Auto-tuning: Shutting down background process GTXf
+Tue Feb 12 14:42:45 2019
+Thread 2 advanced to log sequence 86833 (LGWR switch)
+  Current log# 4 seq# 86833 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86833 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 14:42:47 2019
+Archived Log entry 196853 added for thread 2 sequence 86832 ID 0xc85936ba dest 1:
+Tue Feb 12 14:44:32 2019
+Auto-tuning: Shutting down background process GTXe
+Tue Feb 12 14:54:45 2019
+Auto-tuning: Shutting down background process GTXd
+Tue Feb 12 14:59:36 2019
+Thread 2 advanced to log sequence 86834 (LGWR switch)
+  Current log# 5 seq# 86834 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86834 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 14:59:37 2019
+Archived Log entry 196856 added for thread 2 sequence 86833 ID 0xc85936ba dest 1:
+Tue Feb 12 15:01:03 2019
+ALTER SYSTEM ARCHIVE LOG
+Tue Feb 12 15:01:06 2019
+Thread 2 advanced to log sequence 86835 (LGWR switch)
+  Current log# 6 seq# 86835 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86835 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 15:01:06 2019
+Archived Log entry 196859 added for thread 2 sequence 86834 ID 0xc85936ba dest 1:
+Tue Feb 12 15:17:30 2019
+Thread 2 advanced to log sequence 86836 (LGWR switch)
+  Current log# 4 seq# 86836 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86836 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 15:17:32 2019
+Archived Log entry 196862 added for thread 2 sequence 86835 ID 0xc85936ba dest 1:
+Tue Feb 12 15:17:35 2019
+Auto-tuning: Shutting down background process GTXc
+Tue Feb 12 15:28:00 2019
+Auto-tuning: Shutting down background process GTXb
+Tue Feb 12 15:29:05 2019
+Thread 2 advanced to log sequence 86837 (LGWR switch)
+  Current log# 5 seq# 86837 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86837 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 15:29:07 2019
+Archived Log entry 196866 added for thread 2 sequence 86836 ID 0xc85936ba dest 1:
+Tue Feb 12 15:38:10 2019
+Auto-tuning: Shutting down background process GTXa
+Tue Feb 12 15:43:50 2019
+Thread 2 advanced to log sequence 86838 (LGWR switch)
+  Current log# 6 seq# 86838 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86838 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 15:43:51 2019
+Archived Log entry 196870 added for thread 2 sequence 86837 ID 0xc85936ba dest 1:
+Tue Feb 12 15:48:56 2019
+Auto-tuning: Shutting down background process GTX9
+Tue Feb 12 15:57:02 2019
+Thread 2 advanced to log sequence 86839 (LGWR switch)
+  Current log# 4 seq# 86839 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86839 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 15:57:03 2019
+Archived Log entry 196873 added for thread 2 sequence 86838 ID 0xc85936ba dest 1:
+Tue Feb 12 16:01:16 2019
+ALTER SYSTEM ARCHIVE LOG
+Tue Feb 12 16:01:17 2019
+Thread 2 advanced to log sequence 86840 (LGWR switch)
+  Current log# 5 seq# 86840 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86840 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 16:01:18 2019
+Archived Log entry 196876 added for thread 2 sequence 86839 ID 0xc85936ba dest 1:
+Tue Feb 12 16:08:49 2019
+Auto-tuning: Shutting down background process GTX8
+Tue Feb 12 16:16:53 2019
+Thread 2 advanced to log sequence 86841 (LGWR switch)
+  Current log# 6 seq# 86841 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86841 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 16:16:55 2019
+Archived Log entry 196880 added for thread 2 sequence 86840 ID 0xc85936ba dest 1:
+Tue Feb 12 16:19:53 2019
+Auto-tuning: Shutting down background process GTX7
+Tue Feb 12 16:31:50 2019
+Thread 2 advanced to log sequence 86842 (LGWR switch)
+  Current log# 4 seq# 86842 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86842 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 16:31:52 2019
+Archived Log entry 196883 added for thread 2 sequence 86841 ID 0xc85936ba dest 1:
+Tue Feb 12 16:33:10 2019
+Auto-tuning: Shutting down background process GTX6
+Tue Feb 12 16:41:16 2019
+Thread 2 advanced to log sequence 86843 (LGWR switch)
+  Current log# 5 seq# 86843 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86843 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 16:41:17 2019
+Archived Log entry 196887 added for thread 2 sequence 86842 ID 0xc85936ba dest 1:
+Tue Feb 12 16:52:41 2019
+Auto-tuning: Shutting down background process GTX5
+Tue Feb 12 16:56:00 2019
+Thread 2 advanced to log sequence 86844 (LGWR switch)
+  Current log# 6 seq# 86844 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86844 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 16:56:02 2019
+Archived Log entry 196890 added for thread 2 sequence 86843 ID 0xc85936ba dest 1:
+Tue Feb 12 17:01:05 2019
+ALTER SYSTEM ARCHIVE LOG
+Tue Feb 12 17:01:07 2019
+Thread 2 advanced to log sequence 86845 (LGWR switch)
+  Current log# 4 seq# 86845 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86845 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 17:01:08 2019
+Archived Log entry 196893 added for thread 2 sequence 86844 ID 0xc85936ba dest 1:
+Tue Feb 12 17:11:34 2019
+Thread 2 advanced to log sequence 86846 (LGWR switch)
+  Current log# 5 seq# 86846 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86846 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 17:11:35 2019
+Archived Log entry 196897 added for thread 2 sequence 86845 ID 0xc85936ba dest 1:
+Tue Feb 12 17:16:55 2019
+Auto-tuning: Shutting down background process GTX4
+Tue Feb 12 17:24:54 2019
+Thread 2 advanced to log sequence 86847 (LGWR switch)
+  Current log# 6 seq# 86847 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86847 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 17:24:55 2019
+Archived Log entry 196900 added for thread 2 sequence 86846 ID 0xc85936ba dest 1:
+Tue Feb 12 17:34:53 2019
+Auto-tuning: Shutting down background process GTX3
+Tue Feb 12 17:35:20 2019
+Thread 2 advanced to log sequence 86848 (LGWR switch)
+  Current log# 4 seq# 86848 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86848 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 17:35:21 2019
+Archived Log entry 196904 added for thread 2 sequence 86847 ID 0xc85936ba dest 1:
+Tue Feb 12 17:48:21 2019
+Auto-tuning: Shutting down background process GTX2
+Tue Feb 12 17:50:43 2019
+Thread 2 advanced to log sequence 86849 (LGWR switch)
+  Current log# 5 seq# 86849 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86849 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 17:50:45 2019
+Archived Log entry 196907 added for thread 2 sequence 86848 ID 0xc85936ba dest 1:
+Tue Feb 12 17:58:58 2019
+Auto-tuning: Shutting down background process GTX1
+Tue Feb 12 18:00:38 2019
+ALTER SYSTEM ARCHIVE LOG
+Tue Feb 12 18:00:39 2019
+Thread 2 advanced to log sequence 86850 (LGWR switch)
+  Current log# 6 seq# 86850 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86850 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 18:00:40 2019
+Archived Log entry 196909 added for thread 2 sequence 86849 ID 0xc85936ba dest 1:
+Tue Feb 12 18:01:28 2019
+Auto-tuning: Starting background process GTX1
+Starting background process GTX1
+Tue Feb 12 18:01:28 2019
+GTX1 started with pid=2340, OS id=10651 
+Tue Feb 12 18:19:07 2019
+Auto-tuning: Shutting down background process GTX1
+Tue Feb 12 18:25:56 2019
+Auto-tuning: Starting background process GTX1
+Starting background process GTX1
+Tue Feb 12 18:25:56 2019
+GTX1 started with pid=666, OS id=27405 
+Tue Feb 12 18:26:15 2019
+Thread 2 advanced to log sequence 86851 (LGWR switch)
+  Current log# 4 seq# 86851 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86851 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 18:26:17 2019
+Archived Log entry 196911 added for thread 2 sequence 86850 ID 0xc85936ba dest 1:
+Tue Feb 12 18:36:11 2019
+Auto-tuning: Shutting down background process GTX1
+Tue Feb 12 18:39:15 2019
+Auto-tuning: Starting background process GTX1
+Starting background process GTX1
+Tue Feb 12 18:39:15 2019
+GTX1 started with pid=1159, OS id=23158 
+Tue Feb 12 18:49:48 2019
+Auto-tuning: Shutting down background process GTX1
+Tue Feb 12 18:50:34 2019
+Auto-tuning: Starting background process GTX1
+Starting background process GTX1
+Tue Feb 12 18:50:34 2019
+GTX1 started with pid=1318, OS id=12297 
+Tue Feb 12 19:00:38 2019
+Auto-tuning: Shutting down background process GTX1
+Tue Feb 12 19:01:00 2019
+ALTER SYSTEM ARCHIVE LOG
+Tue Feb 12 19:01:02 2019
+Thread 2 advanced to log sequence 86852 (LGWR switch)
+  Current log# 5 seq# 86852 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86852 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 19:01:04 2019
+Archived Log entry 196914 added for thread 2 sequence 86851 ID 0xc85936ba dest 1:
+Tue Feb 12 19:05:46 2019
+Auto-tuning: Starting background process GTX1
+Starting background process GTX1
+Tue Feb 12 19:05:46 2019
+GTX1 started with pid=1293, OS id=13405 
+Tue Feb 12 19:17:52 2019
+Auto-tuning: Shutting down background process GTX1
+Tue Feb 12 19:20:50 2019
+Auto-tuning: Starting background process GTX1
+Starting background process GTX1
+Tue Feb 12 19:20:50 2019
+GTX1 started with pid=1025, OS id=9754 
+Tue Feb 12 19:30:54 2019
+Auto-tuning: Shutting down background process GTX1
+Tue Feb 12 19:31:27 2019
+Auto-tuning: Starting background process GTX1
+Starting background process GTX1
+Tue Feb 12 19:31:27 2019
+GTX1 started with pid=2398, OS id=4222 
+Tue Feb 12 19:36:44 2019
+Thread 2 advanced to log sequence 86853 (LGWR switch)
+  Current log# 6 seq# 86853 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86853 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 19:36:45 2019
+Archived Log entry 196915 added for thread 2 sequence 86852 ID 0xc85936ba dest 1:
+Tue Feb 12 19:42:18 2019
+Auto-tuning: Shutting down background process GTX1
+Tue Feb 12 19:45:45 2019
+Auto-tuning: Starting background process GTX1
+Starting background process GTX1
+Tue Feb 12 19:45:45 2019
+GTX1 started with pid=1765, OS id=31987 
+Tue Feb 12 19:56:57 2019
+Auto-tuning: Shutting down background process GTX1
+Tue Feb 12 20:00:49 2019
+ALTER SYSTEM ARCHIVE LOG
+Tue Feb 12 20:00:49 2019
+Thread 2 advanced to log sequence 86854 (LGWR switch)
+  Current log# 4 seq# 86854 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86854 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 20:00:50 2019
+Archived Log entry 196916 added for thread 2 sequence 86853 ID 0xc85936ba dest 1:
+Tue Feb 12 20:01:30 2019
+Auto-tuning: Starting background process GTX1
+Starting background process GTX1
+Tue Feb 12 20:01:30 2019
+GTX1 started with pid=2414, OS id=1570 
+Tue Feb 12 20:11:39 2019
+Auto-tuning: Shutting down background process GTX1
+Tue Feb 12 20:15:46 2019
+Auto-tuning: Starting background process GTX1
+Starting background process GTX1
+Tue Feb 12 20:15:46 2019
+GTX1 started with pid=1877, OS id=28920 
+Tue Feb 12 20:27:26 2019
+Auto-tuning: Shutting down background process GTX1
+Tue Feb 12 20:31:29 2019
+Auto-tuning: Starting background process GTX1
+Starting background process GTX1
+Tue Feb 12 20:31:29 2019
+GTX1 started with pid=2288, OS id=29286 
+Tue Feb 12 20:41:32 2019
+Auto-tuning: Shutting down background process GTX1
+Tue Feb 12 20:58:42 2019
+Thread 2 advanced to log sequence 86855 (LGWR switch)
+  Current log# 5 seq# 86855 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86855 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 20:58:43 2019
+Archived Log entry 196918 added for thread 2 sequence 86854 ID 0xc85936ba dest 1:
+Tue Feb 12 21:00:02 2019
+DM00 started with pid=2311, OS id=23931, job OPS$ORACLE.SYS_EXPORT_SCHEMA_14
+Tue Feb 12 21:00:05 2019
+
+DW00 started with pid=1031, OS id=24084, wid=1, job OPS$ORACLE.SYS_EXPORT_SCHEMA_14
+Tue Feb 12 21:00:48 2019
+ALTER SYSTEM ARCHIVE LOG
+Tue Feb 12 21:00:49 2019
+Thread 2 advanced to log sequence 86856 (LGWR switch)
+  Current log# 6 seq# 86856 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86856 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 21:00:49 2019
+Archived Log entry 196919 added for thread 2 sequence 86855 ID 0xc85936ba dest 1:
+Tue Feb 12 21:05:15 2019
+DM00 started with pid=2127, OS id=1350, job OPS$ORACLE.SYS_EXPORT_FULL_11
+Tue Feb 12 21:05:17 2019
+
+DW00 started with pid=1919, OS id=1407, wid=1, job OPS$ORACLE.SYS_EXPORT_FULL_11
+Tue Feb 12 21:05:42 2019
+
+DW01 started with pid=2157, OS id=2169, wid=2, job OPS$ORACLE.SYS_EXPORT_FULL_11
+Tue Feb 12 21:05:42 2019
+
+DW02 started with pid=2170, OS id=2176, wid=3, job OPS$ORACLE.SYS_EXPORT_FULL_11
+Tue Feb 12 21:05:42 2019
+
+DW03 started with pid=2382, OS id=2180, wid=4, job OPS$ORACLE.SYS_EXPORT_FULL_11
+Tue Feb 12 21:30:08 2019
+DM0E started with pid=2338, OS id=20369, job OPS$ORACLE.SYS_EXPORT_SCHEMA_14
+Tue Feb 12 21:30:09 2019
+
+DW04 started with pid=2341, OS id=20384, wid=1, job OPS$ORACLE.SYS_EXPORT_SCHEMA_14
+Tue Feb 12 21:30:09 2019
+
+DW05 started with pid=2400, OS id=20426, wid=2, job OPS$ORACLE.SYS_EXPORT_SCHEMA_14
+Tue Feb 12 21:30:10 2019
+
+DW06 started with pid=2401, OS id=20446, wid=3, job OPS$ORACLE.SYS_EXPORT_SCHEMA_14
+Tue Feb 12 21:30:10 2019
+
+DW07 started with pid=2412, OS id=20454, wid=4, job OPS$ORACLE.SYS_EXPORT_SCHEMA_14
+Tue Feb 12 21:30:12 2019
+Thread 2 advanced to log sequence 86857 (LGWR switch)
+  Current log# 4 seq# 86857 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86857 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 21:30:14 2019
+Archived Log entry 196922 added for thread 2 sequence 86856 ID 0xc85936ba dest 1:
+Tue Feb 12 21:59:17 2019
+Thread 2 advanced to log sequence 86858 (LGWR switch)
+  Current log# 5 seq# 86858 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86858 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 21:59:18 2019
+Archived Log entry 196926 added for thread 2 sequence 86857 ID 0xc85936ba dest 1:
+Tue Feb 12 22:00:21 2019
+Thread 2 advanced to log sequence 86859 (LGWR switch)
+  Current log# 6 seq# 86859 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86859 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 22:00:23 2019
+Archived Log entry 196930 added for thread 2 sequence 86858 ID 0xc85936ba dest 1:
+Tue Feb 12 22:01:52 2019
+ALTER SYSTEM ARCHIVE LOG
+Tue Feb 12 22:01:52 2019
+Thread 2 cannot allocate new log, sequence 86860
+Checkpoint not complete
+  Current log# 6 seq# 86859 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86859 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 22:01:59 2019
+Thread 2 advanced to log sequence 86860 (LGWR switch)
+  Current log# 4 seq# 86860 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86860 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 22:02:03 2019
+Archived Log entry 196932 added for thread 2 sequence 86859 ID 0xc85936ba dest 1:
+Tue Feb 12 22:02:14 2019
+ALTER SYSTEM ARCHIVE LOG
+Tue Feb 12 22:02:14 2019
+Thread 2 cannot allocate new log, sequence 86861
+Checkpoint not complete
+  Current log# 4 seq# 86860 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86860 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 22:02:24 2019
+Thread 2 advanced to log sequence 86861 (LGWR switch)
+  Current log# 5 seq# 86861 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86861 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 22:02:36 2019
+Archived Log entry 196934 added for thread 2 sequence 86860 ID 0xc85936ba dest 1:
+Tue Feb 12 22:07:03 2019
+WARNING: Heavy swapping observed on system in last 5 mins.
+pct of memory swapped in [2.72%] pct of memory swapped out [3.88%].
+Please make sure there is no memory pressure and the SGA and PGA 
+are configured correctly. Look at DBRM trace file for more details.
+Errors in file /opt/oracle/diag/rdbms/rpipnbrb/RPIPNBRB2/trace/RPIPNBRB2_dbrm_13570.trc  (incident=1058791):
+ORA-00700: soft internal error, arguments: [kskvmstatact: excessive swapping observed], [], [], [], [], [], [], [], [], [], [], []
+Incident details in: /opt/oracle/diag/rdbms/rpipnbrb/RPIPNBRB2/incident/incdir_1058791/RPIPNBRB2_dbrm_13570_i1058791.trc
+Exception [type: SIGBUS, Non-existent physical address] [ADDR:0x7F9513D01270] [PC:0x3A1332A158, {empty}] [flags: 0x8, count: 2]
+Exception [type: SIGBUS, Non-existent physical address] [ADDR:0x7F9413CFE270] [PC:0x3A1332A158, {empty}] [flags: 0xA, count: 3]
+Exception [type: SIGBUS, Non-existent physical address] [ADDR:0x7F9313CFB270] [PC:0x3A1332A158, {empty}] [flags: 0xA, count: 4]
+Exception [type: SIGBUS, Non-existent physical address] [ADDR:0x7F9213CF8270] [PC:0x3A1332A158, {empty}] [flags: 0xA, count: 5]
+Tue Feb 12 22:07:09 2019
+Instance Critical Process (pid: 9, ospid: 13570, DBRM) died unexpectedly
+PMON (ospid: 13529): terminating the instance due to error 56710
+Tue Feb 12 22:07:20 2019
+Termination issued to instance processes. Waiting for the processes to exit
+Tue Feb 12 22:07:24 2019
+Instance terminated by PMON, pid = 13529
+Tue Feb 12 22:07:35 2019
+Starting ORACLE instance (normal) (OS id: 1471)
+Tue Feb 12 22:07:35 2019
+CLI notifier numLatches:31 maxDescs:8294
+Tue Feb 12 22:07:35 2019
+**********************************************************************
+Tue Feb 12 22:07:35 2019
+Dump of system resources acquired for SHARED GLOBAL AREA (SGA) 
+
+Tue Feb 12 22:07:35 2019
+ Per process system memlock (soft) limit = UNLIMITED
+Tue Feb 12 22:07:35 2019
+ Expected per process system memlock (soft) limit to lock
+ SHARED GLOBAL AREA (SGA) into memory: 90G
+Tue Feb 12 22:07:35 2019
+ Available system pagesizes:
+  4K, 2048K 
+Tue Feb 12 22:07:35 2019
+ Supported system pagesize(s):
+Tue Feb 12 22:07:35 2019
+  PAGESIZE  AVAILABLE_PAGES  EXPECTED_PAGES  ALLOCATED_PAGES  ERROR(s)
+Tue Feb 12 22:07:35 2019
+        4K       Configured               7               7        NONE
+Tue Feb 12 22:07:35 2019
+     2048K            46087           46081           46081        NONE
+Tue Feb 12 22:07:35 2019
+**********************************************************************
+LICENSE_MAX_SESSION = 0
+LICENSE_SESSIONS_WARNING = 0
+Initial number of CPU is 20
+Number of processor cores in the system is 20
+Number of processor sockets in the system is 2
+Private Interface 'bond0:1' configured from GPnP for use as a private interconnect.
+  [name='bond0:1', type=1, ip=169.254.9.165, mac=c4-34-6b-b9-d2-13, net=169.254.0.0/16, mask=255.255.0.0, use=haip:cluster_interconnect/62]
+Public Interface 'em5' configured from GPnP for use as a public interface.
+  [name='em5', type=1, ip=10.96.44.41, mac=38-ea-a7-10-fd-bc, net=10.96.44.0/22, mask=255.255.252.0, use=public/1]
+Public Interface 'em5:1' configured from GPnP for use as a public interface.
+  [name='em5:1', type=1, ip=10.96.44.51, mac=38-ea-a7-10-fd-bc, net=10.96.44.0/22, mask=255.255.252.0, use=public/1]
+Public Interface 'em5:2' configured from GPnP for use as a public interface.
+  [name='em5:2', type=1, ip=10.96.44.54, mac=38-ea-a7-10-fd-bc, net=10.96.44.0/22, mask=255.255.252.0, use=public/1]
+Picked latch-free SCN scheme 3
+Using LOG_ARCHIVE_DEST_1 parameter default value as USE_DB_RECOVERY_FILE_DEST
+Autotune of undo retention is turned on. 
+LICENSE_MAX_USERS = 0
+SYS auditing is enabled
+NOTE: remote asm mode is local (mode 0x1; from cluster type)
+NOTE: Cluster configuration type = CLUSTER [4]
+NUMA system with 4 nodes detected
+Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Real Application Clusters option.
+ORACLE_HOME = /opt/oracle/product/12.1.0/db_1
+System name:	Linux
+Node name:	orapos00302p.intraservice.corp
+Release:	2.6.32-431.17.1.el6.x86_64
+Version:	#1 SMP Fri Apr 11 17:27:00 EDT 2014
+Machine:	x86_64
+Using parameter settings in server-side spfile +DATADG/RPIPNBRB/PARAMETERFILE/spfile.264.881608787
+System parameters with non-default values:
+  processes                = 5000
+  sga_max_size             = 90G
+  streams_pool_size        = 512M
+  sga_target               = 90G
+  control_files            = "+REDODG(CONTROLFILE)/RPIPNBRB/control01.ctl"
+  control_files            = "+BKUPDG(CONTROLFILE)/RPIPNBRB/control02.ctl"
+  control_files            = "+DATADG(CONTROLFILE)/RPIPNBRB/control03.ctl"
+  db_block_size            = 8192
+  compatible               = "12.1.0.2.0"
+  db_files                 = 512
+  cluster_database         = TRUE
+  db_create_file_dest      = "+DATADG"
+  db_recovery_file_dest    = "+BKUPDG"
+  db_recovery_file_dest_size= 102299M
+  thread                   = 2
+  undo_tablespace          = "UNDOTBS2"
+  instance_number          = 2
+  sec_case_sensitive_logon = FALSE
+  remote_login_passwordfile= "EXCLUSIVE"
+  db_domain                = "WORLD"
+  dispatchers              = ""
+  audit_file_dest          = "/opt/oracle/admin/RPIPNBRB/adump"
+  audit_trail              = "DB"
+  db_name                  = "RPIPNBRB"
+  open_cursors             = 300
+  pga_aggregate_target     = 10G
+  diagnostic_dest          = "/opt/oracle"
+Deprecated system parameters with specified values:
+  sec_case_sensitive_logon 
+End of deprecated system parameter listing
+NOTE: remote asm mode is local (mode 0x1; from cluster type)
+Tue Feb 12 22:07:37 2019
+Cluster communication is configured to use the following interface(s) for this instance
+  169.254.9.165
+cluster interconnect IPC version: Oracle UDP/IP (generic)
+IPC Vendor 1 proto 2
+Oracle instance running with ODM: Oracle Direct NFS ODM Library Version 3.0 
+Starting background process PMON
+Tue Feb 12 22:07:37 2019
+PMON started with pid=2, OS id=1588 
+Starting background process PSP0
+Tue Feb 12 22:07:37 2019
+PSP0 started with pid=3, OS id=1592 
+Starting background process VKTM
+Starting background process GEN0
+Tue Feb 12 22:07:38 2019
+VKTM started with pid=4, OS id=1603 at elevated (RT) priority
+Tue Feb 12 22:07:38 2019
+VKTM running at (1)millisec precision with DBRM quantum (100)ms
+Tue Feb 12 22:07:38 2019
+GEN0 started with pid=5, OS id=1609 
+Starting background process MMAN
+Tue Feb 12 22:07:38 2019
+MMAN started with pid=6, OS id=1613 
+Starting background process DIAG
+Tue Feb 12 22:07:38 2019
+DIAG started with pid=8, OS id=1621 
+Starting background process DBRM
+Tue Feb 12 22:07:38 2019
+DBRM started with pid=9, OS id=1625 
+Starting background process VKRM
+Tue Feb 12 22:07:38 2019
+VKRM started with pid=10, OS id=1629 
+Starting background process PING
+Starting background process ACMS
+Tue Feb 12 22:07:38 2019
+PING started with pid=11, OS id=1633 
+Starting background process DIA0
+Tue Feb 12 22:07:38 2019
+ACMS started with pid=12, OS id=1637 
+Tue Feb 12 22:07:38 2019
+DIA0 started with pid=13, OS id=1641 
+Starting background process LMON
+Tue Feb 12 22:07:38 2019
+LMON started with pid=14, OS id=1645 
+Starting background process LMD0
+Tue Feb 12 22:07:38 2019
+LMD0 started with pid=15, OS id=1654 
+Starting background process LMD1
+Tue Feb 12 22:07:38 2019
+* Load Monitor used for high load check 
+* New Low - High Load Threshold Range = [19200 - 25600] 
+Starting background process LMS0
+Tue Feb 12 22:07:38 2019
+LMD1 started with pid=16, OS id=1658 
+Starting background process LMS1
+Tue Feb 12 22:07:38 2019
+LMS0 started with pid=17, OS id=1664 at elevated (RT) priority
+Tue Feb 12 22:07:38 2019
+LMS1 started with pid=18, OS id=1672 at elevated (RT) priority
+Starting background process RMS0
+Tue Feb 12 22:07:38 2019
+RMS0 started with pid=19, OS id=1678 
+Starting background process LMHB
+Tue Feb 12 22:07:38 2019
+LMHB started with pid=20, OS id=1682 
+Starting background process LCK1
+Tue Feb 12 22:07:39 2019
+LCK1 started with pid=21, OS id=1686 
+Starting background process DBW0
+Tue Feb 12 22:07:39 2019
+DBW0 started with pid=22, OS id=1690 
+Starting background process DBW1
+Tue Feb 12 22:07:39 2019
+DBW1 started with pid=23, OS id=1694 
+Starting background process LGWR
+Tue Feb 12 22:07:39 2019
+LGWR started with pid=24, OS id=1698 
+Starting background process CKPT
+Tue Feb 12 22:07:39 2019
+CKPT started with pid=25, OS id=1702 
+Starting background process SMON
+Tue Feb 12 22:07:39 2019
+SMON started with pid=27, OS id=1710 
+Starting background process RECO
+Tue Feb 12 22:07:39 2019
+RECO started with pid=29, OS id=1718 
+Starting background process LREG
+Tue Feb 12 22:07:40 2019
+LREG started with pid=30, OS id=1725 
+Starting background process PXMN
+Tue Feb 12 22:07:40 2019
+PXMN started with pid=31, OS id=1757 
+Starting background process RBAL
+Tue Feb 12 22:07:40 2019
+RBAL started with pid=32, OS id=1761 
+Starting background process ASMB
+Tue Feb 12 22:07:40 2019
+ASMB started with pid=33, OS id=1765 
+Tue Feb 12 22:07:40 2019
+NOTE: ASMB registering with ASM instance as Standard client 0xffffffffffffffff (reg:2456398358) (new connection)
+Tue Feb 12 22:07:40 2019
+NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libasm.so 
+Tue Feb 12 22:07:40 2019
+NOTE: ASMB connected to ASM instance +ASM2 osid: 1773 (Flex mode; client id 0xffffffffffffffff)
+Starting background process MMON
+NOTE: initiating MARK startup 
+Tue Feb 12 22:07:40 2019
+MMON started with pid=35, OS id=1779 
+Starting background process MARK
+Tue Feb 12 22:07:40 2019
+MARK started with pid=36, OS id=1783 
+Starting background process MMNL
+Tue Feb 12 22:07:41 2019
+NOTE: MARK has subscribed 
+Tue Feb 12 22:07:41 2019
+MMNL started with pid=37, OS id=1787 
+Tue Feb 12 22:07:42 2019
+Using default pga_aggregate_limit of 20480 MB
+Tue Feb 12 22:07:43 2019
+Instance reconfiguration: current system load 19 (hiload)
+lmon registered with NM - instance number 2 (internal mem no 1)
+Tue Feb 12 22:07:44 2019
+Sweep [inc][1058791]: completed
+Tue Feb 12 22:07:44 2019
+* Load Monitor used for high load check 
+* New Low - High Load Threshold Range = [19200 - 25600] 
+Tue Feb 12 22:07:44 2019
+Reconfiguration started (old inc 0, new inc 8)
+List of instances (total 2) :
+ 1 2
+My inst 2 (I'm a new instance) 
+ Global Resource Directory frozen
+* allocate domain 0, invalid = TRUE 
+ Communication channels reestablished
+Tue Feb 12 22:07:44 2019
+ * domain 0 valid = 1 according to instance 1 
+Tue Feb 12 22:07:44 2019
+ Master broadcasted resource hash value bitmaps
+ Non-local Process blocks cleaned out
+Tue Feb 12 22:07:44 2019
+Tue Feb 12 22:07:44 2019
+ LMS 0: 0 GCS shadows cancelled, 0 closed, 0 Xw survived
+ LMS 1: 0 GCS shadows cancelled, 0 closed, 0 Xw survived
+ Set master node info 
+ Submitted all remote-enqueue requests
+ Dwn-cvts replayed, VALBLKs dubious
+ All grantable enqueues granted
+ Submitted all GCS remote-cache requests
+ Fix write in gcs resources
+Tue Feb 12 22:07:47 2019
+Reconfiguration complete (total time 2.4 secs) 
+Starting background process LCK0
+Tue Feb 12 22:07:47 2019
+LCK0 started with pid=41, OS id=1945 
+Starting background process RSMN
+Tue Feb 12 22:07:47 2019
+RSMN started with pid=42, OS id=1961 
+Tue Feb 12 22:07:48 2019
+Instance started by oraagent
+ORACLE_BASE from environment = /opt/oracle
+Tue Feb 12 22:07:49 2019
+ALTER SYSTEM SET local_listener=' (ADDRESS=(PROTOCOL=TCP)(HOST=10.96.44.51)(PORT=1521))' SCOPE=MEMORY SID='RPIPNBRB2';
+Tue Feb 12 22:07:50 2019
+ALTER SYSTEM SET remote_listener=' orapos003p-scan.intraservice.corp:1521' SCOPE=MEMORY SID='RPIPNBRB2';
+Tue Feb 12 22:07:50 2019
+ALTER SYSTEM SET listener_networks='(( NAME=net2)(LOCAL_LISTENER=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=172.23.20.39)(PORT=1524)))))' SCOPE=MEMORY SID='RPIPNBRB2';
+ALTER DATABASE MOUNT /* db agent *//* {0:1:30} */
+Tue Feb 12 22:07:50 2019
+NOTE: ASMB mounting group 5 (REDODG)
+NOTE: Assigning number (5,0) to disk (ORCL:ASMREDO1)
+NOTE: Assigning number (5,1) to disk (ORCL:ASMREDO2)
+NOTE: Assigning number (5,2) to disk (ORCL:ASMREDO3)
+NOTE: Assigning number (5,3) to disk (ORCL:ASMREDO4)
+SUCCESS: mounted group 5 (REDODG)
+NOTE: grp 5 disk 0: ASMREDO1 path:ORCL:ASMREDO1
+NOTE: grp 5 disk 1: ASMREDO2 path:ORCL:ASMREDO2
+NOTE: grp 5 disk 2: ASMREDO3 path:ORCL:ASMREDO3
+NOTE: grp 5 disk 3: ASMREDO4 path:ORCL:ASMREDO4
+NOTE: ASMB mounting group 2 (BKUPDG)
+Tue Feb 12 22:07:50 2019
+NOTE: dependency between database RPIPNBRB and diskgroup resource ora.REDODG.dg is established
+Tue Feb 12 22:07:50 2019
+NOTE: Assigning number (2,0) to disk (ORCL:ASMBKUP1)
+NOTE: Assigning number (2,1) to disk (ORCL:ASMBKUP2)
+NOTE: Assigning number (2,2) to disk (ORCL:ASMBKUP3)
+NOTE: Assigning number (2,3) to disk (ORCL:ASMBKUP4)
+SUCCESS: mounted group 2 (BKUPDG)
+NOTE: grp 2 disk 0: ASMBKUP1 path:ORCL:ASMBKUP1
+NOTE: grp 2 disk 1: ASMBKUP2 path:ORCL:ASMBKUP2
+NOTE: grp 2 disk 2: ASMBKUP3 path:ORCL:ASMBKUP3
+NOTE: grp 2 disk 3: ASMBKUP4 path:ORCL:ASMBKUP4
+NOTE: ASMB mounting group 3 (DATADG)
+NOTE: Assigning number (3,0) to disk (ORCL:ASMDATA1)
+NOTE: Assigning number (3,1) to disk (ORCL:ASMDATA2)
+NOTE: Assigning number (3,2) to disk (ORCL:ASMDATA3)
+NOTE: Assigning number (3,3) to disk (ORCL:ASMDATA4)
+NOTE: Assigning number (3,4) to disk (ORCL:ASMDATA5)
+NOTE: Assigning number (3,5) to disk (ORCL:ASMDATA6)
+NOTE: Assigning number (3,6) to disk (ORCL:ASMDATA7)
+NOTE: Assigning number (3,7) to disk (ORCL:ASMDATA8)
+NOTE: Assigning number (3,8) to disk (ORCL:ASMDATA9)
+NOTE: Assigning number (3,9) to disk (ORCL:ASMDATA10)
+NOTE: Assigning number (3,10) to disk (ORCL:ASMDATA11)
+NOTE: Assigning number (3,11) to disk (ORCL:ASMDATA12)
+NOTE: Assigning number (3,12) to disk (ORCL:ASMDATA13)
+NOTE: Assigning number (3,13) to disk (ORCL:ASMDATA14)
+SUCCESS: mounted group 3 (DATADG)
+NOTE: grp 3 disk 0: ASMDATA1 path:ORCL:ASMDATA1
+NOTE: grp 3 disk 1: ASMDATA2 path:ORCL:ASMDATA2
+NOTE: grp 3 disk 2: ASMDATA3 path:ORCL:ASMDATA3
+NOTE: grp 3 disk 3: ASMDATA4 path:ORCL:ASMDATA4
+NOTE: grp 3 disk 4: ASMDATA5 path:ORCL:ASMDATA5
+NOTE: grp 3 disk 5: ASMDATA6 path:ORCL:ASMDATA6
+NOTE: grp 3 disk 6: ASMDATA7 path:ORCL:ASMDATA7
+NOTE: grp 3 disk 7: ASMDATA8 path:ORCL:ASMDATA8
+NOTE: grp 3 disk 8: ASMDATA9 path:ORCL:ASMDATA9
+NOTE: grp 3 disk 9: ASMDATA10 path:ORCL:ASMDATA10
+NOTE: grp 3 disk 10: ASMDATA11 path:ORCL:ASMDATA11
+NOTE: grp 3 disk 11: ASMDATA12 path:ORCL:ASMDATA12
+NOTE: grp 3 disk 12: ASMDATA13 path:ORCL:ASMDATA13
+NOTE: grp 3 disk 13: ASMDATA14 path:ORCL:ASMDATA14
+Tue Feb 12 22:07:50 2019
+NOTE: dependency between database RPIPNBRB and diskgroup resource ora.BKUPDG.dg is established
+NOTE: dependency between database RPIPNBRB and diskgroup resource ora.DATADG.dg is established
+Tue Feb 12 22:07:55 2019
+Successful mount of redo thread 2, with mount id 3464142157
+Tue Feb 12 22:07:55 2019
+Database mounted in Shared Mode (CLUSTER_DATABASE=TRUE)
+Lost write protection disabled
+Completed: ALTER DATABASE MOUNT /* db agent *//* {0:1:30} */
+ALTER DATABASE OPEN /* db agent *//* {0:1:30} */
+Ping without log force is disabled
+.
+Picked broadcast on commit scheme to generate SCNs
+Starting background process TMON
+ARCH: STARTING ARCH PROCESSES
+Tue Feb 12 22:07:58 2019
+TMON started with pid=47, OS id=2225 
+Starting background process ARC0
+Tue Feb 12 22:07:58 2019
+ARC0 started with pid=48, OS id=2229 
+ARC0: Archival started
+ARCH: STARTING ARCH PROCESSES COMPLETE
+Tue Feb 12 22:07:58 2019
+ARC0: STARTING ARCH PROCESSES
+Starting background process ARC1
+Starting background process ARC2
+Tue Feb 12 22:07:58 2019
+ARC1 started with pid=49, OS id=2233 
+Tue Feb 12 22:07:58 2019
+ARC2 started with pid=50, OS id=2237 
+Starting background process ARC3
+Tue Feb 12 22:07:58 2019
+ARC3 started with pid=51, OS id=2241 
+ARC1: Archival started
+ARC2: Archival started
+Tue Feb 12 22:07:58 2019
+ARC2: Becoming the 'no FAL' ARCH
+ARC2: Becoming the 'no SRL' ARCH
+Tue Feb 12 22:07:58 2019
+ARC1: Becoming the heartbeat ARCH
+Tue Feb 12 22:07:58 2019
+ARC3: Archival started
+ARC0: STARTING ARCH PROCESSES COMPLETE
+Tue Feb 12 22:08:00 2019
+Thread 2 opened at log sequence 86863
+  Current log# 4 seq# 86863 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86863 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Successful open of redo thread 2
+Tue Feb 12 22:08:00 2019
+MTTR advisory is disabled because FAST_START_MTTR_TARGET is not set
+Tue Feb 12 22:08:00 2019
+SMON: enabling cache recovery
+Tue Feb 12 22:08:01 2019
+minact-scn: Inst 2 is a slave inc#:8 mmon proc-id:1779 status:0x2
+minact-scn status: grec-scn:0x0000.00000000 gmin-scn:0x0000.00000000 gcalc-scn:0x0000.00000000
+Tue Feb 12 22:08:05 2019
+[1983] Successfully onlined Undo Tablespace 4.
+Undo initialization finished serial:0 start:1849797630 end:1849802050 diff:4420 ms (4.4 seconds)
+Verifying minimum file header compatibility (11g) for tablespace encryption..
+Verifying 11g file header compatibility for tablespace encryption completed
+Tue Feb 12 22:08:05 2019
+SMON: enabling tx recovery
+Tue Feb 12 22:08:05 2019
+Database Characterset is WE8MSWIN1252
+Starting background process SMCO
+Tue Feb 12 22:08:05 2019
+SMCO started with pid=54, OS id=2462 
+No Resource Manager plan active
+Starting background process GTX0
+Tue Feb 12 22:08:08 2019
+GTX0 started with pid=7, OS id=2506 
+Starting background process RCBG
+Tue Feb 12 22:08:08 2019
+RCBG started with pid=57, OS id=2554 
+replication_dependency_tracking turned off (no async multimaster replication found)
+Starting background process AQPC
+Tue Feb 12 22:08:10 2019
+AQPC started with pid=60, OS id=2656 
+Tue Feb 12 22:08:16 2019
+ALTER SYSTEM SET listener_networks='((NAME=net2)(LOCAL_LISTENER=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=orapos00302p4-vip.intraservice.corp)(PORT=1524)))))' SCOPE=MEMORY SID='RPIPNBRB2';
+Tue Feb 12 22:08:16 2019
+ALTER SYSTEM SET listener_networks='((NAME=net2)(LOCAL_LISTENER=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=orapos00301p4-vip.intraservice.corp)(PORT=1524)))))' SCOPE=MEMORY SID='RPIPNBRB1';
+Starting background process CJQ0
+Tue Feb 12 22:08:16 2019
+CJQ0 started with pid=69, OS id=2770 
+Completed: ALTER DATABASE OPEN /* db agent *//* {0:1:30} */
+Tue Feb 12 22:08:34 2019
+===========================================================
+Dumping current patch information
+===========================================================
+Patch Id: 19769480
+Patch Description: Database Patch Set Update : 12.1.0.2.2 (19769480)
+Patch Apply Time: 2015-06-05 20:48:39 GMT-03:00
+Bugs Fixed: 14643995,16359751,16870214,17835294,18250893,18288842,18354830,
+18436647,18456643,18610915,18618122,18674024,18674047,18791688,18845653,
+18849537,18885870,18921743,18948177,18952989,18964939,18964978,18967382,
+18988834,18990693,19001359,19001390,19016730,19018206,19022470,19024808,
+19028800,19044962,19048007,19050649,19052488,19054077,19058490,19065556,
+19067244,19068610,19068970,19074147,19075256,19076343,19077215,19124589,
+19134173,19143550,19149990,19154375,19155797,19157754,19174430,19174521,
+19174942,19176223,19176326,19178851,19180770,19185876,19189317,19189525,
+19195895,19197175,19248799,19279273,19280225,19289642,19303936,19304354,
+19309466,19329654,19371175,19382851,19390567,19409212,19430401,19434529,
+19439759,19440586,19468347,19501299,19518079,19520602,19532017,19561643,
+19577410,19597439,19676905,19706965,19708632,19723336,19769480,20074391,
+20284155
+
+Patch Id: 20299023
+Patch Description: Database Patch Set Update : 12.1.0.2.3 (20299023)
+Patch Apply Time: 2015-06-05 20:48:45 GMT-03:00
+Bugs Fixed: 16619249,17274537,18202441,18306996,18417036,18607546,18681056,
+18856999,18909599,18940497,19012119,19018447,19023822,19035573,19065677,
+19081128,19183343,19238590,19272708,19291380,19315691,19335438,19358317,
+19385656,19393542,19487147,19512341,19524384,19536415,19547370,19597583,
+19606174,19619732,19627012,19637186,19644859,19649152,19658708,19670108,
+19684504,19687159,19730508,19791377,19805359,19841800,19865345,19873610,
+19896336,19915271,19928926,19978542,20235511,20347562,20348653,20425790,
+20440930
+
+Patch Id: 20415564
+Patch Description: Database PSU 12.1.0.2.3, Oracle JavaVM Component (Apr2015)
+Patch Apply Time: 2015-06-05 20:48:48 GMT-03:00
+Bugs Fixed: 19153980,19223010,19231857,19245191,19699946,19855285,19877336,
+19895326,19895362,19909862,20408829,20408866,20415564
+
+Patch Id: 20831110
+Patch Description: Database Patch Set Update : 12.1.0.2.4 (20831110)
+Patch Apply Time: 2015-07-17 11:28:29 GMT-03:00
+Bugs Fixed: 19284031,19307662,19399918,19699191,19703301,19989009,20093776,
+20165574,20294666,20331945,20387265,20402832,20424899,20474192,20558005,
+20657441,20746251,20899461,20919320,21225209
+
+Patch Id: 21359755
+Patch Description: Database Patch Set Update : 12.1.0.2.5 (21359755)
+Patch Apply Time: 2015-10-27 16:43:02 GMT-02:00
+Bugs Fixed: 17365043,18411216,18743542,18966843,19032777,19243521,19468991,
+19571367,19587324,19791273,20048359,20122715,20134339,20245930,20281121,
+20361671,20397490,20413820,20441797,20471920,20476175,20688221,20925795,
+21281532,21421886,21442094,21620471,22062026
+
+Patch Id: 21948354
+Patch Description: Database Patch Set Update : 12.1.0.2.160119 (21948354)
+Patch Apply Time: 2016-02-03 12:04:07 GMT-02:00
+Bugs Fixed: 16887946,17551063,17655240,17890099,18799063,18799993,18886413,
+18973548,19141838,19326908,19490948,19604659,19689979,19869255,19879746,
+19902195,20101006,20173897,20318889,20446883,20509482,20588502,20618595,
+20794034,20869721,20877664,20890311,20951038,21188532,21300341,21517440,
+21526048,21668627,21756699,21787056,21875360,22092979
+
+Patch Id: 22291127
+Patch Description: Database Patch Set Update : 12.1.0.2.160419 (22291127)
+Patch Apply Time: 2017-02-26 16:13:37 GMT-03:00
+Bugs Fixed: 13542050,16439813,16923858,18499088,18893947,18914624,18990023,
+19258504,19333670,19354335,19450314,19591608,19639483,19676012,19721304,
+19777862,19835133,19883092,19888853,19990037,20043616,20117253,20124446,
+20356733,20373598,20447445,20466628,20596234,20711718,20825533,20831538,
+20879889,20904530,20936905,20952966,21091431,21153266,21260431,21273804,
+21315084,21329301,21744290,21756661,21756677,21847223,21899588,21915719,
+21917884,22046677,22168163,22173980,22353199,22353346,22374754,22528741,
+22762046
+
+Patch Id: 23054246
+Patch Description: Database Patch Set Update : 12.1.0.2.160719 (23054246)
+Patch Apply Time: 2017-02-26 16:13:48 GMT-03:00
+Bugs Fixed: 14283239,16863642,17319928,17414008,17532734,17722075,17867700,
+18191823,18549238,18740837,18797519,18851894,19013183,19201867,19308965,
+19366375,19402853,19524158,19534363,19578350,19931709,20009833,20228093,
+20267166,20378086,20528052,20708701,20798891,20848335,20868862,20880215,
+20898391,20898997,20920911,20977794,21099555,21184223,21188584,21220620,
+21241829,21246723,21263635,21291274,21296029,21373076,21373473,21450666,
+21629064,21649497,21665897,22075064,22178855,22296366,22366558,22380919,
+22507210,22507234,22551446,22815955,22923409,23229229,23260854
+
+Patch Id: 24006101
+Patch Description: Database Patch Set Update : 12.1.0.2.161018 (24006101)
+Patch Apply Time: 2017-02-26 16:13:51 GMT-03:00
+Bugs Fixed: 6599380,17210525,18043064,18122373,18705806,18819908,18899974,
+19171086,19188927,19363645,19461270,19662635,19908836,20017509,20139391,
+20212067,20217801,20328248,20428621,20464614,20466322,20475845,20560611,
+20581111,20598042,20603378,20627866,20669434,20704450,20734332,20832516,
+20842388,20844426,20859910,20897759,20907061,20922010,21097043,21239530,
+21266085,21322887,21387128,21387964,21479753,21632821,21785691,21960504,
+22024071,22083366,22148226,22160989,22175564,22223463,22243719,22465352,
+22657942,22757364,22865673,22916353,23124895,24316947,24386767,24577566
+
+Patch Id: 24732082
+Patch Description: Database Patch Set Update : 12.1.0.2.170117 (24732082)
+Patch Apply Time: 2017-02-26 16:14:11 GMT-03:00
+Bugs Fixed: 16777441,18254023,18307021,18510194,18840932,18974476,19469538,
+19475971,19818513,20031873,20181030,20315311,20401975,20562898,20591183,
+20677396,20803014,20879709,20882568,20936731,21059919,21060755,21072646,
+21106027,21133343,21172913,21196809,21285458,21294938,21354456,21380789,
+21476308,21542577,21575362,21896069,22022760,22077517,22165897,22294260,
+22359063,22365117,22458049,22496904,22529728,22695831,22809871,23025340,
+23089357,23170620,23197103,23220453,23314180,23324000,23501901,23533524,
+24285405,24308635,24397438,24413809,24437510,24523374,24690216,24693382,
+24739928,24808595,24812585,24825843,25056052,25161298,25264559
+
+Patch Id: 25171037
+Patch Description: Database Patch Set Update : 12.1.0.2.170418 (25171037)
+Patch Apply Time: 2017-06-02 10:59:46 GMT-03:00
+Bugs Fixed: 16756406,16941434,17008068,18440095,19124336,19213447,19383839,
+19503821,19593445,20171986,20250147,20322560,20368850,20543011,20569094,
+20673810,20703000,20862087,20878790,21142837,21164318,21297872,21299490,
+21419850,21422580,21868720,21889720,21911701,21977392,22062517,22351572,
+22520320,22905130,23096938,24350831,24411921,25079710,25093739,25330273,
+25475853,25483815,25490238,25539063,25546608
+
+Patch Id: 25363740
+Patch Description: OCW Patch Set Update : 12.1.0.2.170418 (25363740)
+Patch Apply Time: 2017-06-02 11:00:28 GMT-03:00
+Bugs Fixed: 8934841,9372680,13843841,14661880,14851828,15885689,15922206,
+16286734,16505171,17005215,17208793,17338864,17447588,17592037,17940721,
+18116578,18135723,18235274,18242738,18260170,18261648,18263259,18283792,
+18290252,18304090,18317489,18330979,18362971,18372060,18406774,18417590,
+18439295,18461246,18468128,18508710,18520351,18523468,18524834,18536826,
+18541110,18589889,18604143,18634372,18636884,18643483,18678829,18700893,
+18703978,18707416,18708349,18715868,18715884,18729269,18730096,18747335,
+18747382,18748932,18750781,18752378,18759724,18762843,18774591,18776786,
+18777835,18798432,18798573,18813323,18819158,18827679,18834934,18834955,
+18835283,18835366,18843054,18843572,18849021,18849896,18850051,18852058,
+18859710,18861196,18861564,18862203,18868829,18871287,18875012,18882642,
+18890943,18893463,18894342,18899171,18901356,18907170,18910443,18910576,
+18910748,18919682,18920408,18922918,18935857,18937186,18943696,18945249,
+18945435,18945906,18946768,18950232,18952577,18952857,18953639,18953878,
+18953889,18955644,18956780,18962892,18964974,18965694,18968981,18975620,
+18980002,18989446,18990354,18991776,18998228,18998379,18999195,18999857,
+19010177,19013444,19013789,19018001,19021575,19023430,19026993,19027351,
+19028836,19029647,19031737,19043795,19045143,19045388,19046190,19049721,
+19050688,19051385,19053891,19054979,19059053,19061429,19062675,19066699,
+19066844,19067804,19068003,19068333,19069755,19071526,19075747,19076165,
+19076778,19079087,19124972,19127078,19130141,19131709,19133945,19134098,
+19135521,19139608,19140711,19140712,19140891,19141785,19146822,19146980,
+19147509,19147513,19147751,19148367,19148791,19148793,19148982,19150088,
+19150313,19150517,19154673,19154753,19154933,19155350,19163425,19163887,
+19164099,19168690,19178517,19178629,19179158,19184188,19184276,19184765,
+19184799,19185148,19187207,19187515,19192901,19203996,19204743,19205086,
+19205617,19207286,19209951,19217019,19222693,19225265,19226141,19226858,
+19230771,19232454,19234177,19234907,19241655,19241857,19244316,19259290,
+19259765,19262534,19266658,19270660,19270956,19272663,19273577,19273758,
+19273760,19277814,19280860,19281106,19284357,19287706,19288396,19292272,
+19292605,19302350,19304104,19314048,19315522,19315567,19318983,19319192,
+19319357,19319904,19325604,19325701,19331454,19332386,19341481,19341538,
+19343245,19351363,19361757,19367276,19368917,19370739,19370846,19371270,
+19380733,19383028,19398098,19414274,19426384,19427050,19444471,19449737,
+19453778,19455563,19457575,19458082,19459023,19470791,19471722,19471836,
+19473088,19473851,19478119,19479503,19491996,19498411,19499021,19500293,
+19504641,19513351,19513650,19513888,19513969,19514085,19516572,19521169,
+19522067,19522313,19522571,19524857,19529729,19530755,19536337,19537547,
+19537762,19538241,19538714,19550195,19551830,19556820,19557558,19558324,
+19584688,19585454,19589221,19591356,19591984,19601003,19602208,19609388,
+19612597,19613533,19617592,19620918,19627476,19632437,19635215,19649640,
+19653795,19659885,19662663,19677813,19680763,19682695,19682778,19683886,
+19684131,19699720,19700256,19700294,19701617,19702758,19703199,19703246,
+19704993,19709663,19770543,19777496,19804032,19807548,19812592,19820247,
+19831611,19853036,19874047,19884033,19885321,19908346,19915945,19916737,
+19925992,19954372,19955755,19986391,20001507,20006646,20007009,20011424,
+20011635,20012766,20014326,20028666,20033787,20038431,20053557,20061168,
+20069197,20079414,20091753,20099624,20110156,20115586,20119857,20136892,
+20157569,20160490,20175174,20177779,20185476,20186278,20218012,20219458,
+20231741,20235486,20267877,20276459,20278216,20289828,20290467,20293730,
+20317221,20340620,20350915,20363708,20389257,20408163,20433932,20458032,
+20467377,20467806,20510208,20552947,20559126,20562133,20568884,20579351,
+20588164,20598625,20607821,20620581,20634511,20649573,20660273,20669114,
+20676340,20725084,20730170,20737462,20746507,20752167,20758997,20768643,
+20775015,20783416,20795241,20822591,20827053,20839581,20853464,20862812,
+20877003,20877072,20883009,20900588,20920711,20923930,20936562,20953798,
+20985167,20991879,20995001,21053036,21057239,21075392,21082737,21087799,
+21113068,21118157,21123424,21131037,21152052,21220597,21222147,21227730,
+21228405,21229744,21232394,21242118,21245437,21255373,21259359,21269977,
+21276514,21294273,21297657,21327402,21339083,21357522,21378016,21394146,
+21420753,21423055,21430567,21441387,21453435,21474380,21484367,21519340,
+21527118,21550724,21607972,21616278,21639478,21646169,21694237,21694632,
+21696068,21792881,21794779,21878613,21924910,21967791,21976167,22024217,
+22088198,22113170,22135419,22162062,22195657,22229116,22261732,22264951,
+22289350,22302421,22393909,22456393,22475834,22483804,22548137,22568500,
+22583325,22594310,22651583,22664609,22728264,22840085,22863466,22867050,
+22884308,22891868,22904978,22905714,22934855,22989069,23034352,23049292,
+23049301,23055224,23076471,23079844,23101338,23101611,23111368,23150001,
+23170839,23275930,23618734,23757020,24314323,24356071,24362631,24451580,
+24522717,24709351,24796183,25197395,25206563,25206585,25206614,25206628,
+25206634,25206643,25206650,25221056,25233268,25250824,25371730,25537905
+
+Patch Id: 18841764
+Patch Description: 
+Patch Apply Time: 2017-07-29 11:09:45 GMT-03:00
+Bugs Fixed: 18841764
+===========================================================
+Tue Feb 12 22:08:37 2019
+ALTER SYSTEM ARCHIVE LOG
+Tue Feb 12 22:08:37 2019
+ALTER SYSTEM ARCHIVE LOG
+Tue Feb 12 22:08:37 2019
+Thread 2 advanced to log sequence 86864 (LGWR switch)
+  Current log# 5 seq# 86864 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86864 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 22:08:37 2019
+Archived Log entry 196937 added for thread 2 sequence 86863 ID 0xc85936ba dest 1:
+Tue Feb 12 22:08:37 2019
+Thread 2 advanced to log sequence 86865 (LGWR switch)
+  Current log# 6 seq# 86865 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86865 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 22:08:37 2019
+Archived Log entry 196938 added for thread 2 sequence 86864 ID 0xc85936ba dest 1:
+Tue Feb 12 22:14:07 2019
+Thread 2 advanced to log sequence 86866 (LGWR switch)
+  Current log# 4 seq# 86866 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86866 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 22:14:08 2019
+Archived Log entry 196941 added for thread 2 sequence 86865 ID 0xc85936ba dest 1:
+Tue Feb 12 22:19:29 2019
+Thread 2 advanced to log sequence 86867 (LGWR switch)
+  Current log# 5 seq# 86867 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86867 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 22:19:30 2019
+Archived Log entry 196945 added for thread 2 sequence 86866 ID 0xc85936ba dest 1:
+Tue Feb 12 22:21:24 2019
+Thread 2 advanced to log sequence 86868 (LGWR switch)
+  Current log# 6 seq# 86868 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86868 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 22:21:25 2019
+Archived Log entry 196949 added for thread 2 sequence 86867 ID 0xc85936ba dest 1:
+Tue Feb 12 22:27:18 2019
+Thread 2 advanced to log sequence 86869 (LGWR switch)
+  Current log# 4 seq# 86869 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86869 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 22:27:19 2019
+Archived Log entry 196953 added for thread 2 sequence 86868 ID 0xc85936ba dest 1:
+Tue Feb 12 22:32:55 2019
+Thread 2 advanced to log sequence 86870 (LGWR switch)
+  Current log# 5 seq# 86870 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86870 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 22:32:55 2019
+Archived Log entry 196957 added for thread 2 sequence 86869 ID 0xc85936ba dest 1:
+Tue Feb 12 22:35:46 2019
+Thread 2 advanced to log sequence 86871 (LGWR switch)
+  Current log# 6 seq# 86871 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86871 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 22:35:47 2019
+Archived Log entry 196961 added for thread 2 sequence 86870 ID 0xc85936ba dest 1:
+Tue Feb 12 22:44:29 2019
+Thread 2 advanced to log sequence 86872 (LGWR switch)
+  Current log# 4 seq# 86872 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86872 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 22:44:29 2019
+Archived Log entry 196965 added for thread 2 sequence 86871 ID 0xc85936ba dest 1:
+Tue Feb 12 22:45:00 2019
+ALTER SYSTEM ARCHIVE LOG
+Tue Feb 12 22:45:00 2019
+Thread 2 advanced to log sequence 86873 (LGWR switch)
+  Current log# 5 seq# 86873 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86873 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 22:45:00 2019
+Archived Log entry 196967 added for thread 2 sequence 86872 ID 0xc85936ba dest 1:
+Tue Feb 12 22:46:35 2019
+Thread 2 cannot allocate new log, sequence 86874
+Checkpoint not complete
+  Current log# 5 seq# 86873 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86873 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 22:46:38 2019
+Thread 2 advanced to log sequence 86874 (LGWR switch)
+  Current log# 6 seq# 86874 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86874 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 22:46:38 2019
+Archived Log entry 196971 added for thread 2 sequence 86873 ID 0xc85936ba dest 1:
+Tue Feb 12 22:47:26 2019
+Thread 2 advanced to log sequence 86875 (LGWR switch)
+  Current log# 4 seq# 86875 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86875 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 22:47:26 2019
+Archived Log entry 196974 added for thread 2 sequence 86874 ID 0xc85936ba dest 1:
+Tue Feb 12 22:48:02 2019
+Thread 2 cannot allocate new log, sequence 86876
+Checkpoint not complete
+  Current log# 4 seq# 86875 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86875 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 22:48:06 2019
+Thread 2 advanced to log sequence 86876 (LGWR switch)
+  Current log# 5 seq# 86876 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86876 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 22:48:06 2019
+Archived Log entry 196979 added for thread 2 sequence 86875 ID 0xc85936ba dest 1:
+Tue Feb 12 22:48:42 2019
+Thread 2 cannot allocate new log, sequence 86877
+Checkpoint not complete
+  Current log# 5 seq# 86876 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86876 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 22:48:45 2019
+Thread 2 advanced to log sequence 86877 (LGWR switch)
+  Current log# 6 seq# 86877 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86877 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 22:48:46 2019
+Archived Log entry 196983 added for thread 2 sequence 86876 ID 0xc85936ba dest 1:
+Tue Feb 12 22:49:34 2019
+Thread 2 advanced to log sequence 86878 (LGWR switch)
+  Current log# 4 seq# 86878 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86878 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 22:49:34 2019
+Archived Log entry 196986 added for thread 2 sequence 86877 ID 0xc85936ba dest 1:
+Tue Feb 12 23:00:00 2019
+Setting Resource Manager plan DEFAULT_MAINTENANCE_PLAN via parameter
+Tue Feb 12 23:01:07 2019
+ALTER SYSTEM ARCHIVE LOG
+Tue Feb 12 23:01:10 2019
+Thread 2 advanced to log sequence 86879 (LGWR switch)
+  Current log# 5 seq# 86879 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86879 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 23:01:10 2019
+Archived Log entry 196989 added for thread 2 sequence 86878 ID 0xc85936ba dest 1:
+Tue Feb 12 23:05:23 2019
+Thread 2 advanced to log sequence 86880 (LGWR switch)
+  Current log# 6 seq# 86880 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86880 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 23:05:23 2019
+Archived Log entry 196994 added for thread 2 sequence 86879 ID 0xc85936ba dest 1:
+Tue Feb 12 23:07:56 2019
+Thread 2 advanced to log sequence 86881 (LGWR switch)
+  Current log# 4 seq# 86881 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86881 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 23:07:56 2019
+Archived Log entry 196997 added for thread 2 sequence 86880 ID 0xc85936ba dest 1:
+Tue Feb 12 23:09:23 2019
+Thread 2 cannot allocate new log, sequence 86882
+Checkpoint not complete
+  Current log# 4 seq# 86881 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86881 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 23:09:26 2019
+Thread 2 advanced to log sequence 86882 (LGWR switch)
+  Current log# 5 seq# 86882 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86882 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 23:09:26 2019
+Archived Log entry 197002 added for thread 2 sequence 86881 ID 0xc85936ba dest 1:
+Tue Feb 12 23:11:02 2019
+Thread 2 cannot allocate new log, sequence 86883
+Checkpoint not complete
+  Current log# 5 seq# 86882 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86882 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 23:11:05 2019
+Thread 2 advanced to log sequence 86883 (LGWR switch)
+  Current log# 6 seq# 86883 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86883 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 23:11:06 2019
+Archived Log entry 197006 added for thread 2 sequence 86882 ID 0xc85936ba dest 1:
+Tue Feb 12 23:13:27 2019
+Thread 2 advanced to log sequence 86884 (LGWR switch)
+  Current log# 4 seq# 86884 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86884 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 23:13:27 2019
+Archived Log entry 197009 added for thread 2 sequence 86883 ID 0xc85936ba dest 1:
+Tue Feb 12 23:16:00 2019
+Thread 2 advanced to log sequence 86885 (LGWR switch)
+  Current log# 5 seq# 86885 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86885 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 23:16:00 2019
+Archived Log entry 197014 added for thread 2 sequence 86884 ID 0xc85936ba dest 1:
+Tue Feb 12 23:18:51 2019
+Thread 2 advanced to log sequence 86886 (LGWR switch)
+  Current log# 6 seq# 86886 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86886 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 23:18:51 2019
+Archived Log entry 197017 added for thread 2 sequence 86885 ID 0xc85936ba dest 1:
+Tue Feb 12 23:21:30 2019
+Thread 2 cannot allocate new log, sequence 86887
+Checkpoint not complete
+  Current log# 6 seq# 86886 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86886 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 23:21:33 2019
+Thread 2 advanced to log sequence 86887 (LGWR switch)
+  Current log# 4 seq# 86887 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86887 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 23:21:33 2019
+Archived Log entry 197022 added for thread 2 sequence 86886 ID 0xc85936ba dest 1:
+Tue Feb 12 23:24:01 2019
+Thread 2 advanced to log sequence 86888 (LGWR switch)
+  Current log# 5 seq# 86888 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86888 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 23:24:01 2019
+Archived Log entry 197025 added for thread 2 sequence 86887 ID 0xc85936ba dest 1:
+Tue Feb 12 23:26:22 2019
+Thread 2 cannot allocate new log, sequence 86889
+Checkpoint not complete
+  Current log# 5 seq# 86888 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86888 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 23:26:25 2019
+Thread 2 advanced to log sequence 86889 (LGWR switch)
+  Current log# 6 seq# 86889 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86889 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 23:26:25 2019
+Archived Log entry 197030 added for thread 2 sequence 86888 ID 0xc85936ba dest 1:
+Tue Feb 12 23:28:49 2019
+Thread 2 advanced to log sequence 86890 (LGWR switch)
+  Current log# 4 seq# 86890 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86890 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 23:28:49 2019
+Archived Log entry 197033 added for thread 2 sequence 86889 ID 0xc85936ba dest 1:
+Tue Feb 12 23:31:11 2019
+Thread 2 advanced to log sequence 86891 (LGWR switch)
+  Current log# 5 seq# 86891 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86891 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 23:31:11 2019
+Archived Log entry 197037 added for thread 2 sequence 86890 ID 0xc85936ba dest 1:
+Tue Feb 12 23:33:38 2019
+Thread 2 cannot allocate new log, sequence 86892
+Checkpoint not complete
+  Current log# 5 seq# 86891 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86891 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 23:33:41 2019
+Thread 2 advanced to log sequence 86892 (LGWR switch)
+  Current log# 6 seq# 86892 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86892 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 23:33:41 2019
+Archived Log entry 197042 added for thread 2 sequence 86891 ID 0xc85936ba dest 1:
+Tue Feb 12 23:36:05 2019
+Thread 2 advanced to log sequence 86893 (LGWR switch)
+  Current log# 4 seq# 86893 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86893 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 23:36:05 2019
+Archived Log entry 197045 added for thread 2 sequence 86892 ID 0xc85936ba dest 1:
+Tue Feb 12 23:38:23 2019
+Thread 2 cannot allocate new log, sequence 86894
+Checkpoint not complete
+  Current log# 4 seq# 86893 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86893 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 23:38:26 2019
+Thread 2 advanced to log sequence 86894 (LGWR switch)
+  Current log# 5 seq# 86894 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86894 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 23:38:26 2019
+Archived Log entry 197050 added for thread 2 sequence 86893 ID 0xc85936ba dest 1:
+Tue Feb 12 23:50:21 2019
+Thread 2 advanced to log sequence 86895 (LGWR switch)
+  Current log# 6 seq# 86895 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86895 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 23:50:21 2019
+Archived Log entry 197054 added for thread 2 sequence 86894 ID 0xc85936ba dest 1:
+Tue Feb 12 23:53:54 2019
+Thread 2 advanced to log sequence 86896 (LGWR switch)
+  Current log# 4 seq# 86896 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86896 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Tue Feb 12 23:53:54 2019
+Archived Log entry 197057 added for thread 2 sequence 86895 ID 0xc85936ba dest 1:
+Tue Feb 12 23:56:27 2019
+Thread 2 advanced to log sequence 86897 (LGWR switch)
+  Current log# 5 seq# 86897 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86897 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Tue Feb 12 23:56:27 2019
+Archived Log entry 197061 added for thread 2 sequence 86896 ID 0xc85936ba dest 1:
+Tue Feb 12 23:58:39 2019
+Thread 2 advanced to log sequence 86898 (LGWR switch)
+  Current log# 6 seq# 86898 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86898 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Tue Feb 12 23:58:39 2019
+Archived Log entry 197065 added for thread 2 sequence 86897 ID 0xc85936ba dest 1:
+Wed Feb 13 00:00:06 2019
+Thread 2 cannot allocate new log, sequence 86899
+Checkpoint not complete
+  Current log# 6 seq# 86898 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86898 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Wed Feb 13 00:00:09 2019
+Thread 2 advanced to log sequence 86899 (LGWR switch)
+  Current log# 4 seq# 86899 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86899 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Wed Feb 13 00:00:10 2019
+Archived Log entry 197069 added for thread 2 sequence 86898 ID 0xc85936ba dest 1:
+Wed Feb 13 00:00:48 2019
+ALTER SYSTEM ARCHIVE LOG
+Wed Feb 13 00:00:48 2019
+Thread 2 cannot allocate new log, sequence 86900
+Checkpoint not complete
+  Current log# 4 seq# 86899 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86899 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Wed Feb 13 00:00:48 2019
+Thread 2 advanced to log sequence 86900 (LGWR switch)
+  Current log# 5 seq# 86900 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86900 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Wed Feb 13 00:00:49 2019
+Archived Log entry 197071 added for thread 2 sequence 86899 ID 0xc85936ba dest 1:
+Wed Feb 13 00:05:37 2019
+Thread 2 advanced to log sequence 86901 (LGWR switch)
+  Current log# 6 seq# 86901 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86901 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Wed Feb 13 00:05:37 2019
+Archived Log entry 197074 added for thread 2 sequence 86900 ID 0xc85936ba dest 1:
+Wed Feb 13 00:17:28 2019
+Thread 2 advanced to log sequence 86902 (LGWR switch)
+  Current log# 4 seq# 86902 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86902 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Wed Feb 13 00:17:29 2019
+Archived Log entry 197078 added for thread 2 sequence 86901 ID 0xc85936ba dest 1:
+Wed Feb 13 00:20:20 2019
+Thread 2 advanced to log sequence 86903 (LGWR switch)
+  Current log# 5 seq# 86903 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86903 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Wed Feb 13 00:20:20 2019
+Archived Log entry 197083 added for thread 2 sequence 86902 ID 0xc85936ba dest 1:
+Wed Feb 13 00:22:32 2019
+Thread 2 cannot allocate new log, sequence 86904
+Checkpoint not complete
+  Current log# 5 seq# 86903 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86903 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Wed Feb 13 00:22:35 2019
+Thread 2 advanced to log sequence 86904 (LGWR switch)
+  Current log# 6 seq# 86904 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86904 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Wed Feb 13 00:22:36 2019
+Archived Log entry 197087 added for thread 2 sequence 86903 ID 0xc85936ba dest 1:
+Wed Feb 13 00:43:06 2019
+Thread 2 advanced to log sequence 86905 (LGWR switch)
+  Current log# 4 seq# 86905 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86905 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Wed Feb 13 00:43:07 2019
+Archived Log entry 197091 added for thread 2 sequence 86904 ID 0xc85936ba dest 1:
+Wed Feb 13 00:46:52 2019
+Thread 2 advanced to log sequence 86906 (LGWR switch)
+  Current log# 5 seq# 86906 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86906 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Wed Feb 13 00:46:52 2019
+Archived Log entry 197095 added for thread 2 sequence 86905 ID 0xc85936ba dest 1:
+Wed Feb 13 00:49:04 2019
+Thread 2 advanced to log sequence 86907 (LGWR switch)
+  Current log# 6 seq# 86907 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86907 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Wed Feb 13 00:49:04 2019
+Archived Log entry 197098 added for thread 2 sequence 86906 ID 0xc85936ba dest 1:
+Wed Feb 13 00:50:25 2019
+Thread 2 cannot allocate new log, sequence 86908
+Checkpoint not complete
+  Current log# 6 seq# 86907 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86907 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Wed Feb 13 00:50:28 2019
+Thread 2 advanced to log sequence 86908 (LGWR switch)
+  Current log# 4 seq# 86908 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86908 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Wed Feb 13 00:50:28 2019
+Archived Log entry 197103 added for thread 2 sequence 86907 ID 0xc85936ba dest 1:
+Wed Feb 13 00:53:52 2019
+Thread 2 cannot allocate new log, sequence 86909
+Checkpoint not complete
+  Current log# 4 seq# 86908 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86908 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Wed Feb 13 00:53:55 2019
+Thread 2 advanced to log sequence 86909 (LGWR switch)
+  Current log# 5 seq# 86909 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86909 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Wed Feb 13 00:53:55 2019
+Archived Log entry 197107 added for thread 2 sequence 86908 ID 0xc85936ba dest 1:
+Wed Feb 13 00:57:23 2019
+Thread 2 advanced to log sequence 86910 (LGWR switch)
+  Current log# 6 seq# 86910 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86910 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Wed Feb 13 00:57:23 2019
+Archived Log entry 197111 added for thread 2 sequence 86909 ID 0xc85936ba dest 1:
+Wed Feb 13 01:00:42 2019
+ALTER SYSTEM ARCHIVE LOG
+Wed Feb 13 01:00:45 2019
+Thread 2 advanced to log sequence 86911 (LGWR switch)
+  Current log# 4 seq# 86911 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86911 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Wed Feb 13 01:00:47 2019
+Archived Log entry 197114 added for thread 2 sequence 86910 ID 0xc85936ba dest 1:
+Wed Feb 13 01:21:40 2019
+Thread 2 advanced to log sequence 86912 (LGWR switch)
+  Current log# 5 seq# 86912 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86912 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Wed Feb 13 01:21:41 2019
+Archived Log entry 197118 added for thread 2 sequence 86911 ID 0xc85936ba dest 1:
+Wed Feb 13 01:27:23 2019
+Thread 2 advanced to log sequence 86913 (LGWR switch)
+  Current log# 6 seq# 86913 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86913 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Wed Feb 13 01:27:23 2019
+Archived Log entry 197121 added for thread 2 sequence 86912 ID 0xc85936ba dest 1:
+Wed Feb 13 01:31:29 2019
+Thread 2 advanced to log sequence 86914 (LGWR switch)
+  Current log# 4 seq# 86914 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86914 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Wed Feb 13 01:31:30 2019
+Archived Log entry 197125 added for thread 2 sequence 86913 ID 0xc85936ba dest 1:
+Wed Feb 13 01:33:18 2019
+Thread 2 advanced to log sequence 86915 (LGWR switch)
+  Current log# 5 seq# 86915 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86915 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Wed Feb 13 01:33:18 2019
+Archived Log entry 197129 added for thread 2 sequence 86914 ID 0xc85936ba dest 1:
+Wed Feb 13 01:35:15 2019
+Thread 2 cannot allocate new log, sequence 86916
+Checkpoint not complete
+  Current log# 5 seq# 86915 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86915 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Wed Feb 13 01:35:18 2019
+Thread 2 advanced to log sequence 86916 (LGWR switch)
+  Current log# 6 seq# 86916 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86916 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Wed Feb 13 01:35:18 2019
+Archived Log entry 197134 added for thread 2 sequence 86915 ID 0xc85936ba dest 1:
+Wed Feb 13 01:36:57 2019
+Thread 2 cannot allocate new log, sequence 86917
+Checkpoint not complete
+  Current log# 6 seq# 86916 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86916 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Wed Feb 13 01:37:01 2019
+Thread 2 advanced to log sequence 86917 (LGWR switch)
+  Current log# 4 seq# 86917 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86917 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Wed Feb 13 01:37:02 2019
+Archived Log entry 197137 added for thread 2 sequence 86916 ID 0xc85936ba dest 1:
+Wed Feb 13 01:41:11 2019
+Thread 2 advanced to log sequence 86918 (LGWR switch)
+  Current log# 5 seq# 86918 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86918 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Wed Feb 13 01:41:11 2019
+Archived Log entry 197141 added for thread 2 sequence 86917 ID 0xc85936ba dest 1:
+Wed Feb 13 01:44:38 2019
+Thread 2 advanced to log sequence 86919 (LGWR switch)
+  Current log# 6 seq# 86919 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86919 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Wed Feb 13 01:44:38 2019
+Archived Log entry 197146 added for thread 2 sequence 86918 ID 0xc85936ba dest 1:
+Wed Feb 13 01:47:47 2019
+Thread 2 advanced to log sequence 86920 (LGWR switch)
+  Current log# 4 seq# 86920 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86920 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Wed Feb 13 01:47:47 2019
+Archived Log entry 197150 added for thread 2 sequence 86919 ID 0xc85936ba dest 1:
+Wed Feb 13 01:50:29 2019
+Thread 2 advanced to log sequence 86921 (LGWR switch)
+  Current log# 5 seq# 86921 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86921 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Wed Feb 13 01:50:30 2019
+Archived Log entry 197153 added for thread 2 sequence 86920 ID 0xc85936ba dest 1:
+Wed Feb 13 01:53:27 2019
+Thread 2 advanced to log sequence 86922 (LGWR switch)
+  Current log# 6 seq# 86922 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86922 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Wed Feb 13 01:53:27 2019
+Archived Log entry 197157 added for thread 2 sequence 86921 ID 0xc85936ba dest 1:
+Wed Feb 13 01:59:15 2019
+Thread 2 advanced to log sequence 86923 (LGWR switch)
+  Current log# 4 seq# 86923 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86923 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Wed Feb 13 01:59:15 2019
+Archived Log entry 197161 added for thread 2 sequence 86922 ID 0xc85936ba dest 1:
+Wed Feb 13 02:00:33 2019
+Thread 2 advanced to log sequence 86924 (LGWR switch)
+  Current log# 5 seq# 86924 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86924 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Wed Feb 13 02:00:33 2019
+Archived Log entry 197165 added for thread 2 sequence 86923 ID 0xc85936ba dest 1:
+Wed Feb 13 02:00:42 2019
+ALTER SYSTEM ARCHIVE LOG
+Wed Feb 13 02:00:42 2019
+Thread 2 cannot allocate new log, sequence 86925
+Checkpoint not complete
+  Current log# 5 seq# 86924 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86924 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Wed Feb 13 02:00:42 2019
+Thread 2 advanced to log sequence 86925 (LGWR switch)
+  Current log# 6 seq# 86925 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86925 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Wed Feb 13 02:00:42 2019
+Archived Log entry 197167 added for thread 2 sequence 86924 ID 0xc85936ba dest 1:
+Wed Feb 13 02:03:31 2019
+Thread 2 cannot allocate new log, sequence 86926
+Checkpoint not complete
+  Current log# 6 seq# 86925 mem# 0: +REDODG/RPIPNBRB/redo61.log
+  Current log# 6 seq# 86925 mem# 1: +REDODG/RPIPNBRB/redo62.log
+Wed Feb 13 02:03:34 2019
+Thread 2 advanced to log sequence 86926 (LGWR switch)
+  Current log# 4 seq# 86926 mem# 0: +REDODG/RPIPNBRB/redo41.log
+  Current log# 4 seq# 86926 mem# 1: +REDODG/RPIPNBRB/redo42.log
+Wed Feb 13 02:03:34 2019
+Archived Log entry 197171 added for thread 2 sequence 86925 ID 0xc85936ba dest 1:
+Wed Feb 13 02:08:46 2019
+Thread 2 advanced to log sequence 86927 (LGWR switch)
+  Current log# 5 seq# 86927 mem# 0: +REDODG/RPIPNBRB/redo51.log
+  Current log# 5 seq# 86927 mem# 1: +REDODG/RPIPNBRB/redo52.log
+Wed Feb 13 02:08:46 2019
+Archived Log entry 197175 added for thread 2 sequence 86926 ID 0xc85936ba dest 1:

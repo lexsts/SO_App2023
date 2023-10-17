@@ -1,0 +1,10 @@
+Admin: saoshasp0206
+
+Download:
+http://download.doubletake.com/_download/dt60/docs/Availability/User's%20Guide/Content/SQL/SQLProtecting.htm
+
+Como usar:
+http://www.youtube.com/watch?v=htoX_-tAzw0
+
+Replicação SQL:
+http://download.doubletake.com/_download/dt60/docs/Availability/User's%20Guide/Content/SQL/SQLProtecting.htm

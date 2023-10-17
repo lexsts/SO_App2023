@@ -1,0 +1,15 @@
+#Verificar qual é o grupo atual do usuário
+saoshasd0091:~ # id sanalex
+uid=59005(sanalex) gid=100(users) groups=100(users)
+
+#Verificar qual é o nome do grupo ao qual ele será adicionado
+saoshasd0091:~ # id oracle
+uid=59006(oracle) gid=213(oinstall) groups=213(oinstall)
+
+#Adicionar os grupos simultaneamente no mesmo comando
+saoshasd0091:~ # usermod -G users,oinstall sanalex
+usermod: `users' is primary group name.
+
+#Validação
+saoshasd0091:~ # id sanalex
+uid=59005(sanalex) gid=100(users) groups=213(oinstall),100(users)

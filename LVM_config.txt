@@ -1,0 +1,62 @@
+===============================================================
+CRIANDO VG
+=====
+[root@sts ~]# pvcreate /dev/sda8
+  Writing physical volume data to disk "/dev/sda5"
+  Physical volume "/dev/sda5" successfully created
+
+
+[root@sts ~]# vgcreate lvm-oraREDO01 /dev/sda19
+  Volume group "lvm-sysORACLE" successfully created
+
+
+[root@sts ~]# lvcreate -l 100%VG -n oraREDO01 lvm-oraREDO01
+  Logical volume "sysORACLE" created
+
+
+[root@sts ~]# mkfs.ext4 /dev/lvm-oraTEMP/oraTEMP
+mke2fs 1.42.3 (14-May-2012)
+Filesystem label=
+OS type: Linux
+Block size=1024 (log=0)
+Fragment size=1024 (log=0)
+Stride=0 blocks, Stripe width=0 blocks
+126976 inodes, 507904 blocks
+25395 blocks (5.00%) reserved for the super user
+First data block=1
+Maximum filesystem blocks=67633152
+62 block groups
+8192 blocks per group, 8192 fragments per group
+2048 inodes per group
+Superblock backups stored on blocks: 
+	8193, 24577, 40961, 57345, 73729, 204801, 221185, 401409
+
+Allocating group tables: done                            
+Writing inode tables: done                            
+Creating journal (8192 blocks): done
+Writing superblocks and filesystem accounting information: done 
+
+
+
+===============================================================
+EXTENDENDO VG
+=====
+[root@sts ~]# vgextend lvm-sysORACLE /dev/sda8
+  Volume group "lvm-sysORACLE" successfully extended
+
+
+[root@sts ~]# lvextend -l 100%VG /dev/lvm-sysORACLE/sysORACLE
+  Extending logical volume sysORACLE to 3.72 GiB
+  Logical volume sysORACLE successfully resized
+
+
+[root@sts ~]# resize2fs /dev/lvm-sysORACLE/sysORACLE 
+resize2fs 1.42.3 (14-May-2012)
+Filesystem at /dev/lvm-sysORACLE/sysORACLE is mounted on /sysORACLE; on-line resizing required
+old_desc_blocks = 1, new_desc_blocks = 1
+The filesystem on /dev/lvm-sysORACLE/sysORACLE is now 1101824 blocks long.
+
+
+
+
+

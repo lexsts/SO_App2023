@@ -1,0 +1,2 @@
+# Arquivos alterados nos últimos 10 minutos
+find / -mmin -10
