@@ -1,0 +1,6 @@
+--Todas
+'Status*' < "Closed" AND ('Assignee Group+' = "DI-GSUI-DATABASE" OR 'Assignee Group+' = "DI-CSUP-DATABASE" OR 'Assignee Group+' = "DI-GSBD-SUPORTE" OR 'Assignee Group+' = "DI-GSBD-SUPORTE E IMPLANTACAO") AND ('Change Request Status' = "Scheduled" OR 'Change Request Status' = "Implementation In Progress" OR 'Change Request Status' = "Planning In Progress")
+
+
+--Exceto as em planejamento
+'Status*' < "Closed" AND ('Assignee Group+' = "DI-GSUI-DATABASE" OR 'Assignee Group+' = "DI-CSUP-DATABASE" OR 'Assignee Group+' = "DI-GSBD-SUPORTE" OR 'Assignee Group+' = "DI-GSBD-SUPORTE E IMPLANTACAO") AND ('Change Request Status' = "Scheduled" OR 'Change Request Status' = "Implementation In Progress")

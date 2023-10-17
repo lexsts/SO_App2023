@@ -1,0 +1,4 @@
+for i in *74870SP_120807_IOF-74870101-* 
+do 
+        mv "$i" "$(echo $i | sed "s/-REPROC.PDF/.PDF/")" 
+done

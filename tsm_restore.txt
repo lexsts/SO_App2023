@@ -1,0 +1,1 @@
+C:\Program Files\TSM\baclient>dsm -optfile="C:\Program Files\TSM\baclient\dsmclusv3L_PRD.opt"

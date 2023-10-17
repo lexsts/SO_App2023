@@ -1,0 +1,49 @@
+
+1-	Crie um arquivo chamado Test.java com o conteúdo abaixo:
+
+import java.sql.*;    
+public class Test {
+  private final static String DB_URL = "jdbc:oracle:thin:@//oratrd00101p4-vip.intraservice.corp:1524/RPFCNBRA.WORLD";
+  private final static String USER = "alexsantos";
+  private final static String PASS = "xxxxxxxx";
+  
+  public static void main(String[] args) {
+                Connection conn = null;  
+                Statement stmt = null;
+                String query = "SELECT SYSDATE FROM DUAL";
+                                 
+    try {    
+      Class.forName("oracle.jdbc.driver.OracleDriver");    
+      System.out.println("Tentando se conectar ao banco…");    
+      conn = DriverManager.getConnection(DB_URL,USER,PASS);    
+    } catch (Exception e) {    
+      e.printStackTrace();    
+                  System.out.println("Falha de conexão!");    
+    } finally {    
+      if (conn != null) {    
+        try {                                 
+                                 stmt = conn.createStatement();            
+                                 ResultSet rs = stmt.executeQuery(query);
+                                 while (rs.next()) {
+            String sysDate = rs.getString("SYSDATE");
+            System.out.println("Conectado na instancia em: " + sysDate);
+                                               }
+          conn.close(); 
+                                 System.out.println("Teste bem sucedido!");    
+        } catch (SQLException e) {    
+          e.printStackTrace();    
+        }    
+      }    
+    }            
+  }    
+}
+
+
+2-	Copie o driver de conexão para o seguinte diretório:
+COPY C:\app\Administrador\product\11.2.0\client_1\jdbc\lib\ojdbc5.jar C:\app\Administrador\product\11.2.0\client_1\jdk\jre\lib\ext
+
+3-	Compile o arquivo Test.java com o comando:
+C:\app\Administrador\product\11.2.0\client_1\jdk\bin\javac Test.java
+
+4-	Execute o teste:
+C:\app\Administrador\product\11.2.0\client_1\jdk\bin\java Test

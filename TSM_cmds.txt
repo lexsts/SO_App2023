@@ -1,0 +1,12 @@
+--ENTRAR NO PROMPT DO TSM
+dsmc
+
+--CONSULTA DATA ESPECIFICA
+q ba /data04/oracle/product/11.2.0.2/backup/SINACOR/export/EXPDP/SAOEQDBP69N1_SINACOR_FULL_EXPDP.dmp -TODATE=10/24/13 -FROMDATE=10/24/13 -inactive
+
+--RESTORE
+rest /data04/oracle/product/11.2.0.2/backup/SINACOR/export/EXPDP/SAOEQDBP69N1_SINACOR_FULL_EXPDP.dmp /data04/oracle/product/11.2.0.2/backup/SINACOR/export/EXPDP/restore/ -TODATE=10/24/13 -FROMDATE=10/24/13 -inactive
+
+--CONSULTA COM RESTORE
+dsmc rest "/data03/oracle/product/11.2.0.2/oradata/SINACOR/archive/SINACOR/archivelog/2012_10_19/*" -pic -subdir=yes -inact
+

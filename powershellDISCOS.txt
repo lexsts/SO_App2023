@@ -1,0 +1,2 @@
+foreach ($i in get-WmiObject win32_logicaldisk -Computername SAOCUAPPP60N1)
+{Write-Host $i.DEVICEID -nonewline}

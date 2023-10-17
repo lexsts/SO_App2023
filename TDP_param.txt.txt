@@ -1,0 +1,415 @@
+TSM Server: 5.5.3.0
+
+TSM TDPSQL: 6.3.0.0
+BACLIENT: 6.3.0.0
+
+- TSM Scheduler Service exclusivo
+
+- Registrar no TSM
+- Registrar com nome de cliente diferente.
+
+
+
+SOFTWARES:
+\\10.245.83.194\tsm63
+
+SOFTWARES UNIX:
+/net/build.us.db.com/export/DBbuild/global/
+
+
+Instalação:
+http://pic.dhe.ibm.com/infocenter/tsminfo/v6r2/index.jsp?topic=%2Fcom.ibm.itsm.client.doc%2Ft_inst_solclient.html
+
+Desinstalação:
+http://pic.dhe.ibm.com/infocenter/tsminfo/v6r2/index.jsp?topic=%2Fcom.ibm.itsm.client.doc%2Ft_inst_uninst_solarisclient.html
+
+
+-------------------------------------------------------
+bash-3.2# pkgadd -a ./tsmadmin -d . gsk8cry64
+
+Processing package instance <gsk8cry64> from </opt/tsm>
+
+IBM GSKit Cryptography Runtime(x86) 8.0.13.4
+IBM
+## Executing checkinstall script.
+gsk8cry64 Required Patches Verified. Continuing...
+Using </opt> as the package base directory.
+## Processing package information.
+## Processing system information.
+   2 package pathnames are already properly installed.
+## Verifying package dependencies.
+## Verifying disk space requirements.
+
+Installing IBM GSKit Cryptography Runtime as <gsk8cry64>
+
+## Installing part 1 of 1.
+/opt/ibm/gsk8_64/lib64/C/icc/ReadMe.txt
+/opt/ibm/gsk8_64/lib64/C/icc/icclib/libicclib.so
+/opt/ibm/gsk8_64/lib64/C/icc/osslib/libcrypto.so.0.9.7
+/opt/ibm/gsk8_64/lib64/N/icc/ReadMe.txt
+/opt/ibm/gsk8_64/lib64/N/icc/icclib/libicclib081.so
+/opt/ibm/gsk8_64/lib64/N/icc/osslib/libcryptoIBM081.so.0.9.8
+/opt/ibm/gsk8_64/lib64/libgsk8iccs_64.so
+/usr/lib/amd64/libgsk8iccs_64.so <symbolic link>
+[ verifying class <none> ]
+
+Installation of <gsk8cry64> was successful.
+bash-3.2# pkgadd -a ./tsmadmin -d . gsk8ssl64
+
+Processing package instance <gsk8ssl64> from </opt/tsm>
+
+IBM GSKit SSL Runtime With Acme Toolkit(x86) 8.0.13.4
+IBM
+## Executing checkinstall script.
+gsk8ssl64 Required Patches Verified. Continuing...
+Using </opt> as the package base directory.
+## Processing package information.
+## Processing system information.
+   9 package pathnames are already properly installed.
+## Verifying package dependencies.
+## Verifying disk space requirements.
+
+Installing IBM GSKit SSL Runtime With Acme Toolkit as <gsk8ssl64>
+
+## Installing part 1 of 1.
+/opt/ibm/gsk8_64/ReadMe.txt
+/opt/ibm/gsk8_64/bin/gsk8capicmd_64
+/opt/ibm/gsk8_64/bin/gsk8ver_64
+/opt/ibm/gsk8_64/copyright
+/opt/ibm/gsk8_64/lib64/libgsk8acmeidup_64.so
+/opt/ibm/gsk8_64/lib64/libgsk8cms_64.so
+/opt/ibm/gsk8_64/lib64/libgsk8dbfl_64.so
+/opt/ibm/gsk8_64/lib64/libgsk8drld_64.so
+/opt/ibm/gsk8_64/lib64/libgsk8kicc_64.so
+/opt/ibm/gsk8_64/lib64/libgsk8km_64.so
+/opt/ibm/gsk8_64/lib64/libgsk8ldap_64.so
+/opt/ibm/gsk8_64/lib64/libgsk8p11_64.so
+/opt/ibm/gsk8_64/lib64/libgsk8ssl_64.so
+/opt/ibm/gsk8_64/lib64/libgsk8sys_64.so
+/opt/ibm/gsk8_64/lib64/libgsk8valn_64.so
+/usr/bin/gsk8capicmd_64 <symbolic link>
+/usr/bin/gsk8ver_64 <symbolic link>
+/usr/lib/amd64/libgsk8acmeidup_64.so <symbolic link>
+/usr/lib/amd64/libgsk8cms_64.so <symbolic link>
+/usr/lib/amd64/libgsk8dbfl_64.so <symbolic link>
+/usr/lib/amd64/libgsk8drld_64.so <symbolic link>
+/usr/lib/amd64/libgsk8kicc_64.so <symbolic link>
+/usr/lib/amd64/libgsk8km_64.so <symbolic link>
+/usr/lib/amd64/libgsk8ldap_64.so <symbolic link>
+/usr/lib/amd64/libgsk8p11_64.so <symbolic link>
+/usr/lib/amd64/libgsk8ssl_64.so <symbolic link>
+/usr/lib/amd64/libgsk8sys_64.so <symbolic link>
+/usr/lib/amd64/libgsk8valn_64.so <symbolic link>
+[ verifying class <none> ]
+
+Installation of <gsk8ssl64> was successful.
+bash-3.2# pkgadd -a ./tsmadmin -d . TIVsmCapi
+pkgadd: ERROR: no package associated with <TIVsmCapi>
+bash-3.2# ls -ltr
+total 127704
+drwxr-xr-x   4 827      508          512 Apr 16  2010 gsk8cry64
+drwxr-xr-x   4 827      508          512 Apr 16  2010 gsk8ssl64
+drwxr-xr-x   4 827      508          512 Apr 16  2010 gsk8cry32
+drwxr-xr-x   4 827      508          512 Apr 16  2010 gsk8ssl32
+-rw-r--r--   1 502      2007     32086528 Nov 19  2010 TIVsmCapi.pkg
+-rw-r--r--   1 502      2007       11793 Nov 19  2010 README_enu.htm
+-rw-r--r--   1 502      2007       10711 Nov 19  2010 README_api_enu.htm
+-rw-r--r--   1 502      2007      112040 Nov 19  2010 NOTICES.TXT
+-rw-r--r--   1 502      2007     33088000 Nov 19  2010 TIVsmCba.pkg
+-rw-r--r--   1 502      2007         146 Nov 19  2010 tsmadmin
+bash-3.2# pkgadd -a ./tsmadmin -d ./TIVsmCapi.pkg TIVsmCapi
+
+Processing package instance <TIVsmCapi> from </opt/tsm/TIVsmCapi.pkg>
+
+IBM Tivoli Storage Manager Solaris 10 API Client(x86) Version 6 Release 2 Level 2.0
+Licensed Materials - Property of IBM
+
+5655-A30
+(C) Copyright International Business Machines Corp. 1990, 2010.
+
+All rights reserved.
+US Government Users Restricted Rights - Use, duplication or disclosure
+restricted by GSA ADP Schedule Contract with IBM Corp.
+
+## Executing checkinstall script.
+
+WARNING:
+   Please install the package gsk8cry32 before
+   installing 'IBM TSM API'.
+
+checkinstall script suspends
+
+Installation of <TIVsmCapi> was suspended (administration).
+No changes were made to the system.
+bash-3.2# pkgadd -a ./tsmadmin -d gsk8cry32
+pkgadd: ERROR: no packages were found in </opt/tsm/gsk8cry32>
+bash-3.2# pkgadd -a ./tsmadmin -d gsk8cry32
+pkgadd: ERROR: no packages were found in </opt/tsm/gsk8cry32>
+bash-3.2# pkgadd -a ./tsmadmin -d . gsk8cry32
+
+Processing package instance <gsk8cry32> from </opt/tsm>
+
+IBM GSKit Cryptography Runtime(x86) 8.0.13.4
+IBM
+## Executing checkinstall script.
+gsk8cry32 Required Patches Verified. Continuing...
+Using </opt> as the package base directory.
+## Processing package information.
+## Processing system information.
+   3 package pathnames are already properly installed.
+## Verifying package dependencies.
+## Verifying disk space requirements.
+
+Installing IBM GSKit Cryptography Runtime as <gsk8cry32>
+
+## Installing part 1 of 1.
+/opt/ibm/gsk8/lib/C/icc/ReadMe.txt
+/opt/ibm/gsk8/lib/C/icc/icclib/libicclib.so
+/opt/ibm/gsk8/lib/C/icc/osslib/libcrypto.so.0.9.7
+/opt/ibm/gsk8/lib/N/icc/ReadMe.txt
+/opt/ibm/gsk8/lib/N/icc/icclib/libicclib081.so
+/opt/ibm/gsk8/lib/N/icc/osslib/libcryptoIBM081.so.0.9.8
+/opt/ibm/gsk8/lib/libgsk8iccs.so
+/usr/lib/libgsk8iccs.so <symbolic link>
+[ verifying class <none> ]
+
+Installation of <gsk8cry32> was successful.
+bash-3.2# pkgadd -a ./tsmadmin -d . gsk8ssl32
+
+Processing package instance <gsk8ssl32> from </opt/tsm>
+
+IBM GSKit SSL Runtime With Acme Toolkit(x86) 8.0.13.4
+IBM
+## Executing checkinstall script.
+gsk8ssl32 Required Patches Verified. Continuing...
+Using </opt> as the package base directory.
+## Processing package information.
+## Processing system information.
+   9 package pathnames are already properly installed.
+## Verifying package dependencies.
+## Verifying disk space requirements.
+
+Installing IBM GSKit SSL Runtime With Acme Toolkit as <gsk8ssl32>
+
+## Installing part 1 of 1.
+/opt/ibm/gsk8/ReadMe.txt
+/opt/ibm/gsk8/bin/gsk8capicmd
+/opt/ibm/gsk8/bin/gsk8ver
+/opt/ibm/gsk8/copyright
+/opt/ibm/gsk8/lib/libgsk8acmeidup.so
+/opt/ibm/gsk8/lib/libgsk8cms.so
+/opt/ibm/gsk8/lib/libgsk8dbfl.so
+/opt/ibm/gsk8/lib/libgsk8drld.so
+/opt/ibm/gsk8/lib/libgsk8kicc.so
+/opt/ibm/gsk8/lib/libgsk8km.so
+/opt/ibm/gsk8/lib/libgsk8ldap.so
+/opt/ibm/gsk8/lib/libgsk8p11.so
+/opt/ibm/gsk8/lib/libgsk8ssl.so
+/opt/ibm/gsk8/lib/libgsk8sys.so
+/opt/ibm/gsk8/lib/libgsk8valn.so
+/usr/bin/gsk8capicmd <symbolic link>
+/usr/bin/gsk8ver <symbolic link>
+/usr/lib/libgsk8acmeidup.so <symbolic link>
+/usr/lib/libgsk8cms.so <symbolic link>
+/usr/lib/libgsk8dbfl.so <symbolic link>
+/usr/lib/libgsk8drld.so <symbolic link>
+/usr/lib/libgsk8kicc.so <symbolic link>
+/usr/lib/libgsk8km.so <symbolic link>
+/usr/lib/libgsk8ldap.so <symbolic link>
+/usr/lib/libgsk8p11.so <symbolic link>
+/usr/lib/libgsk8ssl.so <symbolic link>
+/usr/lib/libgsk8sys.so <symbolic link>
+/usr/lib/libgsk8valn.so <symbolic link>
+[ verifying class <none> ]
+
+Installation of <gsk8ssl32> was successful.
+bash-3.2# pkgadd -a ./tsmadmin -d ./TIVsmCapi.pkg TIVsmCapi
+
+Processing package instance <TIVsmCapi> from </opt/tsm/TIVsmCapi.pkg>
+
+IBM Tivoli Storage Manager Solaris 10 API Client(x86) Version 6 Release 2 Level 2.0
+Licensed Materials - Property of IBM
+
+5655-A30
+(C) Copyright International Business Machines Corp. 1990, 2010.
+
+All rights reserved.
+US Government Users Restricted Rights - Use, duplication or disclosure
+restricted by GSA ADP Schedule Contract with IBM Corp.
+
+## Executing checkinstall script.
+Using </opt/tivoli/tsm/client> as the package base directory.
+## Processing package information.
+## Processing system information.
+## Verifying package dependencies.
+## Verifying disk space requirements.
+
+Installing IBM Tivoli Storage Manager Solaris 10 API Client as <TIVsmCapi>
+
+## Installing part 1 of 1.
+/opt/tivoli/tsm/client/api/NOTICES.TXT
+/opt/tivoli/tsm/client/api/README_api_chs.htm
+/opt/tivoli/tsm/client/api/README_api_cht.htm
+/opt/tivoli/tsm/client/api/README_api_deu.htm
+/opt/tivoli/tsm/client/api/README_api_enu.htm
+/opt/tivoli/tsm/client/api/README_api_esp.htm
+/opt/tivoli/tsm/client/api/README_api_fra.htm
+/opt/tivoli/tsm/client/api/README_api_kor.htm
+/opt/tivoli/tsm/client/api/README_api_ptb.htm
+/opt/tivoli/tsm/client/api/README_chs.htm
+/opt/tivoli/tsm/client/api/README_cht.htm
+/opt/tivoli/tsm/client/api/README_deu.htm
+/opt/tivoli/tsm/client/api/README_enu.htm
+/opt/tivoli/tsm/client/api/README_esp.htm
+/opt/tivoli/tsm/client/api/README_fra.htm
+/opt/tivoli/tsm/client/api/README_kor.htm
+/opt/tivoli/tsm/client/api/README_ptb.htm
+/opt/tivoli/tsm/client/api/bin/EN_US <symbolic link>
+/opt/tivoli/tsm/client/api/bin/dsm.opt.smp
+/opt/tivoli/tsm/client/api/bin/dsm.sys.smp
+/opt/tivoli/tsm/client/api/bin/dsmtca
+/opt/tivoli/tsm/client/api/bin/libApiDS.so
+/opt/tivoli/tsm/client/api/bin/libxerces-c1_6_0.so
+/opt/tivoli/tsm/client/api/bin/libxmlutil-6.2.2.0.so
+/opt/tivoli/tsm/client/api/bin/sample/callbuff.c
+/opt/tivoli/tsm/client/api/bin/sample/callevnt.c
+/opt/tivoli/tsm/client/api/bin/sample/callhold.c
+/opt/tivoli/tsm/client/api/bin/sample/callmt1.c
+/opt/tivoli/tsm/client/api/bin/sample/callmt2.c
+/opt/tivoli/tsm/client/api/bin/sample/callret.c
+/opt/tivoli/tsm/client/api/bin/sample/dapibkup.c
+/opt/tivoli/tsm/client/api/bin/sample/dapidata.h
+/opt/tivoli/tsm/client/api/bin/sample/dapiinit.c
+/opt/tivoli/tsm/client/api/bin/sample/dapint64.c
+/opt/tivoli/tsm/client/api/bin/sample/dapint64.h
+/opt/tivoli/tsm/client/api/bin/sample/dapipref.c
+/opt/tivoli/tsm/client/api/bin/sample/dapiproc.c
+/opt/tivoli/tsm/client/api/bin/sample/dapiproc.h
+/opt/tivoli/tsm/client/api/bin/sample/dapipw.c
+/opt/tivoli/tsm/client/api/bin/sample/dapiqry.c
+/opt/tivoli/tsm/client/api/bin/sample/dapirc.c
+/opt/tivoli/tsm/client/api/bin/sample/dapismp.c
+/opt/tivoli/tsm/client/api/bin/sample/dapitype.h
+/opt/tivoli/tsm/client/api/bin/sample/dapiutil.c
+/opt/tivoli/tsm/client/api/bin/sample/dapiutil.h
+/opt/tivoli/tsm/client/api/bin/sample/dpsthread.c
+/opt/tivoli/tsm/client/api/bin/sample/dpsthread.h
+/opt/tivoli/tsm/client/api/bin/sample/dsmapifp.h
+/opt/tivoli/tsm/client/api/bin/sample/dsmapips.h
+/opt/tivoli/tsm/client/api/bin/sample/dsmapipw.c
+/opt/tivoli/tsm/client/api/bin/sample/dsmapitd.h
+/opt/tivoli/tsm/client/api/bin/sample/dsmgrp.c
+/opt/tivoli/tsm/client/api/bin/sample/dsmrc.h
+/opt/tivoli/tsm/client/api/bin/sample/makesmp.solx86
+/opt/tivoli/tsm/client/api/bin/sample/makesmp64.solx86
+/opt/tivoli/tsm/client/api/bin/sample/release.h
+/opt/tivoli/tsm/client/api/bin/sample/tsmapifp.h
+/opt/tivoli/tsm/client/api/bin/sample/tsmapitd.h
+/opt/tivoli/tsm/client/api/bin64/EN_US <symbolic link>
+/opt/tivoli/tsm/client/api/bin64/dsm.opt.smp
+/opt/tivoli/tsm/client/api/bin64/dsm.sys.smp
+/opt/tivoli/tsm/client/api/bin64/dsmtca
+/opt/tivoli/tsm/client/api/bin64/libApiDS64.so
+/opt/tivoli/tsm/client/api/bin64/sample <symbolic link>
+/opt/tivoli/tsm/client/lang/EN_US/dscjres.txt
+/opt/tivoli/tsm/client/lang/EN_US/dsmc.hlp
+/opt/tivoli/tsm/client/lang/EN_US/dsmclientV3.cat
+/opt/tivoli/tsm/client/lang/EN_US/tsmhelp.jar
+/opt/tivoli/tsm/client/lang/EN_US/uil_nls.jar
+/opt/tivoli/tsm/client/lang/EN_US/wchelp.htl
+[ verifying class <none> ]
+## Executing postinstall script.
+
+Installation of <TIVsmCapi> was successful.
+bash-3.2# ls -ltr
+total 127704
+drwxr-xr-x   4 827      508          512 Apr 16  2010 gsk8cry64
+drwxr-xr-x   4 827      508          512 Apr 16  2010 gsk8ssl64
+drwxr-xr-x   4 827      508          512 Apr 16  2010 gsk8cry32
+drwxr-xr-x   4 827      508          512 Apr 16  2010 gsk8ssl32
+-rw-r--r--   1 502      2007     32086528 Nov 19  2010 TIVsmCapi.pkg
+-rw-r--r--   1 502      2007       11793 Nov 19  2010 README_enu.htm
+-rw-r--r--   1 502      2007       10711 Nov 19  2010 README_api_enu.htm
+-rw-r--r--   1 502      2007      112040 Nov 19  2010 NOTICES.TXT
+-rw-r--r--   1 502      2007     33088000 Nov 19  2010 TIVsmCba.pkg
+-rw-r--r--   1 502      2007         146 Nov 19  2010 tsmadmin
+bash-3.2# pkgadd -a ./tsmadmin -d ./TIVsmCba.pkg TIVsmCba
+
+Processing package instance <TIVsmCba> from </opt/tsm/TIVsmCba.pkg>
+
+IBM Tivoli Storage Manager Solaris 10 Backup Archive Client(x86) Version 6 Release 2 Level 2.0
+Licensed Materials - Property of IBM
+
+5655-A30
+(C) Copyright International Business Machines Corp. 1990, 2010.
+
+All rights reserved.
+US Government Users Restricted Rights - Use, duplication or disclosure
+restricted by GSA ADP Schedule Contract with IBM Corp.
+
+## Executing checkinstall script.
+Using </opt/tivoli/tsm/client> as the package base directory.
+## Processing package information.
+## Processing system information.
+## Verifying package dependencies.
+## Verifying disk space requirements.
+
+Installing IBM Tivoli Storage Manager Solaris 10 Backup Archive Client as <TIVsmCba>
+
+## Installing part 1 of 1.
+/opt/tivoli/tsm/client/ba/NOTICES.TXT
+/opt/tivoli/tsm/client/ba/README_chs.htm
+/opt/tivoli/tsm/client/ba/README_cht.htm
+/opt/tivoli/tsm/client/ba/README_deu.htm
+/opt/tivoli/tsm/client/ba/README_enu.htm
+/opt/tivoli/tsm/client/ba/README_esp.htm
+/opt/tivoli/tsm/client/ba/README_fra.htm
+/opt/tivoli/tsm/client/ba/README_kor.htm
+/opt/tivoli/tsm/client/ba/README_ptb.htm
+/opt/tivoli/tsm/client/ba/bin/EN_US <symbolic link>
+/opt/tivoli/tsm/client/ba/bin/dsm.jar
+/opt/tivoli/tsm/client/ba/bin/dsm.opt.smp
+/opt/tivoli/tsm/client/ba/bin/dsm.sys.smp
+/opt/tivoli/tsm/client/ba/bin/dsm_pref.jar
+/opt/tivoli/tsm/client/ba/bin/dsmadmc
+/opt/tivoli/tsm/client/ba/bin/dsmagent
+/opt/tivoli/tsm/client/ba/bin/dsmc
+/opt/tivoli/tsm/client/ba/bin/dsmcad
+/opt/tivoli/tsm/client/ba/bin/dsmj
+/opt/tivoli/tsm/client/ba/bin/dsmswitch
+/opt/tivoli/tsm/client/ba/bin/dsmtca
+/opt/tivoli/tsm/client/ba/bin/dsmtrace
+/opt/tivoli/tsm/client/ba/bin/favicon.ico
+/opt/tivoli/tsm/client/ba/bin/images/wchelp.htl
+/opt/tivoli/tsm/client/ba/bin/jdom.jar
+/opt/tivoli/tsm/client/ba/bin/jh.jar
+/opt/tivoli/tsm/client/ba/bin/plugins/libPiIMG.so
+/opt/tivoli/tsm/client/ba/bin/plugins/libPiNAS.so
+/opt/tivoli/tsm/client/ba/bin/uil.jar
+/opt/tivoli/tsm/client/ba/bin/xercesImpl_2_2_1.jar
+/opt/tivoli/tsm/client/ba/bin/xmlParserAPIs_2_2_1.jar
+/opt/tivoli/tsm/client/ba/client_message.chg
+[ verifying class <none> ]
+## Executing postinstall script.
+
+Installation of <TIVsmCba> was successful.
+
+----------------------------------------------------------------------
+bash-3.2# ls -ltr /usr/bin/dsm.sys
+-rw-r--r--   1 root     bin          971 Mar  9  2010 /usr/bin/dsm.sys
+bash-3.2# ls -ltr /usr/bin/dsm.opt
+-rw-r--r--   1 root     bin          782 Mar  9  2010 /usr/bin/dsm.opt
+
+
+
+######################################################################
+#
+#https://sharepoint.de.intranet.db.com/site0030/core/storage/_layouts/searchresults.aspx?k=TSM%20Solaris&u=https%3A%2F%2Fsharepoint%2Ede%2Eintranet%2Edb%2Ecom%2Fsite0030%2Fcore%2Fstorage
+#
+# ftp://public.dhe.ibm.com/storage/tivoli-storage-management/maintenance/client/v6r2/Solaris/x86/
+#
+######################################################################
+
+
+
+------------------------------------------

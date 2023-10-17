@@ -1,0 +1,1 @@
+for i in `ls -ltr *txt | awk '{print $10}'`; do ocorrencia=$(cat $i | grep 505222 | wc -l); if [ $ocorrencia -gt 0 ]; then printf "${ocorrencia},"; echo $i; fi; done

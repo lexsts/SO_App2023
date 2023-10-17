@@ -1,0 +1,6 @@
+lsuser -f username
+chuser histsize=0 oracle
+chuser histexpire=0 oracle
+chuser maxage=0 oracle
+chuser maxexpired=0 oracle
+chuser maxrepeats=0 oracle

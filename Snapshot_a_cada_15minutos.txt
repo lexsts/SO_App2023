@@ -1,0 +1,9 @@
+BEGIN
+  DBMS_WORKLOAD_REPOSITORY.modify_snapshot_settings(
+    retention => 43200,
+    interval  => 15);
+END;
+/
+
+
+

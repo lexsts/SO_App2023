@@ -1,0 +1,15 @@
+# Para ver se há um processo utilizando a porta 1158:
+ netstat -Aan |grep 1158
+ 
+ 
+ 
+# Há um processo utilizando a porta 1158 e usando o protocolo TCP/IP. 
+#A saída do comando me retorna o socks utilizado: f1000e0008ad13b8
+#Agora adicionar o valor do socks no comando abaixo para identificar o processo:
+rmsock f1000e0008ad13b8 tcpcb
+
+
+
+#identificado que o processo é java rodando com PID 31850804 é o responsável pela abertura da porta 1158. 
+#Usando o comando “ps” podemos identificar o processo e caso exista os processos pai/filho.
+ ps -ef |grep 31850804

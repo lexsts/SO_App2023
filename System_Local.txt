@@ -1,0 +1,13 @@
+From time to time I have had a need to run a program in the context of the Local System account instead of my user account. Typically this is in troubleshooting a program…a program that runs as Local System. It doesn’t do me much good to troubleshoot that program if the program is running under my user account’s security context. I need it to run as System…which has more rights…most of the time. I have had to use this a few times while working with SMS 2003 and SCCM 2007. Both of them run as the local system account.
+
+So…how do we do that? In XP, 2000, Server 2003…you can do this very simply. You will need to be logged in with an account that has administrator privileges. Open a command prompt (Start, Run, CMD). At the command prompt type the following line. Replace 01:23 with the current time in 24 hour format + one minute. i.e. if it is 3:42 in the afternoon, enter it as 15:43.
+
+at 01:23 /interactive cmd.exe
+This schedules a task to run cmd.exe at the time you specify. When the CMD prompt pops up, it will be running as Local System. Be very careful. Note: you will only see this if you are at the console of the computer…so if you are connected to a server via Remote Desktop, you will not see the prompt come up unless you are connected to the console. I’ve been bit by that more than once…today as a matter of fact.
+
+Now…what about Vista? I was bummed to see that this did not work in Vista. Good for security…bummer for me. So tonight I set out to find a way to do this. Cool thing is that the answer was actually pretty easy…and can be found on Microsoft’s site. Download PSTools from SysInternals. Microsoft bought SysInternals in 2006. Extract the files. You will use the file named PSexec.exe.
+
+You still need a CMD prompt, but there’s an extra step… You will need to find the shortcut to the CMD prompt (Start, type CMD in the search box and wait for it to locate it…should be pretty fast). Once it locates it, right click it and choose to “Run as administrator”. (Do this even if your user account is an admin.) Once this opens, change directory til you get to the folder that contains PSexec (unless psexec is in a folder in your PATH already). This is where the magic happens…type the following line. (-i is for interactive, -s is to run as system)
+
+psexec -i -s cmd.exe
+The command prompt will look like:

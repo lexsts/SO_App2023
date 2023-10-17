@@ -1,0 +1,67 @@
+Copiei os scripts de start/stop do weblogic para a pasta
+
+\\saoinfsp24-v3\It\It-Infra\Infra-Estrutura\Banco de dados\Controles\WebLogic\scripts-startstop
+
+Sao apenas os 4 arquivos abaixo:
+
+start.py, stop.py, wlstart.sh, wlstop.sh
+
+Para cada dominio tem um conjunto dos 3 arquivos config.properties, ucfsecure.secure e ukeyfile.secure 
+Esses arquivos sao os unicos especificos p cada dominio. Criei esses arquivos para cada um dos dominios.
+Para baixar ou subir cada um dos dominios, é so logar na maq especifica sempre com o usuario weblogic e rodar o wlstart ou wlstop conforme a tarefa que for executar.
+
+Segue os caminhos p rodar o script em cada ambiente:
+
+
+DEV-DB - logar maquina saoshasd0110
+
+Baixa weblogic
+/bea/weblogic11/user_projects/domains/dev_domain/scripts/wlstop.sh
+
+Sobe weblogic
+/bea/weblogic11/user_projects/domains/dev_domain/scripts/wlstart.sh
+
+
+DEV-GFT-logar maquina saoshasd0110
+
+Baixa weblogic
+/bea/Middleware/user_projects/domains/devGFT_domain/scripts/wlstop.sh
+
+Sobe weblogic
+/bea/Middleware/user_projects/domains/devGFT_domain/scripts/wlstart.sh
+
+
+DEV-DMZ-logar maquina saoshasd0110
+
+Baixa weblogic
+/bea/Middleware/user_projects/domains/dmzDev_domain/scripts/wlstop.sh
+
+Sobe weblogic
+/bea/Middleware/user_projects/domains/dmzDev_domain/scripts/wlstart.sh
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+WEB-UAT - logar maquina saoshappd0122
+
+Baixa weblogic
+/domains/dbint_web_uat/scripts/wlstop.sh
+
+Sobe weblogic
+/domains/dbint_web_uat/scripts/wlstart.sh
+
+ITG-UAT - logar maquina saoshappd0123
+
+Baixa weblogic
+/domains/dbint_itg_uat/scripts/wlstop.sh
+
+Sobe weblogic
+/domains/dbint_itg_uat/scripts/wlstart.sh
+
+
+DMZ-UAT-logar maquina saoshappd0124
+
+Baixa weblogic
+/domains/dbint_dmz_uat/scripts/wlstop.sh
+
+Sobe weblogic
+/domains/dbint_dmz_uat/scripts/wlstart.sh

@@ -1,0 +1,4 @@
+	tasklist | find "sqlbrowser"
+
+	netstat /a /n /o | find "coloca o PID aqui"
+

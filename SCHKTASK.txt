@@ -1,0 +1,32 @@
+\\saoshappp36n1\g$\Data\Backup\Dados\GERENCIAL\Log
+\\saoshappb86n2\i$\Data\Backup\Log\GERENCIAL
+
+
+christiano.verderese@db.com
+
+DBG\geofcar
+
+SCHTASKS /Query /S saoshappp0011 /U DBG\sanalex-a /P "gladiador#3" /v /FO csv | %comandos%grep %1
+
+
+
+
+\\saoshappp0011\e$\Data\BDS\Backup\Robos\Log
+\\saoshappb0082\e$\data\bds\Backup\Robos
+
+
+\\saoshappp0011\e$\Data\BDS\Backup\Robos\Dados\bkp_Robos.bak
+
+
+\\saoinfsp0028\c$\ctmag\data\robosgi.log 
+
+*/7 * * * * /etc/zabbix/check/check_dbi_falha_aut.sh /interfaces/dbi/prd/dbionline/dbbk01/out
+         -interfaces-dbi-prd-dbionline-dbbk01-out
+Falha_DBI-interfaces-dbi-prd-dbionline-dbif58-in
+         -interfaces-dbi-prd-dbionline-dbif58-out
+
+
+ dbbk01_out
+*/7 * * * * /etc/zabbix/check/check_dbi_falha_aut.sh /interfaces/dbi/prd/dbionline/dbif58/out dbif58_out
+
+

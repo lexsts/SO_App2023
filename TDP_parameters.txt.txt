@@ -1,0 +1,33 @@
+# Restore Production to UAT
+"C:\Program Files\TSM\tsm\TDPSql\tdpsqlc.exe" restore EB01ControlDB FULL /REPLACE /fromsqlserver=SAOCUAPPP60V /sqlserver=SAOCUAPPD75V /tsmpassword=client
+
+# Restore Production to UAT - Relocate
+tdpsqlc.exe /TSMOPTFile="C:\Program Files\TSM\tsm\TDPSql\SAOCUAPPP60V.opt" restore SGI_SW FULL /RELOCATEDIR=O:\Data\teste /fromsqlserver=SAOCUAPPP60V /sqlserver=SAOCUAPPD75V /INTO=TESTE /tsmpassword=client
+
+
+tdpsqlc.exe restore SGI_SW FULL /RELOCATEDIR=O:\Data\teste /fromsqlserver=SAOCUAPPP60V /sqlserver=SAOCUAPPD75V /INTO=TESTE /tsmpassword=client /TSMOPTFile="C:\Program Files\TSM\tsm\TDPSql\SAOCUAPPP60V.opt"
+
+
+
+# YMFSAC - Restore Full de Producao
+xp_cmdshell 'tdpsqlc.exe -optfile= restore YMFSAC FULL /REPLACE /fromsqlserver=SAOCUAPPP60V /sqlserver=SAOCUAPPD75V /tsmpassword=client'
+
+
+
+xp_cmdshell 'CD.. && "C:\Program Files\TSM\tsm\TDPSql\tdpsqlc.exe" restore ATTDRL FULL /REPLACE /fromsqlserver=SAOCUAPPP60V /sqlserver=SAOCUAPPD75V2\DES /tsmpassword=client /TSMOPTFile="C:\Program Files\TSM\tsm\TDPSql\SAOCUAPPP60V.opt"'
+
+
+
+BD_Caus - Restore Full De Producao
+
+#Autenticação TDP
+dsmc.exe q sess -optfile="C:\Program Files\TSM\tsm\TDPSql\SAOSHAPPP36V2.opt"
+
+
+# BACKUP COM TRACE PARA DEBUG
+"C:\Program Files\TSM\tsm\TDPSql\tdpsqlc.exe" backup CHIPSHOP full /TSMOPTFile="c:\Program Files\TSM\tsm\TDPl\dsm.opt" /sqlserver=SAOSHAPPP36V2\SQL /tsmpassword=client /logfile="c:\Program Files\TSM\tsm\TDPSql\sqlfull.log" /TRACEFILE=trace_tdp.lo
+/TRACEFLAG=SERVICE,API
+
+
+#CONSULTA BACKUP DE UMA BASE
+"C:\Program Files\TSM\tsm\TDPSql\tdpsqlc.exe" query tsm ATTSGR /all

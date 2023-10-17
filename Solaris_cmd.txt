@@ -1,0 +1,7 @@
+ Adding a Package
+# pkgadd -d package
+Checking for Packages
+# pkginfo | grep -i package
+
+Removing a Package
+# pkgrm package

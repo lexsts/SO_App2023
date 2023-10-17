@@ -1,0 +1,3 @@
+lsuser -f [username] |grep account_locked
+ chuser unsuccessful_login_count=0 [username]
+  chuser account_locked=false [username]

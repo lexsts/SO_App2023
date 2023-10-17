@@ -1,0 +1,3 @@
+::ORIGEM - - - DESTINO
+
+iiscnfg /copy /s saoshappp36n1 /u dbg\sanalex-a /ts saoshappb86n2 /tu dbg\sanalex-a /tp Met@sx33

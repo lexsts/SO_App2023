@@ -1,0 +1,24 @@
+ATTSGR
+dsmc incr -subdir=yes O:\Data\Backup\Dados\ATTSGR\bkp_ATTSGR_1.bak -optfile=c:\Progra~1\Tsm\baclient\dsmclusv3.opt
+dsmc incr -subdir=yes O:\Data\Backup\Dados\ATTSGR\bkp_ATTSGR_2.bak -optfile=c:\Progra~1\Tsm\baclient\dsmclusv3.opt
+dsmc incr -subdir=yes O:\Data\Backup\Dados\ATTSGR\bkp_ATTSGR_3.bak -optfile=c:\Progra~1\Tsm\baclient\dsmclusv3.opt
+
+
+ATTSGR2
+dsmc incr -subdir=yes W:\Data\Backup\Dados\ATTSGR2\bkp_ATTSGR2_1.bak -optfile=c:\Progra~1\Tsm\baclient\dsmclusv3L.opt
+dsmc incr -subdir=yes W:\Data\Backup\Dados\ATTSGR2\bkp_ATTSGR2_2.bak -optfile=c:\Progra~1\Tsm\baclient\dsmclusv3L.opt
+dsmc incr -subdir=yes W:\Data\Backup\Dados\ATTSGR2\bkp_ATTSGR2_3.bak -optfile=c:\Progra~1\Tsm\baclient\dsmclusv3L.opt
+dsmc incr -subdir=yes O:\Data\Backup\Dados\ATTSGR2\bkp_ATTSGR2_4.bak -optfile=c:\Progra~1\Tsm\baclient\dsmclusv3.opt
+dsmc incr -subdir=yes Z:\Data\Backup\Dados\ATTSGR2\bkp_ATTSGR2_5.bak -optfile=c:\Progra~1\Tsm\baclient\dsmclusv3.opt
+
+
+
+W:\Data\Backup\Dados\ATTSGR2\bkp_ATTSGR2_1.bak
+W:\Data\Backup\Dados\ATTSGR2\bkp_ATTSGR2_2.bak
+W:\Data\Backup\Dados\ATTSGR2\bkp_ATTSGR2_3.bak
+O:\Data\Backup\Dados\ATTSGR2\bkp_ATTSGR2_4.bak
+Z:\Data\Backup\Dados\ATTSGR2\bkp_ATTSGR2_5.bak
+
+O:\Data\Backup\Dados\ATTSGR\bkp_ATTSGR_1.bak
+O:\Data\Backup\Dados\ATTSGR\bkp_ATTSGR_2.bak
+O:\Data\Backup\Dados\ATTSGR\bkp_ATTSGR_3.bak

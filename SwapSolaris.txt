@@ -1,0 +1,11 @@
+swap -s | awk '{
+usado=substr($9,0,length($9)-1)
+usado/=1024
+livre=substr($11,0,length($11)-1)
+livre/=1024
+total=usado+livre
+printf("Usado: %.1fMB Livre: %.1fMB Total: %.1fMB\n", usado,livre, total)
+perLivre=((livre*100)/total)
+perUsado=((usado*100)/total)
+printf("Usado %.1f%%\t Livre %.1f%%\n",perUsado,perLivre)
+}'

@@ -1,0 +1,1819 @@
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:37 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Real Application Clusters and Automatic Storage Management options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPBSMBRB2	 12.1.0.2.0
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Real Application Clusters and Automatic Storage Management options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:38 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Real Application Clusters and Automatic Storage Management options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPUTFBRB1	 12.1.0.2.0
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Real Application Clusters and Automatic Storage Management options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:39 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Real Application Clusters and Automatic Storage Management options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPIPNBRB1	 12.1.0.2.0
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Real Application Clusters and Automatic Storage Management options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:39 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Real Application Clusters and Automatic Storage Management options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPRTCBRB1	 12.1.0.2.0
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Real Application Clusters and Automatic Storage Management options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:39 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production
+With the Partitioning, Real Application Clusters and Automatic Storage Management options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPBRMBRB1	 11.2.0.4.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production
+With the Partitioning, Real Application Clusters and Automatic Storage Management options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:40 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production
+With the Real Application Clusters and Automatic Storage Management options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPUTFBRA1	 11.2.0.4.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production
+With the Real Application Clusters and Automatic Storage Management options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:40 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production
+With the Real Application Clusters and Automatic Storage Management options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPCORBRB1	 11.2.0.4.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production
+With the Real Application Clusters and Automatic Storage Management options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:41 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Real Application Clusters and Automatic Storage Management options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPICXBRC1	 12.1.0.2.0
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Real Application Clusters and Automatic Storage Management options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:41 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Real Application Clusters and Automatic Storage Management options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPICXBRC1	 12.1.0.2.0
+
+SQL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Real Application Clusters and Automatic Storage Management options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:42 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPFCNBRA1	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:42 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPFCNBRA2	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:43 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning and Automatic Storage Management options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+SPFCNBRA	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning and Automatic Storage Management options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:43 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPFCNBRB1	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:44 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Automatic Storage Management, OLAP, Data Mining
+and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+SPFCNBRB	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Automatic Storage Management, OLAP, Data Mining
+and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:44 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPFCNBRC2	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:45 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPFCNBRC1	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:45 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Automatic Storage Management, OLAP, Data Mining
+and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+SPFCNBRC	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Automatic Storage Management, OLAP, Data Mining
+and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:46 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPFCNBRD2	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:49 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Automatic Storage Management, OLAP, Data Mining
+and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+SPFCNBRD	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Automatic Storage Management, OLAP, Data Mining
+and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:50 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPGNCBRA2	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:50 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPNEMBRA1	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:51 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPNEMBRA1	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:51 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPFFEBRA1	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:51 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12545: Connect failed because target host or object does not exist
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:25:52 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:26:34 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPGRMBRA1	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:26:35 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPGPSBRA1	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:26:36 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12545: Connect failed because target host or object does not exist
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:26:36 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12545: Connect failed because target host or object does not exist
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:26:37 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPFCNBRA1	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:26:37 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+SBFCNBRA	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:26:38 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPFCNBRB2	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:26:38 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12541: TNS:no listener
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:26:40 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPFCNBRC2	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:26:40 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12545: Connect failed because target host or object does not exist
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:26:41 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPFCNBRD2	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:26:41 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+SBFCNBRD	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:26:42 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPGNCBRA1	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:26:42 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RBNEMBRA1	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:26:43 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RBFFEBRA2	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:26:44 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:27:27 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:28:09 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RBGRMBRA1	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:28:10 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:28:52 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12545: Connect failed because target host or object does not exist
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:28:53 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12545: Connect failed because target host or object does not exist
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:28:54 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPIPNBRA2	 11.2.0.3.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:28:55 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPICXBRA1	 11.2.0.3.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:28:55 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPRTCBRA2	 11.2.0.3.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:28:56 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPEOBBRA2	 11.2.0.3.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:28:56 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:29:39 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPBRMBRA1	 11.2.0.3.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:29:40 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:30:22 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12541: TNS:no listener
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:30:24 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPRTCBRA1	 11.2.0.3.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:30:24 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12541: TNS:no listener
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:30:26 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:31:09 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:31:51 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPHMBBRA1	 11.2.0.3.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:31:52 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters and Automatic Storage Management options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPBSMBRA1	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters and Automatic Storage Management options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:31:52 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPCORBRA1	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:31:52 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPCORBRA1	 11.2.0.3.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:31:53 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.2.0 - 64bit Production
+With the Partitioning, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+SPAPMBRA	 11.2.0.2.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.2.0 - 64bit Production
+With the Partitioning, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:31:53 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPBLABRA1	 11.2.0.1.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:31:54 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12545: Connect failed because target host or object does not exist
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:31:54 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPOTCBRA1	 11.2.0.3.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:31:55 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPEOBBRA2	 11.2.0.3.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:31:55 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPCTMBRA1	 11.2.0.3.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:31:56 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RPGRMBRB1	 11.2.0.4.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:31:56 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:32:39 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:33:22 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:34:05 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:34:27 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:35:10 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12545: Connect failed because target host or object does not exist
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:35:13 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12541: TNS:no listener
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:35:15 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12545: Connect failed because target host or object does not exist
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:35:15 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+RBGRMBRB1	 11.2.0.4.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:35:16 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+ppmp		 10.2.0.3.0
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:35:16 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:35:38 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:36:00 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:36:21 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:36:43 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:37:04 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:37:26 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Release 10.2.0.4.0 - 64bit Production
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+ORAHUBFP	 10.2.0.4.0
+
+SQL> Disconnected from Oracle Database 10g Release 10.2.0.4.0 - 64bit Production
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:37:27 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:37:48 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:38:10 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:38:32 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle9i Release 9.2.0.5.0 - Production
+JServer Release 9.2.0.5.0 - Production
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+pcms		 9.2.0.5.0
+
+SQL> Disconnected from Oracle9i Release 9.2.0.5.0 - Production
+JServer Release 9.2.0.5.0 - Production
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:38:33 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:38:55 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+oracorpp	 10.2.0.3.0
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:38:56 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+ppmp		 10.2.0.3.0
+
+SQL> Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:38:56 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:39:18 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle9i Release 9.2.0.5.0 - Production
+JServer Release 9.2.0.5.0 - Production
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+dim		 9.2.0.5.0
+
+SQL> Disconnected from Oracle9i Release 9.2.0.5.0 - Production
+JServer Release 9.2.0.5.0 - Production
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:39:19 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:39:40 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12545: Connect failed because target host or object does not exist
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:39:46 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:40:07 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12545: Connect failed because target host or object does not exist
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:40:08 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:40:30 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:40:51 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:41:13 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:41:34 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:41:56 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 10g Release 10.2.0.4.0 - 64bit Production
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+ORAHUBFP	 10.2.0.4.0
+
+SQL> Disconnected from Oracle Database 10g Release 10.2.0.4.0 - 64bit Production
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:41:57 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:42:18 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:42:41 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12541: TNS:no listener
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:42:42 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12170: TNS:Connect timeout occurred
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:43:04 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12541: TNS:no listener
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:43:05 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12514: TNS:listener does not currently know of service requested in connect
+descriptor
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:43:06 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12514: TNS:listener does not currently know of service requested in connect
+descriptor
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:43:07 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-01017: invalid username/password; logon denied
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:43:07 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12514: TNS:listener does not currently know of service requested in connect
+descriptor
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:43:08 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12514: TNS:listener does not currently know of service requested in connect
+descriptor
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:43:08 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12514: TNS:listener does not currently know of service requested in connect
+descriptor
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:43:09 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+
+SQL> 
+INSTANCE_NAME	 VERSION
+---------------- -----------------
+BO3		 11.2.0.3.0
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:43:10 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12514: TNS:listener does not currently know of service requested in connect
+descriptor
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:43:10 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12514: TNS:listener does not currently know of service requested in connect
+descriptor
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 
+SQL*Plus: Release 11.2.0.1.0 Production on Mon Apr 17 16:43:11 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-12514: TNS:listener does not currently know of service requested in connect
+descriptor
+
+
+Enter user-name: SP2-0306: Invalid option.
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+Enter user-name: 

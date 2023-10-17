@@ -1,0 +1,5 @@
+SQLSERVER STUDIO
+runas /user:sanalex@dbg "C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\Ssms.exe"
+
+INTERNET EXPLORER
+runas /user:sanalex@dbg "C:\Program Files\Internet Explorer\iexplore.exe"

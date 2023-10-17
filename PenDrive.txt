@@ -1,0 +1,5 @@
+no executar ==> smc -stop 
+depois ==> HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\StorageDevicePolicies\WriteProtect e mudar pra zero
+coloca o pendrive e seja feliz
+
+no executar ==> smc -start

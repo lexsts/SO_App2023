@@ -1,0 +1,4 @@
+Origem - Destino
+
+robocopy l:\ t:\  /R:1 /W:1 /SEC /LOG:d:\Replica_disk_l.txt
+robocopy \\saoinfsp24-v1\e$\ e:\ /MIR /ZB /XF *.nsf /R:1 /W:1 /SEC /LOG:d:\Replica_disk_E_v1.txt

@@ -1,0 +1,2 @@
+net use w: /del /y
+net use w: \\DFSCORPB\BVMF
